@@ -440,14 +440,16 @@ void validate_detector_recall(char *cfgfile, char *weightfile)
     }
 }
 
-void test_detector_by_cvImage(char *datacfg, char *cfgfile, char *weightfile, const IplImage *imageptr, float thresh, float hier_thresh)
+
+struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char *weightfile, IplImage *imageptr, float thresh, float hier_thresh)
 {
-printf("1");
+//#define TIME_TEST
+	struct object_info *ret= malloc(sizeof(ret)); 
+	
     list *options = read_data_cfg(datacfg);
     char *name_list = option_find_str(options, "names", "data/names.list");
     char **names = get_labels(name_list);
 
-printf("2");
     image **alphabet = load_alphabet();
     network net = parse_network_cfg(cfgfile);
     if(weightfile){
@@ -461,7 +463,6 @@ printf("2");
     int j;
     float nms=.4;
 
-printf("3");
     while(1){
         if(imageptr==NULL){
             printf("Entered NULL Image");
@@ -470,35 +471,58 @@ printf("3");
         image sized = resize_image(im, net.w, net.h);
         layer l = net.layers[net.n-1];
 
-        box *boxes = calloc(l.w*l.h*l.n, sizeof(box));
-        float **probs = calloc(l.w*l.h*l.n, sizeof(float *));
-        for(j = 0; j < l.w*l.h*l.n; ++j) probs[j] = calloc(l.classes + 1, sizeof(float *));
+		// this is number of objects
+		int len=l.w*l.h*l.n;
+
+        box *boxes = calloc(len, sizeof(box));
+        float **probs = calloc(len, sizeof(float *));
+        for(j = 0; j < len; ++j) probs[j] = calloc(l.classes + 1, sizeof(float *));
 
         float *X = sized.data;
-        //time=clock();
+#ifdef TIME_TEST
         struct timeval time2_start, time2_end;
-        //network_predict(net, X);
         gettimeofday(&time2_start, NULL);
+#endif
         int i;
         int iter=1;
         for (i=0; i<iter;i++) {
             network_predict(net, X);
         }
+#ifdef TIME_TEST
         gettimeofday(&time2_end, NULL);
         long time2_diff = (time2_end.tv_sec * 1000) + (time2_end.tv_usec / 1000)
                         -((time2_start.tv_sec * 1000) + (time2_start.tv_usec / 1000));
         printf("%s: Predicted in %f seconds(get_time_of_day()).\n", input, time2_diff/iter/1000.0);
-        //printf("%s: Predicted in %f seconds.(clock())\n", input, sec(clock()-time)/10);
+#endif
         get_region_boxes(l, 1, 1, thresh, probs, boxes, 0, 0, hier_thresh);
-        if (l.softmax_tree && nms) do_nms_obj(boxes, probs, l.w*l.h*l.n, l.classes, nms);
-        else if (nms) do_nms_sort(boxes, probs, l.w*l.h*l.n, l.classes, nms);
-        draw_detections(im, l.w*l.h*l.n, thresh, boxes, probs, names, alphabet, l.classes);
-        save_image(im, "predictions");
-        show_image(im, "predictions");
+        if (l.softmax_tree && nms) do_nms_obj(boxes, probs, len, l.classes, nms);
+        else if (nms) do_nms_sort(boxes, probs, len, l.classes, nms);
 
+		// save OD information
+		ret->ob_num=len;
+		ret->ob_box=boxes;
+		ret->ob_class=(int*)malloc(sizeof(int*)*len);
+		ret->ob_prob=(float*)malloc(sizeof(float*)*len);probs;
+		for(int i=0;i<len;i++)
+		{
+			int class = max_index(probs[i],l.classes);
+		}
+
+#ifdef DRAW_TEST
+        draw_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes);
+#else 
+		extract_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes,ret);
+#endif
+
+		printf("%d\n",ret->ob_num);
+
+        save_image(im, "predictions");
+#ifdef DRAW_TEST
+        show_image(im, "predictions");
+#endif
         free_image(im);
         free_image(sized);
-        free(boxes);
+        //free(boxes);
         free_ptrs((void **)probs, l.w*l.h*l.n);
 #ifdef OPENCV
         cvWaitKey(0);
@@ -506,6 +530,7 @@ printf("3");
 #endif
        break;
     }
+	return ret;
 }
 
 void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filename, float thresh, float hier_thresh)
@@ -545,20 +570,24 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         for(j = 0; j < l.w*l.h*l.n; ++j) probs[j] = calloc(l.classes + 1, sizeof(float *));
 
         float *X = sized.data;
+#ifdef TIME_TEST
         //time=clock();
         struct timeval time2_start, time2_end;
         //network_predict(net, X);
         gettimeofday(&time2_start, NULL);
+#endif
         int i;
         int iter=1;
         for (i=0; i<iter;i++) {
             network_predict(net, X);
         }
+#ifdef TIME_TEST
         gettimeofday(&time2_end, NULL);
         long time2_diff = (time2_end.tv_sec * 1000) + (time2_end.tv_usec / 1000)
                         -((time2_start.tv_sec * 1000) + (time2_start.tv_usec / 1000));
         printf("%s: Predicted in %f seconds(get_time_of_day()).\n", input, time2_diff/iter/1000.0);
         //printf("%s: Predicted in %f seconds.(clock())\n", input, sec(clock()-time)/10);
+#endif
         get_region_boxes(l, 1, 1, thresh, probs, boxes, 0, 0, hier_thresh);
         if (l.softmax_tree && nms) do_nms_obj(boxes, probs, l.w*l.h*l.n, l.classes, nms);
         else if (nms) do_nms_sort(boxes, probs, l.w*l.h*l.n, l.classes, nms);

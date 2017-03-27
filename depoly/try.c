@@ -17,6 +17,17 @@ int main()
 }
 
 #else
+typedef struct{
+    float x, y, w, h;
+} box;
+
+struct object_info
+{
+	int ob_num;
+	box *ob_box;
+	int *ob_class;
+	float *ob_prob;
+};
 
 typedef int (* MAIN_PTR) (int argc, char **argv);
 
@@ -31,15 +42,15 @@ void * DL_open(char * sofile)
     if( !pdlHandle || pszErr )
     {
         printf("Load mylib failed!\n");
-		printf("pdlHandle:%d,pszErr:%s\n",(int)pdlHandle,pszErr);
-        return 1;
+		printf("pdlHandle:%p,pszErr:%s\n",(int *)pdlHandle,pszErr);
+        return (void *)0;
     }
 	return pdlHandle;
 }
 
 void * DLSYM(void * pdlHandle,const char * funcname)
 {
-	void * ret=(void *)dlsym(pdlHandle,"test_detector_by_cvImage");
+	void * ret=(void *)dlsym(pdlHandle,funcname);
     if( !ret )
     {
         char *pszErr = dlerror();
@@ -57,15 +68,19 @@ void frame_OD_test(IplImage* src)
 	char * cfgfile="cfg/yolo.cfg";
 	char * weightfile="yolo.weights";
 
-	cvNamedWindow( "Image", CV_WINDOW_AUTOSIZE );
-	cvShowImage("Image", src);
-	cvWaitKey(0);
 	float thresh=.24;
 	float hier_thresh=.5;
 
 	OD_FUNC od_func=(OD_FUNC)DLSYM(pdlHandle,"test_detector_by_cvImage");
-	od_func(datacfg,cfgfile,weightfile,src,thresh,hier_thresh);
-	
+	struct object_info * oi=od_func(datacfg,cfgfile,weightfile,src,thresh,hier_thresh);
+	printf("ob_num: %d\n",oi->ob_num);
+
+	for(int i=0;i<oi->ob_num;i++)
+	{
+		if(oi->ob_prob[i]>0.02)
+			printf("%d\t%f\n",oi->ob_class[i],oi->ob_prob[i]);
+	}
+
 	dlclose(pdlHandle); // 系统动态链接库引用数减1
 }
 
@@ -89,7 +104,7 @@ int testSO()
     if( !pdlHandle || pszErr )
     {
         printf("Load mylib failed!\n");
-		printf("pdlHandle:%d,pszErr:%s\n",(int)pdlHandle,pszErr);
+		printf("pdlHandle:%p,pszErr:%s\n",(int *)pdlHandle,pszErr);
         return 1;
     }
 

@@ -13,13 +13,21 @@
 #include "opencv2/imgproc/imgproc_c.h"
 #endif
 
- 
+
 typedef struct {
     int h;
     int w;
     int c;
     float *data;
 } image;
+
+struct object_info
+{
+	int ob_num;
+	box *ob_box;
+	int *ob_class;
+	float *ob_prob;
+};
 
 float get_color(int c, int x, int max);
 void flip_image(image a);
@@ -29,6 +37,9 @@ void draw_bbox(image a, box bbox, int w, float r, float g, float b);
 void draw_label(image a, int r, int c, image label, const float *rgb);
 void write_label(image a, int r, int c, image *characters, char *string, float *rgb);
 void draw_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **labels, int classes);
+
+void extract_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes,struct object_info * ob_info);
+
 image image_distance(image a, image b);
 void scale_image(image m, float s);
 image crop_image(image im, int dx, int dy, int w, int h);
