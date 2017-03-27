@@ -1,0 +1,1790 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVATION	activations.h	/^}ACTIVATION;$/;"	t	typeref:enum:__anon22
+ACTIVATIONS_H	activations.h	2;"	d
+ACTIVATION_LAYER_H	activation_layer.h	2;"	d
+ACTIVE	layer.h	/^    ACTIVE,$/;"	e	enum:__anon1
+AI2	convolutional_layer.c	16;"	d	file:
+AVGPOOL	layer.h	/^    AVGPOOL,$/;"	e	enum:__anon1
+AVGPOOL_LAYER_H	avgpool_layer.h	2;"	d
+B1	layer.h	/^    float B1;$/;"	m	struct:layer
+B1	network.h	/^    float B1;$/;"	m	struct:network
+B2	layer.h	/^    float B2;$/;"	m	struct:layer
+B2	network.h	/^    float B2;$/;"	m	struct:network
+BASE_LAYER_H	layer.h	2;"	d
+BATCHNORM	layer.h	/^    BATCHNORM,$/;"	e	enum:__anon1
+BATCHNORM_LAYER_H	batchnorm_layer.h	2;"	d
+BLANK	layer.h	/^    BLANK$/;"	e	enum:__anon1
+BLAS_H	blas.h	2;"	d
+BLOCK	cuda.h	8;"	d
+BOX_H	box.h	2;"	d
+BattleRoyaleWithCheese	compare.c	/^void BattleRoyaleWithCheese(char *filename, char *weightfile)$/;"	f
+CAPTCHA_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+CASE	stb_image.h	1338;"	d
+CASE	stb_image.h	1356;"	d
+CASE	stb_image.h	4025;"	d
+CASE	stb_image.h	4038;"	d
+CASE	stb_image.h	4042;"	d
+CASE	stb_image.h	4055;"	d
+CLASSIFICATION_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+COL2IM_H	col2im.h	2;"	d
+COMBO	stb_image.h	1337;"	d
+COMPARE_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+CONNECTED	layer.h	/^    CONNECTED,$/;"	e	enum:__anon1
+CONNECTED_LAYER_H	connected_layer.h	2;"	d
+CONSTANT	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+CONVOLUTIONAL	layer.h	/^    CONVOLUTIONAL,$/;"	e	enum:__anon1
+CONVOLUTIONAL_LAYER_H	convolutional_layer.h	2;"	d
+COST	layer.h	/^    COST,$/;"	e	enum:__anon1
+COST_LAYER_H	cost_layer.h	2;"	d
+COST_TYPE	layer.h	/^} COST_TYPE;$/;"	t	typeref:enum:__anon2
+CRNN	layer.h	/^    CRNN,$/;"	e	enum:__anon1
+CRNN_LAYER_H	crnn_layer.h	3;"	d
+CROP	layer.h	/^    CROP,$/;"	e	enum:__anon1
+CROP_LAYER_H	crop_layer.h	2;"	d
+CUDA_H	cuda.h	2;"	d
+DATA_H	data.h	2;"	d
+DECONVOLUTIONAL	layer.h	/^    DECONVOLUTIONAL,$/;"	e	enum:__anon1
+DECONVOLUTIONAL_LAYER_H	deconvolutional_layer.h	2;"	d
+DEMO	demo.h	2;"	d
+DETECTION	layer.h	/^    DETECTION,$/;"	e	enum:__anon1
+DETECTION_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+DETECTION_LAYER_H	detection_layer.h	2;"	d
+DET_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+DROPOUT	layer.h	/^    DROPOUT,$/;"	e	enum:__anon1
+DROPOUT_LAYER_H	dropout_layer.h	2;"	d
+ELU	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+EXP	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+FAST_BITS	stb_image.h	1434;"	d
+FRAMES	demo.c	13;"	d	file:
+GEMM_H	gemm.h	2;"	d
+GRU	layer.h	/^    GRU,$/;"	e	enum:__anon1
+GRU_LAYER_H	gru_layer.h	3;"	d
+HARDTAN	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+IM2COL_H	im2col.h	2;"	d
+IMAGE_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+IMAGE_H	image.h	2;"	d
+INCLUDE_STB_IMAGE_WRITE_H	stb_image_write.h	81;"	d
+LAYER_TYPE	layer.h	/^} LAYER_TYPE;$/;"	t	typeref:enum:__anon1
+LEAKY	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+LHTAN	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+LINEAR	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+LIST_H	list.h	2;"	d
+LOCAL	layer.h	/^    LOCAL,$/;"	e	enum:__anon1
+LOCAL_LAYER_H	local_layer.h	2;"	d
+LOGGY	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+LOGISTIC	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+MASKED	layer.h	/^    SSE, MASKED, SMOOTH$/;"	e	enum:__anon2
+MATRIX_H	matrix.h	2;"	d
+MAXPOOL	layer.h	/^    MAXPOOL,$/;"	e	enum:__anon1
+MAXPOOL_LAYER_H	maxpool_layer.h	2;"	d
+NETWORK	layer.h	/^    NETWORK,$/;"	e	enum:__anon1
+NETWORK_H	network.h	3;"	d
+NORMALIZATION	layer.h	/^    NORMALIZATION,$/;"	e	enum:__anon1
+NORMALIZATION_LAYER_H	normalization_layer.h	2;"	d
+NUMCHARS	data.c	331;"	d	file:
+OLD_CLASSIFICATION_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+OPTION_LIST_H	option_list.h	2;"	d
+PARSER_H	parser.h	2;"	d
+PLSE	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+POLY	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+RAMP	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+RANDOM	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+REGION	layer.h	/^    REGION,$/;"	e	enum:__anon1
+REGION_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+REGION_LAYER_H	region_layer.h	2;"	d
+RELIE	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+RELU	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+REORG	layer.h	/^    REORG,$/;"	e	enum:__anon1
+REORG_LAYER_H	reorg_layer.h	2;"	d
+RNN	layer.h	/^    RNN,$/;"	e	enum:__anon1
+RNN_LAYER_H	rnn_layer.h	3;"	d
+ROUTE	layer.h	/^    ROUTE,$/;"	e	enum:__anon1
+ROUTE_LAYER_H	route_layer.h	2;"	d
+SECRET_NUM	utils.h	7;"	d
+SHORTCUT	layer.h	/^    SHORTCUT,$/;"	e	enum:__anon1
+SHORTCUT_LAYER_H	shortcut_layer.h	2;"	d
+SIG	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+SMOOTH	layer.h	/^    SSE, MASKED, SMOOTH$/;"	e	enum:__anon2
+SOFTMAX	layer.h	/^    SOFTMAX,$/;"	e	enum:__anon1
+SOFTMAX_LAYER_H	softmax_layer.h	2;"	d
+SSE	layer.h	/^    SSE, MASKED, SMOOTH$/;"	e	enum:__anon2
+STAIR	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+STBIDEF	stb_image.h	410;"	d
+STBIDEF	stb_image.h	412;"	d
+STBIW_ASSERT	stb_image_write.h	126;"	d
+STBIW_FREE	stb_image_write.h	117;"	d
+STBIW_MALLOC	stb_image_write.h	115;"	d
+STBIW_MEMMOVE	stb_image_write.h	120;"	d
+STBIW_REALLOC	stb_image_write.h	116;"	d
+STBI_ASSERT	stb_image.h	575;"	d
+STBI_FREE	stb_image.h	633;"	d
+STBI_HAS_LROTL	stb_image.h	613;"	d
+STBI_INCLUDE_STB_IMAGE_H	stb_image.h	215;"	d
+STBI_MALLOC	stb_image.h	631;"	d
+STBI_NEON	stb_image.h	720;"	d
+STBI_NOTUSED	stb_image.h	607;"	d
+STBI_NOTUSED	stb_image.h	609;"	d
+STBI_NO_BMP	stb_image.h	533;"	d
+STBI_NO_GIF	stb_image.h	542;"	d
+STBI_NO_HDR	stb_image.h	545;"	d
+STBI_NO_JPEG	stb_image.h	527;"	d
+STBI_NO_PIC	stb_image.h	548;"	d
+STBI_NO_PNG	stb_image.h	530;"	d
+STBI_NO_PNM	stb_image.h	551;"	d
+STBI_NO_PSD	stb_image.h	536;"	d
+STBI_NO_SIMD	stb_image.h	649;"	d
+STBI_NO_SIMD	stb_image.h	664;"	d
+STBI_NO_TGA	stb_image.h	539;"	d
+STBI_NO_ZLIB	stb_image.h	556;"	d
+STBI_REALLOC	stb_image.h	632;"	d
+STBI_SIMD_ALIGN	stb_image.h	694;"	d
+STBI_SIMD_ALIGN	stb_image.h	702;"	d
+STBI_SIMD_ALIGN	stb_image.h	726;"	d
+STBI_SIMD_ALIGN	stb_image.h	730;"	d
+STBI_SSE2	stb_image.h	668;"	d
+STBI_VERSION	stb_image.h	391;"	d
+STBI__BYTECAST	stb_image.h	1300;"	d
+STBI__F_avg	stb_image.h	/^   STBI__F_avg=3,$/;"	e	enum:__anon15
+STBI__F_avg_first	stb_image.h	/^   STBI__F_avg_first,$/;"	e	enum:__anon15
+STBI__F_none	stb_image.h	/^   STBI__F_none=0,$/;"	e	enum:__anon15
+STBI__F_paeth	stb_image.h	/^   STBI__F_paeth=4,$/;"	e	enum:__anon15
+STBI__F_paeth_first	stb_image.h	/^   STBI__F_paeth_first$/;"	e	enum:__anon15
+STBI__F_sub	stb_image.h	/^   STBI__F_sub=1,$/;"	e	enum:__anon15
+STBI__F_up	stb_image.h	/^   STBI__F_up=2,$/;"	e	enum:__anon15
+STBI__HDR_BUFLEN	stb_image.h	5795;"	d
+STBI__IDCT_1D	stb_image.h	1909;"	d
+STBI__MARKER_none	stb_image.h	2394;"	d
+STBI__PNG_TYPE	stb_image.h	4295;"	d
+STBI__RESTART	stb_image.h	2411;"	d
+STBI__SCAN_header	stb_image.h	/^   STBI__SCAN_header$/;"	e	enum:__anon6
+STBI__SCAN_load	stb_image.h	/^   STBI__SCAN_load=0,$/;"	e	enum:__anon6
+STBI__SCAN_type	stb_image.h	/^   STBI__SCAN_type,$/;"	e	enum:__anon6
+STBI__X64_TARGET	stb_image.h	638;"	d
+STBI__X86_TARGET	stb_image.h	640;"	d
+STBI__ZFAST_BITS	stb_image.h	3437;"	d
+STBI__ZFAST_MASK	stb_image.h	3438;"	d
+STBI_default	stb_image.h	/^   STBI_default = 0, \/\/ only used for req_comp$/;"	e	enum:__anon3
+STBI_grey	stb_image.h	/^   STBI_grey       = 1,$/;"	e	enum:__anon3
+STBI_grey_alpha	stb_image.h	/^   STBI_grey_alpha = 2,$/;"	e	enum:__anon3
+STBI_rgb	stb_image.h	/^   STBI_rgb        = 3,$/;"	e	enum:__anon3
+STBI_rgb_alpha	stb_image.h	/^   STBI_rgb_alpha  = 4$/;"	e	enum:__anon3
+STB_IMAGE_IMPLEMENTATION	image.c	9;"	d	file:
+STB_IMAGE_WRITE_IMPLEMENTATION	image.c	11;"	d	file:
+STEP	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+STEPS	network.h	/^    CONSTANT, STEP, EXP, POLY, STEPS, SIG, RANDOM$/;"	e	enum:__anon32
+STUDY_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+SUPER_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+SWAG_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+SortMaster3000	compare.c	/^void SortMaster3000(char *filename, char *weightfile)$/;"	f
+TAG_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+TANH	activations.h	/^    LOGISTIC, RELU, RELIE, LINEAR, RAMP, TANH, PLSE, LEAKY, ELU, LOGGY, STAIR, HARDTAN, LHTAN$/;"	e	enum:__anon22
+TREE_H	tree.h	2;"	d
+TWO_PI	utils.h	8;"	d
+USET	rnn_layer.h	8;"	d
+UTILS_H	utils.h	2;"	d
+WRITING_DATA	data.h	/^    CLASSIFICATION_DATA, DETECTION_DATA, CAPTCHA_DATA, REGION_DATA, IMAGE_DATA, COMPARE_DATA, WRITING_DATA, SWAG_DATA, TAG_DATA, OLD_CLASSIFICATION_DATA, STUDY_DATA, DET_DATA, SUPER_DATA$/;"	e	enum:__anon27
+X	data.h	/^    matrix X;$/;"	m	struct:__anon26
+XNOR	layer.h	/^    XNOR,$/;"	e	enum:__anon1
+YCbCr_to_RGB_kernel	stb_image.h	/^   void (*YCbCr_to_RGB_kernel)(stbi_uc *out, const stbi_uc *y, const stbi_uc *pcb, const stbi_uc *pcr, int count, int step);$/;"	m	struct:__anon8
+abs_mean	nightmare.c	/^float abs_mean(float *x, int n)$/;"	f
+absolute	layer.h	/^    int absolute;$/;"	m	struct:layer
+activate	activations.c	/^float activate(float x, ACTIVATION a)$/;"	f
+activate_array	activations.c	/^void activate_array(float *x, const int n, const ACTIVATION a)$/;"	f
+activate_array	activations.c	/^void activate_array(float *x, int n, ACTIVATION a)$/;"	f
+activation	layer.h	/^    ACTIVATION activation;$/;"	m	struct:layer
+adam	layer.h	/^    int adam;$/;"	m	struct:layer
+adam	network.h	/^    int adam;$/;"	m	struct:network
+add_bias	convolutional_layer.c	/^void add_bias(float *output, float *biases, int batch, int n, int size)$/;"	f
+add_pixel	image.c	/^void add_pixel(image m, int x, int y, int c, float val)$/;"	f
+alpha	layer.h	/^    float alpha;$/;"	m	struct:layer
+alphanum_to_int	utils.c	/^int alphanum_to_int(char c)$/;"	f
+angle	data.h	/^    float angle;$/;"	m	struct:load_args
+angle	layer.h	/^    float angle;$/;"	m	struct:layer
+angle	network.h	/^    float angle;$/;"	m	struct:network
+aspect	data.h	/^    float aspect;$/;"	m	struct:load_args
+aspect	network.h	/^    float aspect;$/;"	m	struct:network
+average	darknet.c	/^void average(int argc, char *argv[])$/;"	f
+avg	demo.c	/^static float *avg;$/;"	v	file:
+avgpool_layer	avgpool_layer.h	/^typedef layer avgpool_layer;$/;"	t
+axpy_cpu	blas.c	/^void axpy_cpu(int N, float ALPHA, float *X, int INCX, float *Y, int INCY)$/;"	f
+back	list.h	/^    node *back;$/;"	m	struct:list
+background	data.h	/^    int background;$/;"	m	struct:load_args
+background	layer.h	/^    int background;$/;"	m	struct:layer
+backward	layer.h	/^    void (*backward)  (struct layer, struct network_state);$/;"	m	struct:layer
+backward_activation_layer	activation_layer.c	/^void backward_activation_layer(layer l, network_state state)$/;"	f
+backward_activation_layer_gpu	activation_layer.c	/^void backward_activation_layer_gpu(layer l, network_state state)$/;"	f
+backward_avgpool_layer	avgpool_layer.c	/^void backward_avgpool_layer(const avgpool_layer l, network_state state)$/;"	f
+backward_batchnorm_layer	batchnorm_layer.c	/^void backward_batchnorm_layer(const layer l, network_state state)$/;"	f
+backward_batchnorm_layer_gpu	batchnorm_layer.c	/^void backward_batchnorm_layer_gpu(const layer l, network_state state)$/;"	f
+backward_bias	convolutional_layer.c	/^void backward_bias(float *bias_updates, float *delta, int batch, int n, int size)$/;"	f
+backward_connected_layer	connected_layer.c	/^void backward_connected_layer(connected_layer l, network_state state)$/;"	f
+backward_connected_layer_gpu	connected_layer.c	/^void backward_connected_layer_gpu(connected_layer l, network_state state)$/;"	f
+backward_convolutional_layer	convolutional_layer.c	/^void backward_convolutional_layer(convolutional_layer l, network_state state)$/;"	f
+backward_cost_layer	cost_layer.c	/^void backward_cost_layer(const cost_layer l, network_state state)$/;"	f
+backward_cost_layer_gpu	cost_layer.c	/^void backward_cost_layer_gpu(const cost_layer l, network_state state)$/;"	f
+backward_crnn_layer	crnn_layer.c	/^void backward_crnn_layer(layer l, network_state state)$/;"	f
+backward_crnn_layer_gpu	crnn_layer.c	/^void backward_crnn_layer_gpu(layer l, network_state state)$/;"	f
+backward_crop_layer	crop_layer.c	/^void backward_crop_layer(const crop_layer l, network_state state){}$/;"	f
+backward_crop_layer_gpu	crop_layer.c	/^void backward_crop_layer_gpu(const crop_layer l, network_state state){}$/;"	f
+backward_deconvolutional_layer	deconvolutional_layer.c	/^void backward_deconvolutional_layer(deconvolutional_layer l, network_state state)$/;"	f
+backward_detection_layer	detection_layer.c	/^void backward_detection_layer(const detection_layer l, network_state state)$/;"	f
+backward_detection_layer_gpu	detection_layer.c	/^void backward_detection_layer_gpu(detection_layer l, network_state state)$/;"	f
+backward_dropout_layer	dropout_layer.c	/^void backward_dropout_layer(dropout_layer l, network_state state)$/;"	f
+backward_gpu	layer.h	/^    void (*backward_gpu)  (struct layer, struct network_state);$/;"	m	struct:layer
+backward_gru_layer	gru_layer.c	/^void backward_gru_layer(layer l, network_state state)$/;"	f
+backward_gru_layer_gpu	gru_layer.c	/^void backward_gru_layer_gpu(layer l, network_state state)$/;"	f
+backward_local_layer	local_layer.c	/^void backward_local_layer(local_layer l, network_state state)$/;"	f
+backward_local_layer_gpu	local_layer.c	/^void backward_local_layer_gpu(local_layer l, network_state state)$/;"	f
+backward_maxpool_layer	maxpool_layer.c	/^void backward_maxpool_layer(const maxpool_layer l, network_state state)$/;"	f
+backward_network	network.c	/^void backward_network(network net, network_state state)$/;"	f
+backward_normalization_layer	normalization_layer.c	/^void backward_normalization_layer(const layer layer, network_state state)$/;"	f
+backward_normalization_layer_gpu	normalization_layer.c	/^void backward_normalization_layer_gpu(const layer layer, network_state state)$/;"	f
+backward_region_layer	region_layer.c	/^void backward_region_layer(const layer l, network_state state)$/;"	f
+backward_region_layer_gpu	region_layer.c	/^void backward_region_layer_gpu(layer l, network_state state)$/;"	f
+backward_reorg_layer	reorg_layer.c	/^void backward_reorg_layer(const layer l, network_state state)$/;"	f
+backward_reorg_layer_gpu	reorg_layer.c	/^void backward_reorg_layer_gpu(layer l, network_state state)$/;"	f
+backward_rnn_layer	rnn_layer.c	/^void backward_rnn_layer(layer l, network_state state)$/;"	f
+backward_rnn_layer_gpu	rnn_layer.c	/^void backward_rnn_layer_gpu(layer l, network_state state)$/;"	f
+backward_route_layer	route_layer.c	/^void backward_route_layer(const route_layer l, network_state state)$/;"	f
+backward_route_layer_gpu	route_layer.c	/^void backward_route_layer_gpu(const route_layer l, network_state state)$/;"	f
+backward_scale_cpu	batchnorm_layer.c	/^void backward_scale_cpu(float *x_norm, float *delta, int batch, int n, int size, float *scale_updates)$/;"	f
+backward_shortcut_layer	shortcut_layer.c	/^void backward_shortcut_layer(const layer l, network_state state)$/;"	f
+backward_shortcut_layer_gpu	shortcut_layer.c	/^void backward_shortcut_layer_gpu(const layer l, network_state state)$/;"	f
+backward_softmax_layer	softmax_layer.c	/^void backward_softmax_layer(const softmax_layer l, network_state state)$/;"	f
+backward_softmax_layer_gpu	softmax_layer.c	/^void backward_softmax_layer_gpu(const softmax_layer layer, network_state state)$/;"	f
+basecfg	utils.c	/^char *basecfg(char *cfgfile)$/;"	f
+batch	layer.h	/^    int batch;$/;"	m	struct:layer
+batch	network.h	/^    int batch;$/;"	m	struct:network
+batch	parser.c	/^    int batch;$/;"	m	struct:size_params	file:
+batch_normalize	layer.h	/^    int batch_normalize;$/;"	m	struct:layer
+bbox_comparator	compare.c	/^int bbox_comparator(const void *a, const void *b)$/;"	f
+bbox_fight	compare.c	/^void bbox_fight(network net, sortable_bbox *a, sortable_bbox *b, int classes, int class)$/;"	f
+bbox_update	compare.c	/^void bbox_update(sortable_bbox *a, sortable_bbox *b, int class, int result)$/;"	f
+bd_algo	layer.h	/^    cudnnConvolutionBwdDataAlgo_t bd_algo;$/;"	m	struct:layer
+best_3d_shift	image.c	/^int best_3d_shift(image a, image b, int min, int max)$/;"	f
+best_3d_shift_r	image.c	/^int best_3d_shift_r(image a, image b, int min, int max)$/;"	f
+beta	layer.h	/^    float beta;$/;"	m	struct:layer
+bf_algo	layer.h	/^    cudnnConvolutionBwdFilterAlgo_t bf_algo;$/;"	m	struct:layer
+bgindex	stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon18
+bias_match	layer.h	/^    int bias_match;$/;"	m	struct:layer
+bias_updates	layer.h	/^    float * bias_updates;$/;"	m	struct:layer
+bias_updates_gpu	layer.h	/^    float * bias_updates_gpu;$/;"	m	struct:layer
+biases	layer.h	/^    float * biases;$/;"	m	struct:layer
+biases_gpu	layer.h	/^    float * biases_gpu;$/;"	m	struct:layer
+bilinear_interpolate	image.c	/^float bilinear_interpolate(image im, float x, float y, int c)$/;"	f
+binarize_cpu	convolutional_layer.c	/^void binarize_cpu(float *input, int n, float *binary)$/;"	f
+binarize_image	image.c	/^image binarize_image(image im)$/;"	f
+binarize_input	convolutional_layer.c	/^void binarize_input(float *input, int n, int size, float *binary)$/;"	f
+binarize_weights	convolutional_layer.c	/^void binarize_weights(float *weights, int n, int size, float *binary)$/;"	f
+binary	layer.h	/^    int binary;$/;"	m	struct:layer
+binary_input	layer.h	/^    float * binary_input;$/;"	m	struct:layer
+binary_input_gpu	layer.h	/^    float *binary_input_gpu;$/;"	m	struct:layer
+binary_weights	layer.h	/^    float * binary_weights;$/;"	m	struct:layer
+binary_weights_gpu	layer.h	/^    float *binary_weights_gpu;$/;"	m	struct:layer
+blas_handle	cuda.c	/^cublasHandle_t blas_handle()$/;"	f
+blend_image	image.c	/^image blend_image(image fore, image back, float alpha)$/;"	f
+board_to_string	go.c	/^void board_to_string(char *s, float *board)$/;"	f
+border_image	image.c	/^image border_image(image a, int border)$/;"	f
+bottom	data.h	/^    float left, right, top, bottom;$/;"	m	struct:__anon28
+box	box.h	/^} box;$/;"	t	typeref:struct:__anon23
+box_intersection	box.c	/^float box_intersection(box a, box b)$/;"	f
+box_iou	box.c	/^float box_iou(box a, box b)$/;"	f
+box_label	data.h	/^} box_label;$/;"	t	typeref:struct:__anon28
+box_rmse	box.c	/^float box_rmse(box a, box b)$/;"	f
+box_union	box.c	/^float box_union(box a, box b)$/;"	f
+boxes	data.h	/^    box **boxes;$/;"	m	struct:__anon26
+boxes	demo.c	/^static box *boxes;$/;"	v	file:
+buffer_start	stb_image.h	/^   stbi_uc buffer_start[128];$/;"	m	struct:__anon5
+buflen	stb_image.h	/^   int buflen;$/;"	m	struct:__anon5
+burn_in	network.h	/^    int burn_in;$/;"	m	struct:network
+c	image.h	/^    int c;$/;"	m	struct:__anon19
+c	layer.h	/^    int h,w,c;$/;"	m	struct:layer
+c	network.h	/^    int h, w, c;$/;"	m	struct:network
+c	parser.c	/^    int c;$/;"	m	struct:size_params	file:
+calculate_liberties	go.c	/^int *calculate_liberties(float *board)$/;"	f
+calculate_loss	nightmare.c	/^void calculate_loss(float *output, float *delta, int n, float thresh)$/;"	f
+cap	demo.c	/^static CvCapture * cap;$/;"	v	file:
+change_leaves	tree.c	/^void change_leaves(tree *t, char *leaf_list)$/;"	f
+channel	stb_image.h	/^   stbi_uc size,type,channel;$/;"	m	struct:__anon16
+check_error	cuda.c	/^void check_error(cudaError_t status)$/;"	f
+child	tree.h	/^    int *child;$/;"	m	struct:__anon25
+class	box.c	/^    int class;$/;"	m	struct:__anon29	file:
+class	compare.c	/^    int class;$/;"	m	struct:__anon33	file:
+class_scale	layer.h	/^    float class_scale;$/;"	m	struct:layer
+classes	compare.c	/^    int classes;$/;"	m	struct:__anon33	file:
+classes	data.h	/^    int classes;$/;"	m	struct:load_args
+classes	layer.h	/^    int classes;$/;"	m	struct:layer
+classfix	layer.h	/^    int classfix;$/;"	m	struct:layer
+coco_classes	coco.c	/^char *coco_classes[] = {"person","bicycle","car","motorcycle","airplane","bus","train","truck","boat","traffic light","fire hydrant","stop sign","parking meter","bench","bird","cat","dog","horse","sheep","cow","elephant","bear","zebra","giraffe","backpack","umbrella","handbag","tie","suitcase","frisbee","skis","snowboard","sports ball","kite","baseball bat","baseball glove","skateboard","surfboard","tennis racket","bottle","wine glass","cup","fork","knife","spoon","bowl","banana","apple","sandwich","orange","broccoli","carrot","hot dog","pizza","donut","cake","chair","couch","potted plant","bed","dining table","toilet","tv","laptop","mouse","remote","keyboard","cell phone","microwave","oven","toaster","sink","refrigerator","book","clock","vase","scissors","teddy bear","hair drier","toothbrush"};$/;"	v
+coco_ids	coco.c	/^int coco_ids[] = {1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,31,32,33,34,35,36,37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,67,70,72,73,74,75,76,77,78,79,80,81,82,84,85,86,87,88,89,90};$/;"	v
+coco_ids	detector.c	/^static int coco_ids[] = {1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,31,32,33,34,35,36,37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,67,70,72,73,74,75,76,77,78,79,80,81,82,84,85,86,87,88,89,90};$/;"	v	file:
+code	stb_image.h	/^   stbi__uint16 code[256];$/;"	m	struct:__anon7
+code_bits	stb_image.h	/^   int            code_bits;   \/\/ number of valid bits$/;"	m	struct:__anon8
+code_buffer	stb_image.h	/^   stbi__uint32   code_buffer; \/\/ jpeg entropy-coded buffer$/;"	m	struct:__anon8
+code_buffer	stb_image.h	/^   stbi__uint32 code_buffer;$/;"	m	struct:__anon12
+codes	stb_image.h	/^   stbi__gif_lzw codes[4096];$/;"	m	struct:__anon18
+coeff	stb_image.h	/^      short   *coeff;   \/\/ progressive only$/;"	m	struct:__anon8::__anon9
+coeff_h	stb_image.h	/^      int      coeff_w, coeff_h; \/\/ number of 8x8 coefficient blocks$/;"	m	struct:__anon8::__anon9
+coeff_w	stb_image.h	/^      int      coeff_w, coeff_h; \/\/ number of 8x8 coefficient blocks$/;"	m	struct:__anon8::__anon9
+col2im_add_pixel	col2im.c	/^void col2im_add_pixel(float *im, int height, int width, int channels,$/;"	f
+col2im_cpu	col2im.c	/^void col2im_cpu(float* data_col,$/;"	f
+col_image	layer.h	/^    float * col_image;$/;"	m	struct:layer
+col_image_gpu	layer.h	/^    float * col_image_gpu;$/;"	m	struct:layer
+collapse_image_layers	image.c	/^image collapse_image_layers(image source, int border)$/;"	f
+collapse_images_horz	image.c	/^image collapse_images_horz(image *ims, int n)$/;"	f
+collapse_images_vert	image.c	/^image collapse_images_vert(image *ims, int n)$/;"	f
+color_table	stb_image.h	/^   stbi_uc *color_table;$/;"	m	struct:__anon18
+colors	image.c	/^float colors[6][3] = { {1,0,1}, {0,0,1},{0,1,1},{0,1,0},{1,1,0},{1,0,0} };$/;"	v
+cols	matrix.h	/^    int rows, cols;$/;"	m	struct:matrix
+compare_networks	network.c	/^void compare_networks(network n1, network n2, data test)$/;"	f
+composite_3d	image.c	/^void composite_3d(char *f1, char *f2, char *out, int delta)$/;"	f
+composite_image	image.c	/^void composite_image(image source, image dest, int dx, int dy)$/;"	f
+concat	layer.h	/^    float * concat;$/;"	m	struct:layer
+concat_data	data.c	/^data concat_data(data d1, data d2)$/;"	f
+concat_datas	data.c	/^data concat_datas(data *d, int n)$/;"	f
+concat_delta	layer.h	/^    float * concat_delta;$/;"	m	struct:layer
+concat_delta_gpu	layer.h	/^    float * concat_delta_gpu;$/;"	m	struct:layer
+concat_gpu	layer.h	/^    float * concat_gpu;$/;"	m	struct:layer
+concat_matrix	data.c	/^matrix concat_matrix(matrix m1, matrix m2)$/;"	f
+connected_layer	connected_layer.h	/^typedef layer connected_layer;$/;"	t
+const_cpu	blas.c	/^void const_cpu(int N, float ALPHA, float *X, int INCX)$/;"	f
+constrain	utils.c	/^float constrain(float min, float max, float a)$/;"	f
+constrain_image	image.c	/^void constrain_image(image im)$/;"	f
+constrain_int	utils.c	/^int constrain_int(int a, int min, int max)$/;"	f
+convDesc	layer.h	/^    cudnnConvolutionDescriptor_t convDesc;$/;"	m	struct:layer
+convolutional_layer	convolutional_layer.h	/^typedef layer convolutional_layer;$/;"	t
+convolutional_out_height	convolutional_layer.c	/^int convolutional_out_height(convolutional_layer l)$/;"	f
+convolutional_out_width	convolutional_layer.c	/^int convolutional_out_width(convolutional_layer l)$/;"	f
+coord_scale	layer.h	/^    float coord_scale;$/;"	m	struct:layer
+coords	layer.h	/^    int coords;$/;"	m	struct:layer
+copy_cpu	blas.c	/^void copy_cpu(int N, float *X, int INCX, float *Y, int INCY)$/;"	f
+copy_image	image.c	/^image copy_image(image p)$/;"	f
+copy_string	utils.c	/^char *copy_string(char *s)$/;"	f
+correct_boxes	data.c	/^void correct_boxes(box_label *boxes, int n, float dx, float dy, float sx, float sy, int flip)$/;"	f
+cost	layer.h	/^    float * cost;$/;"	m	struct:layer
+cost_layer	cost_layer.h	/^typedef layer cost_layer;$/;"	t
+cost_type	layer.h	/^    COST_TYPE cost_type;$/;"	m	struct:layer
+count	gemm.c	/^int count = 0;$/;"	v
+count_fields	utils.c	/^int count_fields(char *line)$/;"	f
+crop_image	image.c	/^image crop_image(image im, int dx, int dy, int w, int h)$/;"	f
+crop_layer	crop_layer.h	/^typedef layer crop_layer;$/;"	t
+csv_to_matrix	matrix.c	/^matrix csv_to_matrix(char *filename)$/;"	f
+cuda_compare	cuda.c	/^float cuda_compare(float *x_gpu, float *x, size_t n, char *s)$/;"	f
+cuda_free	cuda.c	/^void cuda_free(float *x_gpu)$/;"	f
+cuda_get_device	cuda.c	/^int cuda_get_device()$/;"	f
+cuda_gridsize	cuda.c	/^dim3 cuda_gridsize(size_t n){$/;"	f
+cuda_make_array	cuda.c	/^float *cuda_make_array(float *x, size_t n)$/;"	f
+cuda_make_int_array	cuda.c	/^int *cuda_make_int_array(size_t n)$/;"	f
+cuda_pull_array	cuda.c	/^void cuda_pull_array(float *x_gpu, float *x, size_t n)$/;"	f
+cuda_push_array	cuda.c	/^void cuda_push_array(float *x_gpu, float *x, size_t n)$/;"	f
+cuda_random	cuda.c	/^void cuda_random(float *x_gpu, size_t n)$/;"	f
+cuda_set_device	cuda.c	/^void cuda_set_device(int n)$/;"	f
+cudnn_convolutional_setup	convolutional_layer.c	/^void cudnn_convolutional_setup(layer *l)$/;"	f
+cudnn_handle	cuda.c	/^cudnnHandle_t cudnn_handle()$/;"	f
+cur_x	stb_image.h	/^   int cur_x, cur_y;$/;"	m	struct:__anon18
+cur_y	stb_image.h	/^   int cur_x, cur_y;$/;"	m	struct:__anon18
+current_class	compare.c	/^int current_class = 0;$/;"	v
+cweights	layer.h	/^    char  * cweights;$/;"	m	struct:layer
+d	data.h	/^    data *d;$/;"	m	struct:load_args
+data	data.h	/^} data;$/;"	t	typeref:struct:__anon26
+data	go.c	/^    char **data;$/;"	m	struct:__anon20	file:
+data	image.h	/^    float *data;$/;"	m	struct:__anon19
+data	stb_image.h	/^      stbi_uc *data;$/;"	m	struct:__anon8::__anon9
+data_type	data.h	/^} data_type;$/;"	t	typeref:enum:__anon27
+dbox	box.h	/^} dbox;$/;"	t	typeref:struct:__anon24
+dc_pred	stb_image.h	/^      int dc_pred;$/;"	m	struct:__anon8::__anon9
+dct_bfly32o	stb_image.h	2044;"	d
+dct_bfly32o	stb_image.h	2178;"	d
+dct_bfly32o	stb_image.h	2230;"	d
+dct_bfly32o	stb_image.h	2388;"	d
+dct_const	stb_image.h	2016;"	d
+dct_const	stb_image.h	2173;"	d
+dct_interleave16	stb_image.h	2061;"	d
+dct_interleave16	stb_image.h	2180;"	d
+dct_interleave8	stb_image.h	2055;"	d
+dct_interleave8	stb_image.h	2179;"	d
+dct_long_mac	stb_image.h	2211;"	d
+dct_long_mac	stb_image.h	2384;"	d
+dct_long_mul	stb_image.h	2207;"	d
+dct_long_mul	stb_image.h	2383;"	d
+dct_pass	stb_image.h	2066;"	d
+dct_pass	stb_image.h	2181;"	d
+dct_pass	stb_image.h	2238;"	d
+dct_pass	stb_image.h	2389;"	d
+dct_rot	stb_image.h	2020;"	d
+dct_rot	stb_image.h	2174;"	d
+dct_trn16	stb_image.h	2298;"	d
+dct_trn16	stb_image.h	2320;"	d
+dct_trn32	stb_image.h	2299;"	d
+dct_trn32	stb_image.h	2321;"	d
+dct_trn64	stb_image.h	2300;"	d
+dct_trn64	stb_image.h	2322;"	d
+dct_trn8_16	stb_image.h	2344;"	d
+dct_trn8_16	stb_image.h	2379;"	d
+dct_trn8_32	stb_image.h	2345;"	d
+dct_trn8_32	stb_image.h	2380;"	d
+dct_trn8_8	stb_image.h	2343;"	d
+dct_trn8_8	stb_image.h	2378;"	d
+dct_wadd	stb_image.h	2034;"	d
+dct_wadd	stb_image.h	2176;"	d
+dct_wadd	stb_image.h	2220;"	d
+dct_wadd	stb_image.h	2386;"	d
+dct_widen	stb_image.h	2029;"	d
+dct_widen	stb_image.h	2175;"	d
+dct_widen	stb_image.h	2215;"	d
+dct_widen	stb_image.h	2385;"	d
+dct_wsub	stb_image.h	2039;"	d
+dct_wsub	stb_image.h	2177;"	d
+dct_wsub	stb_image.h	2225;"	d
+dct_wsub	stb_image.h	2387;"	d
+ddstTensorDesc	layer.h	/^    cudnnTensorDescriptor_t dsrcTensorDesc, ddstTensorDesc;$/;"	m	struct:layer
+decay	network.h	/^    float decay;$/;"	m	struct:network
+decode_box	box.c	/^box decode_box(box b, box anchor)$/;"	f
+deconvolutional_layer	deconvolutional_layer.h	/^typedef layer deconvolutional_layer;$/;"	t
+deconvolutional_out_height	deconvolutional_layer.c	/^int deconvolutional_out_height(deconvolutional_layer l)$/;"	f
+deconvolutional_out_size	deconvolutional_layer.c	/^int deconvolutional_out_size(deconvolutional_layer l)$/;"	f
+deconvolutional_out_width	deconvolutional_layer.c	/^int deconvolutional_out_width(deconvolutional_layer l)$/;"	f
+del_arg	utils.c	/^void del_arg(int argc, char **argv, int index)$/;"	f
+delta	layer.h	/^    float * delta;$/;"	m	struct:layer
+delta	network.h	/^    float *delta;$/;"	m	struct:network_state
+delta	stb_image.h	/^   int    delta[17];   \/\/ old 'firstsymbol' - old 'firstcode'$/;"	m	struct:__anon7
+delta_gpu	layer.h	/^    float * delta_gpu;$/;"	m	struct:layer
+delta_region_box	region_layer.c	/^float delta_region_box(box truth, float *x, float *biases, int n, int index, int i, int j, int w, int h, float *delta, float scale)$/;"	f
+delta_region_class	region_layer.c	/^void delta_region_class(float *output, float *delta, int index, int class, int classes, tree *hier, float scale, float *avg_cat)$/;"	f
+demo	demo.c	/^void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const char *filename, char **names, int classes, int frame_skip, char *prefix, float hier_thresh)$/;"	f
+demo_alphabet	demo.c	/^static image **demo_alphabet;$/;"	v	file:
+demo_art	art.c	/^void demo_art(char *cfgfile, char *weightfile, int cam_index)$/;"	f
+demo_classes	demo.c	/^static int demo_classes;$/;"	v	file:
+demo_classifier	classifier.c	/^void demo_classifier(char *datacfg, char *cfgfile, char *weightfile, int cam_index, const char *filename)$/;"	f
+demo_hier_thresh	demo.c	/^static float demo_hier_thresh = .5;$/;"	v	file:
+demo_index	demo.c	/^static int demo_index = 0;$/;"	v	file:
+demo_names	demo.c	/^static char **demo_names;$/;"	v	file:
+demo_thresh	demo.c	/^static float demo_thresh = 0;$/;"	v	file:
+denormalize_connected_layer	connected_layer.c	/^void denormalize_connected_layer(layer l)$/;"	f
+denormalize_convolutional_layer	convolutional_layer.c	/^void denormalize_convolutional_layer(convolutional_layer l)$/;"	f
+denormalize_net	darknet.c	/^void denormalize_net(char *cfgfile, char *weightfile, char *outfile)$/;"	f
+dequant	stb_image.h	/^   stbi_uc dequant[4][64];$/;"	m	struct:__anon8
+derivative	box.c	/^dbox derivative(box a, box b)$/;"	f
+det	demo.c	/^static image det  ;$/;"	v	file:
+det_s	demo.c	/^static image det_s;$/;"	v	file:
+detect_in_thread	demo.c	/^void *detect_in_thread(void *ptr)$/;"	f
+detect_thread_finished	demo.c	/^static int detect_thread_finished=0;$/;"	v	file:
+detect_thread_run	demo.c	/^static int detect_thread_run=0;$/;"	v	file:
+detection_layer	detection_layer.h	/^typedef layer detection_layer;$/;"	t
+dh	box.h	/^    float dx, dy, dw, dh;$/;"	m	struct:__anon24
+dice_labels	dice.c	/^char *dice_labels[] = {"face1","face2","face3","face4","face5","face6"};$/;"	v
+dintersect	box.c	/^dbox dintersect(box a, box b)$/;"	f
+diou	box.c	/^dbox diou(box a, box b)$/;"	f
+disp	demo.c	/^static image disp = {0};$/;"	v	file:
+dist_array	utils.c	/^float dist_array(float *a, float *b, int n, int sub)$/;"	f
+distance_from_edge	data.h	/^static inline float distance_from_edge(int x, int max)$/;"	f
+distort_image	image.c	/^void distort_image(image im, float hue, float sat, float val)$/;"	f
+do_nms	box.c	/^void do_nms(box *boxes, float **probs, int total, int classes, float thresh)$/;"	f
+do_nms_obj	box.c	/^void do_nms_obj(box *boxes, float **probs, int total, int classes, float thresh)$/;"	f
+do_nms_sort	box.c	/^void do_nms_sort(box *boxes, float **probs, int total, int classes, float thresh)$/;"	f
+does_cost	layer.h	/^    int does_cost;$/;"	m	struct:layer
+dontload	layer.h	/^    int dontload;$/;"	m	struct:layer
+dontloadscales	layer.h	/^    int dontloadscales;$/;"	m	struct:layer
+dot	layer.h	/^    float dot;$/;"	m	struct:layer
+dot_cpu	blas.c	/^float dot_cpu(int N, float *X, int INCX, float *Y, int INCY)$/;"	f
+draw_bbox	image.c	/^void draw_bbox(image a, box bbox, int w, float r, float g, float b)$/;"	f
+draw_box	image.c	/^void draw_box(image a, int x1, int y1, int x2, int y2, float r, float g, float b)$/;"	f
+draw_box_width	image.c	/^void draw_box_width(image a, int x1, int y1, int x2, int y2, int w, float r, float g, float b)$/;"	f
+draw_detections	image.c	/^void draw_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes)$/;"	f
+draw_label	image.c	/^void draw_label(image a, int r, int c, image label, const float *rgb)$/;"	f
+dropout_layer	dropout_layer.h	/^typedef layer dropout_layer;$/;"	t
+dsrcTensorDesc	layer.h	/^    cudnnTensorDescriptor_t dsrcTensorDesc, ddstTensorDesc;$/;"	m	struct:layer
+dstTensorDesc	layer.h	/^    cudnnTensorDescriptor_t srcTensorDesc, dstTensorDesc;$/;"	m	struct:layer
+dunion	box.c	/^dbox dunion(box a, box b)$/;"	f
+dw	box.h	/^    float dx, dy, dw, dh;$/;"	m	struct:__anon24
+dweightDesc	layer.h	/^    cudnnFilterDescriptor_t dweightDesc;$/;"	m	struct:layer
+dx	box.h	/^    float dx, dy, dw, dh;$/;"	m	struct:__anon24
+dy	box.h	/^    float dx, dy, dw, dh;$/;"	m	struct:__anon24
+eflags	stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon18
+elo	compare.c	/^    float elo;$/;"	m	struct:__anon33	file:
+elo_comparator	compare.c	/^int elo_comparator(const void*a, const void *b)$/;"	f
+elos	compare.c	/^    float *elos;$/;"	m	struct:__anon33	file:
+elu_activate	activations.h	/^static inline float elu_activate(float x){return (x >= 0)*x + (x < 0)*(exp(x)-1);}$/;"	f
+elu_gradient	activations.h	/^static inline float elu_gradient(float x){return (x >= 0) + (x < 0)*(x + 1);}$/;"	f
+embed_image	image.c	/^void embed_image(image source, image dest, int dx, int dy)$/;"	f
+encode_box	box.c	/^box encode_box(box b, box anchor)$/;"	f
+engine_go	go.c	/^void engine_go(char *filename, char *weightfile, int multi)$/;"	f
+eob_run	stb_image.h	/^   int            eob_run;$/;"	m	struct:__anon8
+eof	stb_image.h	/^   int      (*eof)   (void *user);                       \/\/ returns nonzero if we are at end of file\/data$/;"	m	struct:__anon4
+epoch	network.h	/^    float epoch;$/;"	m	struct:network
+eps	layer.h	/^    float eps;$/;"	m	struct:layer
+eps	network.h	/^    float eps;$/;"	m	struct:network
+error	utils.c	/^void error(const char *s)$/;"	f
+eval_cifar_csv	cifar.c	/^void eval_cifar_csv()$/;"	f
+expanded	stb_image.h	/^   stbi_uc *idata, *expanded, *out;$/;"	m	struct:__anon14
+exposure	data.h	/^    float exposure;$/;"	m	struct:load_args
+exposure	layer.h	/^    float exposure;$/;"	m	struct:layer
+exposure	network.h	/^    float exposure;$/;"	m	struct:network
+exposure_image	image.c	/^void exposure_image(image im, float sat)$/;"	f
+extract_cifar	cifar.c	/^void extract_cifar()$/;"	f
+extract_voxel	voxel.c	/^void extract_voxel(char *lfile, char *rfile, char *prefix)$/;"	f
+fast	stb_image.h	/^   stbi__uint16 fast[1 << STBI__ZFAST_BITS];$/;"	m	struct:__anon11
+fast	stb_image.h	/^   stbi_uc  fast[1 << FAST_BITS];$/;"	m	struct:__anon7
+fast_ac	stb_image.h	/^   stbi__int16 fast_ac[4][1 << FAST_BITS];$/;"	m	struct:__anon8
+fetch_in_thread	demo.c	/^void *fetch_in_thread(void *ptr)$/;"	f
+fgetgo	go.c	/^char *fgetgo(FILE *fp)$/;"	f
+fgetl	utils.c	/^char *fgetl(FILE *fp)$/;"	f
+file_error	utils.c	/^void file_error(char *s)$/;"	f
+filename	compare.c	/^    char *filename;$/;"	m	struct:__anon33	file:
+fill_cpu	blas.c	/^void fill_cpu(int N, float ALPHA, float *X, int INCX)$/;"	f
+fill_hierarchy	data.c	/^void fill_hierarchy(float *truth, int k, tree *hierarchy)$/;"	f
+fill_truth	data.c	/^void fill_truth(char *path, char **labels, int k, float *truth)$/;"	f
+fill_truth_captcha	data.c	/^void fill_truth_captcha(char *path, int n, float *truth)$/;"	f
+fill_truth_detection	data.c	/^void fill_truth_detection(char *path, int num_boxes, float *truth, int classes, int flip, float dx, float dy, float sx, float sy)$/;"	f
+fill_truth_region	data.c	/^void fill_truth_region(char *path, float *truth, int classes, int num_boxes, int flip, float dx, float dy, float sx, float sy)$/;"	f
+fill_truth_swag	data.c	/^void fill_truth_swag(char *path, float *truth, int classes, int flip, float dx, float dy, float sx, float sy)$/;"	f
+find_arg	utils.c	/^int find_arg(int argc, char* argv[], char *arg)$/;"	f
+find_char_arg	utils.c	/^char *find_char_arg(int argc, char **argv, char *arg, char *def)$/;"	f
+find_float_arg	utils.c	/^float find_float_arg(int argc, char **argv, char *arg, float def)$/;"	f
+find_int_arg	utils.c	/^int find_int_arg(int argc, char **argv, char *arg, int def)$/;"	f
+find_replace	utils.c	/^void find_replace(char *str, char *orig, char *rep, char *output)$/;"	f
+find_replace_paths	data.c	/^char **find_replace_paths(char **paths, int n, char *find, char *replace)$/;"	f
+first	stb_image.h	/^   stbi_uc first;$/;"	m	struct:__anon17
+first_row_filter	stb_image.h	/^static stbi_uc first_row_filter[5] =$/;"	v
+firstcode	stb_image.h	/^   stbi__uint16 firstcode[16];$/;"	m	struct:__anon11
+firstsymbol	stb_image.h	/^   stbi__uint16 firstsymbol[16];$/;"	m	struct:__anon11
+fix_data_captcha	captcha.c	/^void fix_data_captcha(data d, int mask)$/;"	f
+flags	stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon18
+flatten	blas.c	/^void flatten(float *x, int size, int layers, int batch, int forward)$/;"	f
+flip	layer.h	/^    int flip;$/;"	m	struct:layer
+flip_board	go.c	/^void flip_board(float *board)$/;"	f
+flip_image	image.c	/^void flip_image(image a)$/;"	f
+flipped	layer.h	/^    int flipped;$/;"	m	struct:layer
+float2fixed	stb_image.h	3043;"	d
+float2fixed	stb_image.h	3071;"	d
+float_abs_compare	cost_layer.c	/^int float_abs_compare (const void * a, const void * b)$/;"	f
+float_pair	rnn.c	/^} float_pair;$/;"	t	typeref:struct:__anon34	file:
+float_pair	rnn_vid.c	/^} float_pair;$/;"	t	typeref:struct:__anon30	file:
+float_to_box	box.c	/^box float_to_box(float *f)$/;"	f
+float_to_image	image.c	/^image float_to_image(int w, int h, int c, float *data)$/;"	f
+forced	layer.h	/^    int forced;$/;"	m	struct:layer
+forgot_delta	layer.h	/^    float * forgot_delta;$/;"	m	struct:layer
+forgot_delta_gpu	layer.h	/^    float * forgot_delta_gpu;$/;"	m	struct:layer
+forgot_state	layer.h	/^    float * forgot_state;$/;"	m	struct:layer
+forgot_state_gpu	layer.h	/^    float * forgot_state_gpu;$/;"	m	struct:layer
+forward	layer.h	/^    void (*forward)   (struct layer, struct network_state);$/;"	m	struct:layer
+forward_activation_layer	activation_layer.c	/^void forward_activation_layer(layer l, network_state state)$/;"	f
+forward_activation_layer_gpu	activation_layer.c	/^void forward_activation_layer_gpu(layer l, network_state state)$/;"	f
+forward_avgpool_layer	avgpool_layer.c	/^void forward_avgpool_layer(const avgpool_layer l, network_state state)$/;"	f
+forward_batchnorm_layer	batchnorm_layer.c	/^void forward_batchnorm_layer(layer l, network_state state)$/;"	f
+forward_batchnorm_layer_gpu	batchnorm_layer.c	/^void forward_batchnorm_layer_gpu(layer l, network_state state)$/;"	f
+forward_connected_layer	connected_layer.c	/^void forward_connected_layer(connected_layer l, network_state state)$/;"	f
+forward_connected_layer_gpu	connected_layer.c	/^void forward_connected_layer_gpu(connected_layer l, network_state state)$/;"	f
+forward_convolutional_layer	convolutional_layer.c	/^void forward_convolutional_layer(convolutional_layer l, network_state state)$/;"	f
+forward_cost_layer	cost_layer.c	/^void forward_cost_layer(cost_layer l, network_state state)$/;"	f
+forward_cost_layer_gpu	cost_layer.c	/^void forward_cost_layer_gpu(cost_layer l, network_state state)$/;"	f
+forward_crnn_layer	crnn_layer.c	/^void forward_crnn_layer(layer l, network_state state)$/;"	f
+forward_crnn_layer_gpu	crnn_layer.c	/^void forward_crnn_layer_gpu(layer l, network_state state)$/;"	f
+forward_crop_layer	crop_layer.c	/^void forward_crop_layer(const crop_layer l, network_state state)$/;"	f
+forward_deconvolutional_layer	deconvolutional_layer.c	/^void forward_deconvolutional_layer(const deconvolutional_layer l, network_state state)$/;"	f
+forward_detection_layer	detection_layer.c	/^void forward_detection_layer(const detection_layer l, network_state state)$/;"	f
+forward_detection_layer_gpu	detection_layer.c	/^void forward_detection_layer_gpu(const detection_layer l, network_state state)$/;"	f
+forward_dropout_layer	dropout_layer.c	/^void forward_dropout_layer(dropout_layer l, network_state state)$/;"	f
+forward_gpu	layer.h	/^    void (*forward_gpu)   (struct layer, struct network_state);$/;"	m	struct:layer
+forward_gru_layer	gru_layer.c	/^void forward_gru_layer(layer l, network_state state)$/;"	f
+forward_gru_layer_gpu	gru_layer.c	/^void forward_gru_layer_gpu(layer l, network_state state)$/;"	f
+forward_local_layer	local_layer.c	/^void forward_local_layer(const local_layer l, network_state state)$/;"	f
+forward_local_layer_gpu	local_layer.c	/^void forward_local_layer_gpu(const local_layer l, network_state state)$/;"	f
+forward_maxpool_layer	maxpool_layer.c	/^void forward_maxpool_layer(const maxpool_layer l, network_state state)$/;"	f
+forward_network	network.c	/^void forward_network(network net, network_state state)$/;"	f
+forward_normalization_layer	normalization_layer.c	/^void forward_normalization_layer(const layer layer, network_state state)$/;"	f
+forward_normalization_layer_gpu	normalization_layer.c	/^void forward_normalization_layer_gpu(const layer layer, network_state state)$/;"	f
+forward_region_layer	region_layer.c	/^void forward_region_layer(const layer l, network_state state)$/;"	f
+forward_region_layer_gpu	region_layer.c	/^void forward_region_layer_gpu(const layer l, network_state state)$/;"	f
+forward_reorg_layer	reorg_layer.c	/^void forward_reorg_layer(const layer l, network_state state)$/;"	f
+forward_reorg_layer_gpu	reorg_layer.c	/^void forward_reorg_layer_gpu(layer l, network_state state)$/;"	f
+forward_rnn_layer	rnn_layer.c	/^void forward_rnn_layer(layer l, network_state state)$/;"	f
+forward_rnn_layer_gpu	rnn_layer.c	/^void forward_rnn_layer_gpu(layer l, network_state state)$/;"	f
+forward_route_layer	route_layer.c	/^void forward_route_layer(const route_layer l, network_state state)$/;"	f
+forward_route_layer_gpu	route_layer.c	/^void forward_route_layer_gpu(const route_layer l, network_state state)$/;"	f
+forward_shortcut_layer	shortcut_layer.c	/^void forward_shortcut_layer(const layer l, network_state state)$/;"	f
+forward_shortcut_layer_gpu	shortcut_layer.c	/^void forward_shortcut_layer_gpu(const layer l, network_state state)$/;"	f
+forward_softmax_layer	softmax_layer.c	/^void forward_softmax_layer(const softmax_layer l, network_state state)$/;"	f
+forward_softmax_layer_gpu	softmax_layer.c	/^void forward_softmax_layer_gpu(const softmax_layer l, network_state state)$/;"	f
+fps	demo.c	/^static float fps = 0;$/;"	v	file:
+free_data	data.c	/^void free_data(data d)$/;"	f
+free_image	image.c	/^void free_image(image m)$/;"	f
+free_layer	layer.c	/^void free_layer(layer l)$/;"	f
+free_list	list.c	/^void free_list(list *l)$/;"	f
+free_list_contents	list.c	/^void free_list_contents(list *l)$/;"	f
+free_matrix	matrix.c	/^void free_matrix(matrix m)$/;"	f
+free_network	network.c	/^void free_network(network net)$/;"	f
+free_node	list.c	/^void free_node(node *n)$/;"	f
+free_ptrs	utils.c	/^void free_ptrs(void **ptrs, int n)$/;"	f
+free_section	parser.c	/^void free_section(section *s)$/;"	f
+front	list.h	/^    node *front;$/;"	m	struct:list
+fw_algo	layer.h	/^    cudnnConvolutionFwdAlgo_t fw_algo;$/;"	m	struct:layer
+gamma	network.h	/^    float gamma;$/;"	m	struct:network
+gate_delta_gpu	layer.h	/^    float * gate_delta_gpu;$/;"	m	struct:layer
+gate_gpu	layer.h	/^    float * gate_gpu;$/;"	m	struct:layer
+gemm	gemm.c	/^void gemm(int TA, int TB, int M, int N, int K, float ALPHA, $/;"	f
+gemm_bin	gemm.c	/^void gemm_bin(int M, int N, int K, float ALPHA, $/;"	f
+gemm_cpu	gemm.c	/^void gemm_cpu(int TA, int TB, int M, int N, int K, float ALPHA, $/;"	f
+gemm_gpu	gemm.c	/^void gemm_gpu(int TA, int TB, int M, int N, int K, float ALPHA, $/;"	f
+gemm_nn	gemm.c	/^void gemm_nn(int M, int N, int K, float ALPHA, $/;"	f
+gemm_nt	gemm.c	/^void gemm_nt(int M, int N, int K, float ALPHA, $/;"	f
+gemm_ongpu	gemm.c	/^void gemm_ongpu(int TA, int TB, int M, int N, int K, float ALPHA, $/;"	f
+gemm_tn	gemm.c	/^void gemm_tn(int M, int N, int K, float ALPHA, $/;"	f
+gemm_tt	gemm.c	/^void gemm_tt(int M, int N, int K, float ALPHA, $/;"	f
+generate_move	go.c	/^int generate_move(network net, int player, float *board, int multi, float thresh, float temp, char *ko, int print)$/;"	f
+generate_vid_rnn	rnn_vid.c	/^void generate_vid_rnn(char *cfgfile, char *weightfile)$/;"	f
+get_activation	activations.c	/^ACTIVATION get_activation(char *s)$/;"	f
+get_activation_string	activations.c	/^char *get_activation_string(ACTIVATION a)$/;"	f
+get_coco_image_id	coco.c	/^int get_coco_image_id(char *filename)$/;"	f
+get_coco_image_id	detector.c	/^static int get_coco_image_id(char *filename)$/;"	f	file:
+get_color	image.c	/^float get_color(int c, int x, int max)$/;"	f
+get_convolutional_delta	convolutional_layer.c	/^image get_convolutional_delta(convolutional_layer l)$/;"	f
+get_convolutional_image	convolutional_layer.c	/^image get_convolutional_image(convolutional_layer l)$/;"	f
+get_convolutional_weight	convolutional_layer.c	/^image get_convolutional_weight(convolutional_layer l, int i)$/;"	f
+get_cost_string	cost_layer.c	/^char *get_cost_string(COST_TYPE a)$/;"	f
+get_cost_type	cost_layer.c	/^COST_TYPE get_cost_type(char *s)$/;"	f
+get_crop_image	crop_layer.c	/^image get_crop_image(crop_layer l)$/;"	f
+get_current_batch	network.c	/^int get_current_batch(network net)$/;"	f
+get_current_rate	network.c	/^float get_current_rate(network net)$/;"	f
+get_data_part	data.c	/^data get_data_part(data d, int part, int total)$/;"	f
+get_deconvolutional_delta	deconvolutional_layer.c	/^image get_deconvolutional_delta(deconvolutional_layer l)$/;"	f
+get_deconvolutional_image	deconvolutional_layer.c	/^image get_deconvolutional_image(deconvolutional_layer l)$/;"	f
+get_detection_boxes	detection_layer.c	/^void get_detection_boxes(layer l, int w, int h, float thresh, float **probs, box *boxes, int only_objectness)$/;"	f
+get_hierarchy_probability	tree.c	/^float get_hierarchy_probability(float *x, tree *hier, int c)$/;"	f
+get_image_from_stream	image.c	/^image get_image_from_stream(CvCapture *cap)$/;"	f
+get_image_layer	image.c	/^image get_image_layer(image m, int l)$/;"	f
+get_label	image.c	/^image get_label(image **characters, char *string, int size)$/;"	f
+get_labels	data.c	/^char **get_labels(char *filename)$/;"	f
+get_layer_string	network.c	/^char *get_layer_string(LAYER_TYPE a)$/;"	f
+get_maxpool_delta	maxpool_layer.c	/^image get_maxpool_delta(maxpool_layer l)$/;"	f
+get_maxpool_image	maxpool_layer.c	/^image get_maxpool_image(maxpool_layer l)$/;"	f
+get_network_cost	network.c	/^float get_network_cost(network net)$/;"	f
+get_network_detection_layer	network.c	/^detection_layer get_network_detection_layer(network net)$/;"	f
+get_network_image	network.c	/^image get_network_image(network net)$/;"	f
+get_network_image_layer	network.c	/^image get_network_image_layer(network net, int i)$/;"	f
+get_network_input_size	network.c	/^int get_network_input_size(network net)$/;"	f
+get_network_output	network.c	/^float *get_network_output(network net)$/;"	f
+get_network_output_size	network.c	/^int get_network_output_size(network net)$/;"	f
+get_next_batch	data.c	/^void get_next_batch(data d, int n, int offset, float *X, float *y)$/;"	f
+get_paths	data.c	/^list *get_paths(char *filename)$/;"	f
+get_pixel	image.c	/^float get_pixel(image m, int x, int y, int c)$/;"	f
+get_pixel_extend	image.c	/^float get_pixel_extend(image m, int x, int y, int c)$/;"	f
+get_policy	parser.c	/^learning_rate_policy get_policy(char *s)$/;"	f
+get_predicted_class_network	network.c	/^int get_predicted_class_network(network net)$/;"	f
+get_random_batch	data.c	/^void get_random_batch(data d, int n, float *X, float *y)$/;"	f
+get_random_data	data.c	/^data get_random_data(data d, int num)$/;"	f
+get_random_paths	data.c	/^char **get_random_paths(char **paths, int n, int m)$/;"	f
+get_region_box	region_layer.c	/^box get_region_box(float *x, float *biases, int n, int index, int i, int j, int w, int h)$/;"	f
+get_region_boxes	region_layer.c	/^void get_region_boxes(layer l, int w, int h, float thresh, float **probs, box *boxes, int only_objectness, int *map, float tree_thresh)$/;"	f
+get_regression_values	classifier.c	/^float *get_regression_values(char **labels, int n)$/;"	f
+get_rnn_data	rnn.c	/^float_pair get_rnn_data(unsigned char *text, size_t *offsets, int characters, size_t len, int batch, int steps)$/;"	f
+get_rnn_token_data	rnn.c	/^float_pair get_rnn_token_data(int *tokens, size_t *offsets, int characters, size_t len, int batch, int steps)$/;"	f
+get_rnn_vid_data	rnn_vid.c	/^float_pair get_rnn_vid_data(network net, char **files, int n, int batch, int steps)$/;"	f
+get_wall_time	demo.c	/^double get_wall_time()$/;"	f
+get_weights	convolutional_layer.c	/^image *get_weights(convolutional_layer l)$/;"	f
+get_workspace_size	convolutional_layer.c	/^size_t get_workspace_size(layer l){$/;"	f
+gpu_index	cuda.c	/^int gpu_index = 0;$/;"	v
+gpu_index	network.h	/^    int gpu_index;$/;"	m	struct:network
+gradient	activations.c	/^float gradient(float x, ACTIVATION a)$/;"	f
+gradient_array	activations.c	/^void gradient_array(const float *x, const int n, const ACTIVATION a, float *delta)$/;"	f
+grayscale_image	image.c	/^image grayscale_image(image im)$/;"	f
+group	tree.h	/^    int *group;$/;"	m	struct:__anon25
+group_offset	tree.h	/^    int *group_offset;$/;"	m	struct:__anon25
+group_size	tree.h	/^    int *group_size;$/;"	m	struct:__anon25
+groups	layer.h	/^    int groups;$/;"	m	struct:layer
+groups	tree.h	/^    int groups;$/;"	m	struct:__anon25
+gun_classifier	classifier.c	/^void gun_classifier(char *datacfg, char *cfgfile, char *weightfile, int cam_index, const char *filename)$/;"	f
+h	box.h	/^    float x, y, w, h;$/;"	m	struct:__anon23
+h	data.h	/^    float x,y,w,h;$/;"	m	struct:__anon28
+h	data.h	/^    int h;$/;"	m	struct:load_args
+h	data.h	/^    int w, h;$/;"	m	struct:__anon26
+h	image.h	/^    int h;$/;"	m	struct:__anon19
+h	layer.h	/^    int h,w,c;$/;"	m	struct:layer
+h	network.h	/^    int h, w, c;$/;"	m	struct:network
+h	parser.c	/^    int h;$/;"	m	struct:size_params	file:
+h	stb_image.h	/^      int h,v;$/;"	m	struct:__anon8::__anon9
+h	stb_image.h	/^   int w,h;$/;"	m	struct:__anon18
+h2	stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon8::__anon9
+h_cpu	layer.h	/^    float * h_cpu;$/;"	m	struct:layer
+h_gpu	layer.h	/^    float *h_gpu;$/;"	m	struct:layer
+ha	stb_image.h	/^      int hd,ha;$/;"	m	struct:__anon8::__anon9
+hardtan_activate	activations.h	/^static inline float hardtan_activate(float x)$/;"	f
+hardtan_gradient	activations.h	/^static inline float hardtan_gradient(float x)$/;"	f
+hd	stb_image.h	/^      int hd,ha;$/;"	m	struct:__anon8::__anon9
+hidden	layer.h	/^    int hidden;$/;"	m	struct:layer
+hierarchy	data.h	/^    tree *hierarchy;$/;"	m	struct:load_args
+hierarchy	network.h	/^    tree *hierarchy;$/;"	m	struct:network
+hierarchy_predictions	tree.c	/^void hierarchy_predictions(float *predictions, int n, tree *hier, int only_leaves)$/;"	f
+hierarchy_top_prediction	tree.c	/^int hierarchy_top_prediction(float *predictions, tree *hier, float thresh)$/;"	f
+hold_out_matrix	matrix.c	/^matrix hold_out_matrix(matrix *m, int n)$/;"	f
+hs	stb_image.h	/^   int hs,vs;   \/\/ expansion factor in each axis$/;"	m	struct:__anon10
+hsv_to_rgb	image.c	/^void hsv_to_rgb(image im)$/;"	f
+hue	data.h	/^    float hue;$/;"	m	struct:load_args
+hue	network.h	/^    float hue;$/;"	m	struct:network
+hue_image	image.c	/^void hue_image(image im, float hue)$/;"	f
+huff_ac	stb_image.h	/^   stbi__huffman huff_ac[4];$/;"	m	struct:__anon8
+huff_dc	stb_image.h	/^   stbi__huffman huff_dc[4];$/;"	m	struct:__anon8
+id	data.h	/^    int id;$/;"	m	struct:__anon28
+id	stb_image.h	/^      int id;$/;"	m	struct:__anon8::__anon9
+idata	stb_image.h	/^   stbi_uc *idata, *expanded, *out;$/;"	m	struct:__anon14
+idct_block_kernel	stb_image.h	/^   void (*idct_block_kernel)(stbi_uc *out, int out_stride, short data[64]);$/;"	m	struct:__anon8
+im	data.h	/^    image *im;$/;"	m	struct:load_args
+im2col_cpu	im2col.c	/^void im2col_cpu(float* data_im,$/;"	f
+im2col_get_pixel	im2col.c	/^static inline float im2col_get_pixel(float *im, int height, int width, int channels,$/;"	f	file:
+image	image.h	/^} image;$/;"	t	typeref:struct:__anon19
+image_distance	image.c	/^image image_distance(image a, image b)$/;"	f
+images	demo.c	/^static image images[FRAMES];$/;"	v	file:
+img_buffer	stb_image.h	/^   stbi_uc *img_buffer, *img_buffer_end;$/;"	m	struct:__anon5
+img_buffer_end	stb_image.h	/^   stbi_uc *img_buffer, *img_buffer_end;$/;"	m	struct:__anon5
+img_buffer_original	stb_image.h	/^   stbi_uc *img_buffer_original;$/;"	m	struct:__anon5
+img_comp	stb_image.h	/^   } img_comp[4];$/;"	m	struct:__anon8	typeref:struct:__anon8::__anon9
+img_h_max	stb_image.h	/^   int img_h_max, img_v_max;$/;"	m	struct:__anon8
+img_mcu_h	stb_image.h	/^   int img_mcu_w, img_mcu_h;$/;"	m	struct:__anon8
+img_mcu_w	stb_image.h	/^   int img_mcu_w, img_mcu_h;$/;"	m	struct:__anon8
+img_mcu_x	stb_image.h	/^   int img_mcu_x, img_mcu_y;$/;"	m	struct:__anon8
+img_mcu_y	stb_image.h	/^   int img_mcu_x, img_mcu_y;$/;"	m	struct:__anon8
+img_n	stb_image.h	/^   int img_n, img_out_n;$/;"	m	struct:__anon5
+img_out_n	stb_image.h	/^   int img_n, img_out_n;$/;"	m	struct:__anon5
+img_v_max	stb_image.h	/^   int img_h_max, img_v_max;$/;"	m	struct:__anon8
+img_x	stb_image.h	/^   stbi__uint32 img_x, img_y;$/;"	m	struct:__anon5
+img_y	stb_image.h	/^   stbi__uint32 img_x, img_y;$/;"	m	struct:__anon5
+in	demo.c	/^static image in   ;$/;"	v	file:
+in_s	demo.c	/^static image in_s ;$/;"	v	file:
+increment_layer	crnn_layer.c	/^static void increment_layer(layer *l, int steps)$/;"	f	file:
+increment_layer	gru_layer.c	/^static void increment_layer(layer *l, int steps)$/;"	f	file:
+increment_layer	rnn_layer.c	/^static void increment_layer(layer *l, int steps)$/;"	f	file:
+index	box.c	/^    int index;$/;"	m	struct:__anon29	file:
+index	layer.h	/^    int index;$/;"	m	struct:layer
+index	network.h	/^    int index;$/;"	m	struct:network_state
+index	parser.c	/^    int index;$/;"	m	struct:size_params	file:
+indexes	layer.h	/^    int   * indexes;$/;"	m	struct:layer
+indexes_gpu	layer.h	/^    int *indexes_gpu;$/;"	m	struct:layer
+input	network.h	/^    float *input;$/;"	m	struct:network_state
+input_gate_layer	layer.h	/^    struct layer *input_gate_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+input_gpu	network.h	/^    float **input_gpu;$/;"	m	struct:network
+input_h_layer	layer.h	/^    struct layer *input_h_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+input_layer	layer.h	/^    struct layer *input_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+input_layers	layer.h	/^    int   * input_layers;$/;"	m	struct:layer
+input_r_layer	layer.h	/^    struct layer *input_r_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+input_save_layer	layer.h	/^    struct layer *input_save_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+input_sizes	layer.h	/^    int   * input_sizes;$/;"	m	struct:layer
+input_state_layer	layer.h	/^    struct layer *input_state_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+input_z_layer	layer.h	/^    struct layer *input_z_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+inputs	layer.h	/^    int inputs;$/;"	m	struct:layer
+inputs	network.h	/^    int inputs;$/;"	m	struct:network
+inputs	parser.c	/^    int inputs;$/;"	m	struct:size_params	file:
+int_to_alphanum	utils.c	/^char int_to_alphanum(int i)$/;"	f
+inverted	go.c	/^int inverted = 1;$/;"	v
+io	stb_image.h	/^   stbi_io_callbacks io;$/;"	m	struct:__anon5
+io_user_data	stb_image.h	/^   void *io_user_data;$/;"	m	struct:__anon5
+ipl_to_image	image.c	/^image ipl_to_image(IplImage* src)$/;"	f
+is_network	parser.c	/^int is_network(section *s)$/;"	f
+jitter	data.h	/^    float jitter;$/;"	m	struct:load_args
+jitter	layer.h	/^    float jitter;$/;"	m	struct:layer
+joint	layer.h	/^    int joint;$/;"	m	struct:layer
+kappa	layer.h	/^    float kappa;$/;"	m	struct:layer
+key	option_list.h	/^    char *key;$/;"	m	struct:__anon31
+kvp	option_list.h	/^} kvp;$/;"	t	typeref:struct:__anon31
+l2_cpu	blas.c	/^void l2_cpu(int n, float *pred, float *truth, float *delta, float *error)$/;"	f
+label_classifier	classifier.c	/^void label_classifier(char *datacfg, char *filename, char *weightfile)$/;"	f
+labels	data.h	/^    char **labels;$/;"	m	struct:load_args
+layer	layer.h	/^struct layer{$/;"	s
+layer	layer.h	/^typedef struct layer layer;$/;"	t	typeref:struct:layer
+layers	network.h	/^    layer *layers;$/;"	m	struct:network
+leaf	tree.h	/^    int *leaf;$/;"	m	struct:__anon25
+leaky_activate	activations.h	/^static inline float leaky_activate(float x){return (x>0) ? x : .1*x;}$/;"	f
+leaky_gradient	activations.h	/^static inline float leaky_gradient(float x){return (x>0) ? 1 : .1;}$/;"	f
+learning_rate	network.h	/^    float learning_rate;$/;"	m	struct:network
+learning_rate_policy	network.h	/^} learning_rate_policy;$/;"	t	typeref:enum:__anon32
+left	data.h	/^    float left, right, top, bottom;$/;"	m	struct:__anon28
+legal_go	go.c	/^int legal_go(float *b, char *ko, int p, int r, int c)$/;"	f
+length	stb_image.h	/^   stbi__uint32 length;$/;"	m	struct:__anon13
+lflags	stb_image.h	/^   int lflags;$/;"	m	struct:__anon18
+lhtan_activate	activations.h	/^static inline float lhtan_activate(float x)$/;"	f
+lhtan_gradient	activations.h	/^static inline float lhtan_gradient(float x)$/;"	f
+line0	stb_image.h	/^   stbi_uc *line0,*line1;$/;"	m	struct:__anon10
+line1	stb_image.h	/^   stbi_uc *line0,*line1;$/;"	m	struct:__anon10
+line_size	stb_image.h	/^   int line_size;$/;"	m	struct:__anon18
+linear_activate	activations.h	/^static inline float linear_activate(float x){return x;}$/;"	f
+linear_gradient	activations.h	/^static inline float linear_gradient(float x){return 1;}$/;"	f
+linebuf	stb_image.h	/^      stbi_uc *linebuf;$/;"	m	struct:__anon8::__anon9
+list	list.h	/^typedef struct list{$/;"	s
+list	list.h	/^} list;$/;"	t	typeref:struct:list
+list_insert	list.c	/^void list_insert(list *l, void *val)$/;"	f
+list_pop	list.c	/^void *list_pop(list *l){$/;"	f
+list_to_array	list.c	/^void **list_to_array(list *l)$/;"	f
+load_all_cifar10	data.c	/^data load_all_cifar10()$/;"	f
+load_alphabet	image.c	/^image **load_alphabet()$/;"	f
+load_args	data.h	/^typedef struct load_args{$/;"	s
+load_args	data.h	/^} load_args;$/;"	t	typeref:struct:load_args
+load_batchnorm_weights	parser.c	/^void load_batchnorm_weights(layer l, FILE *fp)$/;"	f
+load_categorical_data_csv	data.c	/^data load_categorical_data_csv(char *filename, int target, int k)$/;"	f
+load_cifar10_data	data.c	/^data load_cifar10_data(char *filename)$/;"	f
+load_connected_weights	parser.c	/^void load_connected_weights(layer l, FILE *fp, int transpose)$/;"	f
+load_convolutional_weights	parser.c	/^void load_convolutional_weights(layer l, FILE *fp)$/;"	f
+load_convolutional_weights_binary	parser.c	/^void load_convolutional_weights_binary(layer l, FILE *fp)$/;"	f
+load_data	data.c	/^pthread_t load_data(load_args args)$/;"	f
+load_data_augment	data.c	/^data load_data_augment(char **paths, int n, int m, char **labels, int k, tree *hierarchy, int min, int max, int size, float angle, float aspect, float hue, float saturation, float exposure)$/;"	f
+load_data_captcha	data.c	/^data load_data_captcha(char **paths, int n, int m, int k, int w, int h)$/;"	f
+load_data_captcha_encode	data.c	/^data load_data_captcha_encode(char **paths, int n, int m, int w, int h)$/;"	f
+load_data_compare	data.c	/^data load_data_compare(int n, char **paths, int m, int classes, int w, int h)$/;"	f
+load_data_detection	data.c	/^data load_data_detection(int n, char **paths, int m, int w, int h, int boxes, int classes, float jitter, float hue, float saturation, float exposure)$/;"	f
+load_data_in_thread	data.c	/^pthread_t load_data_in_thread(load_args args)$/;"	f
+load_data_old	data.c	/^data load_data_old(char **paths, int n, int m, char **labels, int k, int w, int h)$/;"	f
+load_data_region	data.c	/^data load_data_region(int n, char **paths, int m, int w, int h, int size, int classes, float jitter, float hue, float saturation, float exposure)$/;"	f
+load_data_super	data.c	/^data load_data_super(char **paths, int n, int m, int w, int h, int scale)$/;"	f
+load_data_swag	data.c	/^data load_data_swag(char **paths, int n, int classes, float jitter)$/;"	f
+load_data_tag	data.c	/^data load_data_tag(char **paths, int n, int m, int k, int min, int max, int size, float angle, float aspect, float hue, float saturation, float exposure)$/;"	f
+load_data_writing	data.c	/^data load_data_writing(char **paths, int n, int m, int w, int h, int out_w, int out_h)$/;"	f
+load_go	data.c	/^data load_go(char *filename)$/;"	f
+load_go_moves	go.c	/^moves load_go_moves(char *filename)$/;"	f
+load_image	image.c	/^image load_image(char *filename, int w, int h, int c)$/;"	f
+load_image_augment_paths	data.c	/^matrix load_image_augment_paths(char **paths, int n, int min, int max, int size, float angle, float aspect, float hue, float saturation, float exposure)$/;"	f
+load_image_color	image.c	/^image load_image_color(char *filename, int w, int h)$/;"	f
+load_image_cv	image.c	/^image load_image_cv(char *filename, int channels)$/;"	f
+load_image_paths	data.c	/^matrix load_image_paths(char **paths, int n, int w, int h)$/;"	f
+load_image_paths_gray	data.c	/^matrix load_image_paths_gray(char **paths, int n, int w, int h)$/;"	f
+load_image_stb	image.c	/^image load_image_stb(char *filename, int channels)$/;"	f
+load_jpeg_image	stb_image.h	/^static stbi_uc *load_jpeg_image(stbi__jpeg *z, int *out_x, int *out_y, int *comp, int req_comp)$/;"	f
+load_labels_paths	data.c	/^matrix load_labels_paths(char **paths, int n, char **labels, int k, tree *hierarchy)$/;"	f
+load_tags_paths	data.c	/^matrix load_tags_paths(char **paths, int n, int k)$/;"	f
+load_thread	data.c	/^void *load_thread(void *ptr)$/;"	f
+load_threads	data.c	/^void *load_threads(void *ptr)$/;"	f
+load_weights	parser.c	/^void load_weights(network *net, char *filename)$/;"	f
+load_weights_upto	parser.c	/^void load_weights_upto(network *net, char *filename, int cutoff)$/;"	f
+local_layer	local_layer.h	/^typedef layer local_layer;$/;"	t
+local_out_height	local_layer.c	/^int local_out_height(local_layer l)$/;"	f
+local_out_width	local_layer.c	/^int local_out_width(local_layer l)$/;"	f
+lock_t	demo.c	/^static pthread_mutex_t lock_t;$/;"	v	file:
+log	layer.h	/^    int log;$/;"	m	struct:layer
+loggy_activate	activations.h	/^static inline float loggy_activate(float x){return 2.\/(1. + exp(-x)) - 1;}$/;"	f
+loggy_gradient	activations.h	/^static inline float loggy_gradient(float x)$/;"	f
+logistic_activate	activations.h	/^static inline float logistic_activate(float x){return 1.\/(1. + exp(-x));}$/;"	f
+logistic_gradient	activations.h	/^static inline float logistic_gradient(float x){return (1-x)*x;}$/;"	f
+logit	region_layer.c	/^float logit(float x)$/;"	f
+lpal	stb_image.h	/^   stbi_uc lpal[256][4];$/;"	m	struct:__anon18
+m	data.h	/^    int m;$/;"	m	struct:load_args
+m	layer.h	/^    float * m;$/;"	m	struct:layer
+m_gpu	layer.h	/^    float *m_gpu;$/;"	m	struct:layer
+mag_array	utils.c	/^float mag_array(float *a, int n)$/;"	f
+main	darknet.c	/^int main(int argc, char **argv)$/;"	f
+make_activation_layer	activation_layer.c	/^layer make_activation_layer(int batch, int inputs, ACTIVATION activation)$/;"	f
+make_avgpool_layer	avgpool_layer.c	/^avgpool_layer make_avgpool_layer(int batch, int w, int h, int c)$/;"	f
+make_batchnorm_layer	batchnorm_layer.c	/^layer make_batchnorm_layer(int batch, int w, int h, int c)$/;"	f
+make_connected_layer	connected_layer.c	/^connected_layer make_connected_layer(int batch, int inputs, int outputs, ACTIVATION activation, int batch_normalize)$/;"	f
+make_convolutional_layer	convolutional_layer.c	/^convolutional_layer make_convolutional_layer(int batch, int h, int w, int c, int n, int size, int stride, int padding, ACTIVATION activation, int batch_normalize, int binary, int xnor, int adam)$/;"	f
+make_cost_layer	cost_layer.c	/^cost_layer make_cost_layer(int batch, int inputs, COST_TYPE cost_type, float scale)$/;"	f
+make_crnn_layer	crnn_layer.c	/^layer make_crnn_layer(int batch, int h, int w, int c, int hidden_filters, int output_filters, int steps, ACTIVATION activation, int batch_normalize)$/;"	f
+make_crop_layer	crop_layer.c	/^crop_layer make_crop_layer(int batch, int h, int w, int c, int crop_height, int crop_width, int flip, float angle, float saturation, float exposure)$/;"	f
+make_deconvolutional_layer	deconvolutional_layer.c	/^deconvolutional_layer make_deconvolutional_layer(int batch, int h, int w, int c, int n, int size, int stride, ACTIVATION activation)$/;"	f
+make_detection_layer	detection_layer.c	/^detection_layer make_detection_layer(int batch, int inputs, int n, int side, int classes, int coords, int rescore)$/;"	f
+make_dropout_layer	dropout_layer.c	/^dropout_layer make_dropout_layer(int batch, int inputs, float probability)$/;"	f
+make_empty_image	image.c	/^image make_empty_image(int w, int h, int c)$/;"	f
+make_gru_layer	gru_layer.c	/^layer make_gru_layer(int batch, int inputs, int outputs, int steps, int batch_normalize)$/;"	f
+make_image	image.c	/^image make_image(int w, int h, int c)$/;"	f
+make_list	list.c	/^list *make_list()$/;"	f
+make_local_layer	local_layer.c	/^local_layer make_local_layer(int batch, int h, int w, int c, int n, int size, int stride, int pad, ACTIVATION activation)$/;"	f
+make_matrix	matrix.c	/^matrix make_matrix(int rows, int cols)$/;"	f
+make_maxpool_layer	maxpool_layer.c	/^maxpool_layer make_maxpool_layer(int batch, int h, int w, int c, int size, int stride, int padding)$/;"	f
+make_network	network.c	/^network make_network(int n)$/;"	f
+make_normalization_layer	normalization_layer.c	/^layer make_normalization_layer(int batch, int w, int h, int c, int size, float alpha, float beta, float kappa)$/;"	f
+make_random_image	image.c	/^image make_random_image(int w, int h, int c)$/;"	f
+make_region_layer	region_layer.c	/^layer make_region_layer(int batch, int w, int h, int n, int classes, int coords)$/;"	f
+make_reorg_layer	reorg_layer.c	/^layer make_reorg_layer(int batch, int w, int h, int c, int stride, int reverse)$/;"	f
+make_rnn_layer	rnn_layer.c	/^layer make_rnn_layer(int batch, int inputs, int hidden, int outputs, int steps, ACTIVATION activation, int batch_normalize, int log)$/;"	f
+make_route_layer	route_layer.c	/^route_layer make_route_layer(int batch, int n, int *input_layers, int *input_sizes)$/;"	f
+make_shortcut_layer	shortcut_layer.c	/^layer make_shortcut_layer(int batch, int index, int w, int h, int c, int w2, int h2, int c2)$/;"	f
+make_softmax_layer	softmax_layer.c	/^softmax_layer make_softmax_layer(int batch, int inputs, int groups)$/;"	f
+makes_safe_go	go.c	/^int makes_safe_go(float *b, int *lib, int p, int r, int c){$/;"	f
+malloc_error	utils.c	/^void malloc_error()$/;"	f
+map	layer.h	/^    int   * map;$/;"	m	struct:layer
+marker	stb_image.h	/^   unsigned char  marker;      \/\/ marker seen while filling entropy buffer$/;"	m	struct:__anon8
+matrix	matrix.h	/^typedef struct matrix{$/;"	s
+matrix	matrix.h	/^} matrix;$/;"	t	typeref:struct:matrix
+matrix_add_matrix	matrix.c	/^void matrix_add_matrix(matrix from, matrix to)$/;"	f
+matrix_to_csv	matrix.c	/^void matrix_to_csv(matrix m)$/;"	f
+matrix_topk_accuracy	matrix.c	/^float matrix_topk_accuracy(matrix truth, matrix guess, int k)$/;"	f
+max	data.h	/^    int min, max, size;$/;"	m	struct:load_args
+max_batches	network.h	/^    int max_batches;$/;"	m	struct:network
+max_boxes	layer.h	/^    int max_boxes;$/;"	m	struct:layer
+max_crop	network.h	/^    int max_crop;$/;"	m	struct:network
+max_index	utils.c	/^int max_index(float *a, int n)$/;"	f
+max_x	stb_image.h	/^   int max_x, max_y;$/;"	m	struct:__anon18
+max_y	stb_image.h	/^   int max_x, max_y;$/;"	m	struct:__anon18
+maxcode	stb_image.h	/^   int maxcode[17];$/;"	m	struct:__anon11
+maxcode	stb_image.h	/^   unsigned int maxcode[18];$/;"	m	struct:__anon7
+maxpool_layer	maxpool_layer.h	/^typedef layer maxpool_layer;$/;"	t
+mean	layer.h	/^    float * mean;$/;"	m	struct:layer
+mean_array	utils.c	/^float mean_array(float *a, int n)$/;"	f
+mean_arrays	utils.c	/^void mean_arrays(float **a, int n, int els, float *avg)$/;"	f
+mean_cpu	blas.c	/^void mean_cpu(float *x, int batch, int filters, int spatial, float *mean)$/;"	f
+mean_delta	layer.h	/^    float * mean_delta;$/;"	m	struct:layer
+mean_delta_cpu	batchnorm_layer.c	/^void mean_delta_cpu(float *delta, float *variance, int batch, int filters, int spatial, float *mean_delta)$/;"	f
+mean_delta_gpu	layer.h	/^    float * mean_delta_gpu;$/;"	m	struct:layer
+mean_gpu	layer.h	/^    float * mean_gpu;$/;"	m	struct:layer
+min	data.h	/^    int min, max, size;$/;"	m	struct:load_args
+min_crop	network.h	/^    int min_crop;$/;"	m	struct:network
+momentum	network.h	/^    float momentum;$/;"	m	struct:network
+move_go	go.c	/^void move_go(float *b, int p, int r, int c)$/;"	f
+moves	go.c	/^} moves;$/;"	t	typeref:struct:__anon20	file:
+mse_array	utils.c	/^float mse_array(float *a, int n)$/;"	f
+mul_cpu	blas.c	/^void mul_cpu(int N, float *X, int INCX, float *Y, int INCY)$/;"	f
+mutex	data.c	/^pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+n	data.h	/^    int n;$/;"	m	struct:load_args
+n	go.c	/^    int n;$/;"	m	struct:__anon20	file:
+n	layer.h	/^    int n;$/;"	m	struct:layer
+n	network.h	/^    int n;$/;"	m	struct:network
+n	tree.h	/^    int n;$/;"	m	struct:__anon25
+name	tree.h	/^    char **name;$/;"	m	struct:__anon25
+net	compare.c	/^    network net;$/;"	m	struct:__anon33	file:
+net	demo.c	/^static network net;$/;"	v	file:
+net	network.h	/^    network net;$/;"	m	struct:network_state
+net	parser.c	/^    network net;$/;"	m	struct:size_params	file:
+network	network.h	/^typedef struct network{$/;"	s
+network	network.h	/^} network;$/;"	t	typeref:struct:network
+network_accuracies	network.c	/^float *network_accuracies(network net, data d, int n)$/;"	f
+network_accuracy	network.c	/^float network_accuracy(network net, data d)$/;"	f
+network_accuracy_multi	network.c	/^float network_accuracy_multi(network net, data d, int n)$/;"	f
+network_predict	network.c	/^float *network_predict(network net, float *input)$/;"	f
+network_predict_data	network.c	/^matrix network_predict_data(network net, data test)$/;"	f
+network_predict_data_multi	network.c	/^matrix network_predict_data_multi(network net, data test, int n)$/;"	f
+network_state	network.h	/^typedef struct network_state {$/;"	s
+network_state	network.h	/^} network_state;$/;"	t	typeref:struct:network_state
+next	list.h	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+nh	data.h	/^    int nh;$/;"	m	struct:load_args
+nind	go.c	/^static const int nind = 5;$/;"	v	file:
+nms_comparator	box.c	/^int nms_comparator(const void *pa, const void *pb)$/;"	f
+noadjust	layer.h	/^    int noadjust;$/;"	m	struct:layer
+node	list.h	/^typedef struct node{$/;"	s
+node	list.h	/^} node;$/;"	t	typeref:struct:node
+noi	go.c	/^int noi = 1;$/;"	v
+nomore	stb_image.h	/^   int            nomore;      \/\/ flag if we saw a marker so must stop$/;"	m	struct:__anon8
+noobject_scale	layer.h	/^    float noobject_scale;$/;"	m	struct:layer
+normalize_array	utils.c	/^void normalize_array(float *a, int n)$/;"	f
+normalize_cpu	blas.c	/^void normalize_cpu(float *x, float *mean, float *variance, int batch, int filters, int spatial)$/;"	f
+normalize_data_rows	data.c	/^void normalize_data_rows(data d)$/;"	f
+normalize_delta_cpu	batchnorm_layer.c	/^void normalize_delta_cpu(float *x, float *mean, float *variance, float *mean_delta, float *variance_delta, int batch, int filters, int spatial, float *delta)$/;"	f
+normalize_image	image.c	/^void normalize_image(image p)$/;"	f
+normalize_image2	image.c	/^void normalize_image2(image p)$/;"	f
+normalize_layer	darknet.c	/^layer normalize_layer(layer l, int n)$/;"	f
+normalize_net	darknet.c	/^void normalize_net(char *cfgfile, char *weightfile, char *outfile)$/;"	f
+norms	layer.h	/^    float * norms;$/;"	m	struct:layer
+norms_gpu	layer.h	/^    float * norms_gpu;$/;"	m	struct:layer
+num_bits	stb_image.h	/^   int num_bits;$/;"	m	struct:__anon12
+num_boxes	data.h	/^    int *num_boxes;$/;"	m	struct:__anon26
+num_boxes	data.h	/^    int num_boxes;$/;"	m	struct:load_args
+num_steps	network.h	/^    int num_steps;$/;"	m	struct:network
+nw	data.h	/^    int nw;$/;"	m	struct:load_args
+object_scale	layer.h	/^    float object_scale;$/;"	m	struct:layer
+objectness	layer.h	/^    int objectness;$/;"	m	struct:layer
+one_hot_encode	utils.c	/^float **one_hot_encode(float *a, int n, int k)$/;"	f
+oneoff	darknet.c	/^void oneoff(char *cfgfile, char *weightfile, char *outfile)$/;"	f
+operations	darknet.c	/^void operations(char *cfgfile)$/;"	f
+optimize_picture	nightmare.c	/^void optimize_picture(network *net, image orig, int max_layer, float scale, float rate, float thresh, int norm)$/;"	f
+option_find	option_list.c	/^char *option_find(list *l, char *key)$/;"	f
+option_find_float	option_list.c	/^float option_find_float(list *l, char *key, float def)$/;"	f
+option_find_float_quiet	option_list.c	/^float option_find_float_quiet(list *l, char *key, float def)$/;"	f
+option_find_int	option_list.c	/^int option_find_int(list *l, char *key, int def)$/;"	f
+option_find_int_quiet	option_list.c	/^int option_find_int_quiet(list *l, char *key, int def)$/;"	f
+option_find_str	option_list.c	/^char *option_find_str(list *l, char *key, char *def)$/;"	f
+option_insert	option_list.c	/^void option_insert(list *l, char *key, char *val)$/;"	f
+option_unused	option_list.c	/^void option_unused(list *l)$/;"	f
+options	parser.c	/^    list *options;$/;"	m	struct:__anon21	file:
+order	stb_image.h	/^   int scan_n, order[4];$/;"	m	struct:__anon8
+out	stb_image.h	/^   stbi_uc *idata, *expanded, *out;$/;"	m	struct:__anon14
+out	stb_image.h	/^   stbi_uc *out;                 \/\/ output buffer (always 4 components)$/;"	m	struct:__anon18
+out_c	layer.h	/^    int out_h, out_w, out_c;$/;"	m	struct:layer
+out_h	data.h	/^    int out_h;$/;"	m	struct:load_args
+out_h	layer.h	/^    int out_h, out_w, out_c;$/;"	m	struct:layer
+out_w	data.h	/^    int out_w;$/;"	m	struct:load_args
+out_w	layer.h	/^    int out_h, out_w, out_c;$/;"	m	struct:layer
+outfile	stb_image_write.h	/^static int outfile(char const *filename, int rgb_dir, int vdir, int x, int y, int comp, int expand_mono, void *data, int alpha, int pad, const char *fmt, ...)$/;"	f
+output	layer.h	/^    float * output;$/;"	m	struct:layer
+output	network.h	/^    float *output;$/;"	m	struct:network
+output_gpu	layer.h	/^    float * output_gpu;$/;"	m	struct:layer
+output_layer	layer.h	/^    struct layer *output_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+outputs	layer.h	/^    int outputs;$/;"	m	struct:layer
+outputs	network.h	/^    int outputs;$/;"	m	struct:network
+overlap	box.c	/^float overlap(float x1, float w1, float x2, float w2)$/;"	f
+pad	layer.h	/^    int pad;$/;"	m	struct:layer
+pal	stb_image.h	/^   stbi_uc  pal[256][4];$/;"	m	struct:__anon18
+parent	tree.h	/^    int *parent;$/;"	m	struct:__anon25
+parse	stb_image.h	/^   int parse, step;$/;"	m	struct:__anon18
+parse_activation	parser.c	/^layer parse_activation(list *options, size_params params)$/;"	f
+parse_avgpool	parser.c	/^avgpool_layer parse_avgpool(list *options, size_params params)$/;"	f
+parse_batchnorm	parser.c	/^layer parse_batchnorm(list *options, size_params params)$/;"	f
+parse_connected	parser.c	/^connected_layer parse_connected(list *options, size_params params)$/;"	f
+parse_convolutional	parser.c	/^convolutional_layer parse_convolutional(list *options, size_params params)$/;"	f
+parse_cost	parser.c	/^cost_layer parse_cost(list *options, size_params params)$/;"	f
+parse_crnn	parser.c	/^layer parse_crnn(list *options, size_params params)$/;"	f
+parse_crop	parser.c	/^crop_layer parse_crop(list *options, size_params params)$/;"	f
+parse_csv_line	utils.c	/^list *parse_csv_line(char *line)$/;"	f
+parse_data	parser.c	/^void parse_data(char *data, float *a, int n)$/;"	f
+parse_detection	parser.c	/^detection_layer parse_detection(list *options, size_params params)$/;"	f
+parse_dropout	parser.c	/^dropout_layer parse_dropout(list *options, size_params params)$/;"	f
+parse_fields	utils.c	/^float *parse_fields(char *line, int n)$/;"	f
+parse_gru	parser.c	/^layer parse_gru(list *options, size_params params)$/;"	f
+parse_local	parser.c	/^local_layer parse_local(list *options, size_params params)$/;"	f
+parse_maxpool	parser.c	/^maxpool_layer parse_maxpool(list *options, size_params params)$/;"	f
+parse_net_options	parser.c	/^void parse_net_options(list *options, network *net)$/;"	f
+parse_network_cfg	parser.c	/^network parse_network_cfg(char *filename)$/;"	f
+parse_normalization	parser.c	/^layer parse_normalization(list *options, size_params params)$/;"	f
+parse_region	parser.c	/^layer parse_region(list *options, size_params params)$/;"	f
+parse_reorg	parser.c	/^layer parse_reorg(list *options, size_params params)$/;"	f
+parse_rnn	parser.c	/^layer parse_rnn(list *options, size_params params)$/;"	f
+parse_route	parser.c	/^route_layer parse_route(list *options, size_params params, network net)$/;"	f
+parse_shortcut	parser.c	/^layer parse_shortcut(list *options, size_params params, network net)$/;"	f
+parse_softmax	parser.c	/^softmax_layer parse_softmax(list *options, size_params params)$/;"	f
+partial	darknet.c	/^void partial(char *cfgfile, char *weightfile, char *outfile, int max)$/;"	f
+path	data.h	/^    char *path;$/;"	m	struct:load_args
+paths	data.h	/^    char **paths;$/;"	m	struct:load_args
+plse_activate	activations.h	/^static inline float plse_activate(float x)$/;"	f
+plse_gradient	activations.h	/^static inline float plse_gradient(float x){return (x < 0 || x > 1) ? .01 : .125;}$/;"	f
+pm	utils.c	/^void pm(int M, int N, float *A)$/;"	f
+policy	network.h	/^    learning_rate_policy policy;$/;"	m	struct:network
+pop_column	matrix.c	/^float *pop_column(matrix *m, int c)$/;"	f
+pow_cpu	blas.c	/^void pow_cpu(int N, float ALPHA, float *X, int INCX, float *Y, int INCY)$/;"	f
+power	network.h	/^    float power;$/;"	m	struct:network
+predict_classifier	classifier.c	/^void predict_classifier(char *datacfg, char *cfgfile, char *weightfile, char *filename, int top)$/;"	f
+predict_move	go.c	/^void predict_move(network net, float *board, float *move, int multi)$/;"	f
+predictions	demo.c	/^static float *predictions[FRAMES];$/;"	v	file:
+prefix	stb_image.h	/^   stbi__int16 prefix;$/;"	m	struct:__anon17
+prev	list.h	/^    struct node *prev;$/;"	m	struct:node	typeref:struct:node::node
+prev_state	layer.h	/^    float * prev_state;$/;"	m	struct:layer
+prev_state_gpu	layer.h	/^    float * prev_state_gpu;$/;"	m	struct:layer
+print_board	go.c	/^void print_board(float *board, int swap, int *indexes)$/;"	f
+print_cocos	coco.c	/^void print_cocos(FILE *fp, int image_id, box *boxes, float **probs, int num_boxes, int classes, int w, int h)$/;"	f
+print_cocos	detector.c	/^static void print_cocos(FILE *fp, char *image_path, box *boxes, float **probs, int num_boxes, int classes, int w, int h)$/;"	f	file:
+print_detector_detections	detector.c	/^void print_detector_detections(FILE **fps, char *id, box *boxes, float **probs, int total, int classes, int w, int h)$/;"	f
+print_image	image.c	/^void print_image(image m)$/;"	f
+print_imagenet_detections	detector.c	/^void print_imagenet_detections(FILE *fp, int id, box *boxes, float **probs, int total, int classes, int w, int h)$/;"	f
+print_letters	data.c	/^void print_letters(float *pred, int n)$/;"	f
+print_matrix	matrix.c	/^void print_matrix(matrix m)$/;"	f
+print_network	network.c	/^void print_network(network net)$/;"	f
+print_statistics	utils.c	/^void print_statistics(float *a, int n)$/;"	f
+print_symbol	rnn.c	/^void print_symbol(int n, char **tokens){$/;"	f
+print_yolo_detections	yolo.c	/^void print_yolo_detections(FILE **fps, char *id, box *boxes, float **probs, int total, int classes, int w, int h)$/;"	f
+probability	layer.h	/^    float probability;$/;"	m	struct:layer
+probs	box.c	/^    float **probs;$/;"	m	struct:__anon29	file:
+probs	demo.c	/^static float **probs;$/;"	v	file:
+progressive	stb_image.h	/^   int            progressive;$/;"	m	struct:__anon8
+propagate_liberty	go.c	/^void propagate_liberty(float *board, int *lib, int *visited, int row, int col, int side)$/;"	f
+pull_batchnorm_layer	batchnorm_layer.c	/^void pull_batchnorm_layer(layer l)$/;"	f
+pull_connected_layer	connected_layer.c	/^void pull_connected_layer(connected_layer l)$/;"	f
+pull_cost_layer	cost_layer.c	/^void pull_cost_layer(cost_layer l)$/;"	f
+pull_crnn_layer	crnn_layer.c	/^void pull_crnn_layer(layer l)$/;"	f
+pull_gru_layer	gru_layer.c	/^void pull_gru_layer(layer l)$/;"	f
+pull_local_layer	local_layer.c	/^void pull_local_layer(local_layer l)$/;"	f
+pull_rnn_layer	rnn_layer.c	/^void pull_rnn_layer(layer l)$/;"	f
+pull_softmax_layer_output	softmax_layer.c	/^void pull_softmax_layer_output(const softmax_layer layer)$/;"	f
+push_batchnorm_layer	batchnorm_layer.c	/^void push_batchnorm_layer(layer l)$/;"	f
+push_connected_layer	connected_layer.c	/^void push_connected_layer(connected_layer l)$/;"	f
+push_cost_layer	cost_layer.c	/^void push_cost_layer(cost_layer l)$/;"	f
+push_crnn_layer	crnn_layer.c	/^void push_crnn_layer(layer l)$/;"	f
+push_gru_layer	gru_layer.c	/^void push_gru_layer(layer l)$/;"	f
+push_local_layer	local_layer.c	/^void push_local_layer(local_layer l)$/;"	f
+push_rnn_layer	rnn_layer.c	/^void push_rnn_layer(layer l)$/;"	f
+r_cpu	layer.h	/^    float * r_cpu;$/;"	m	struct:layer
+r_gpu	layer.h	/^    float *r_gpu;$/;"	m	struct:layer
+ramp_activate	activations.h	/^static inline float ramp_activate(float x){return x*(x>0)+.1*x;}$/;"	f
+ramp_gradient	activations.h	/^static inline float ramp_gradient(float x){return (x>0)+.1;}$/;"	f
+rand	layer.h	/^    float * rand;$/;"	m	struct:layer
+rand_gpu	layer.h	/^    float * rand_gpu;$/;"	m	struct:layer
+rand_int	utils.c	/^int rand_int(int min, int max)$/;"	f
+rand_normal	utils.c	/^float rand_normal()$/;"	f
+rand_scale	utils.c	/^float rand_scale(float s)$/;"	f
+rand_size_t	utils.c	/^size_t rand_size_t()$/;"	f
+rand_uniform	utils.c	/^float rand_uniform(float min, float max)$/;"	f
+random	layer.h	/^    int random;$/;"	m	struct:layer
+random_augment_image	image.c	/^image random_augment_image(image im, float angle, float aspect, int low, int high, int size)$/;"	f
+random_crop_image	image.c	/^image random_crop_image(image im, int w, int h)$/;"	f
+random_distort_image	image.c	/^void random_distort_image(image im, float hue, float saturation, float exposure)$/;"	f
+random_go_moves	go.c	/^void random_go_moves(moves m, float *boards, float *labels, int n)$/;"	f
+random_matrix	gemm.c	/^float *random_matrix(int rows, int cols)$/;"	f
+randomize_boxes	data.c	/^void randomize_boxes(box_label *b, int n)$/;"	f
+randomize_data	data.c	/^void randomize_data(data d)$/;"	f
+ratio	layer.h	/^    float ratio;$/;"	m	struct:layer
+ratio	stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon18
+raw_coeff	stb_image.h	/^      void *raw_data, *raw_coeff;$/;"	m	struct:__anon8::__anon9
+raw_data	stb_image.h	/^      void *raw_data, *raw_coeff;$/;"	m	struct:__anon8::__anon9
+read	stb_image.h	/^   int      (*read)  (void *user,char *data,int size);   \/\/ fill 'data' with 'size' bytes.  return number of bytes actually read$/;"	m	struct:__anon4
+read_all	utils.c	/^void read_all(int fd, char *buffer, size_t bytes)$/;"	f
+read_all_fail	utils.c	/^int read_all_fail(int fd, char *buffer, size_t bytes)$/;"	f
+read_boxes	data.c	/^box_label *read_boxes(char *filename, int *n)$/;"	f
+read_cfg	parser.c	/^list *read_cfg(char *filename)$/;"	f
+read_data_cfg	option_list.c	/^list *read_data_cfg(char *filename)$/;"	f
+read_from_callbacks	stb_image.h	/^   int read_from_callbacks;$/;"	m	struct:__anon5
+read_int	utils.c	/^int read_int(int fd)$/;"	f
+read_map	utils.c	/^int *read_map(char *filename)$/;"	f
+read_option	option_list.c	/^int read_option(char *s, list *options)$/;"	f
+read_tokenized_data	rnn.c	/^int *read_tokenized_data(char *filename, size_t *read)$/;"	f
+read_tokens	rnn.c	/^char **read_tokens(char *filename, size_t *read)$/;"	f
+read_tree	tree.c	/^tree *read_tree(char *filename)$/;"	f
+reconstruct_picture	nightmare.c	/^void reconstruct_picture(network net, float *features, image recon, image update, float rate, float momentum, float lambda, int smooth_size, int iters)$/;"	f
+relie_activate	activations.h	/^static inline float relie_activate(float x){return (x>0) ? x : .01*x;}$/;"	f
+relie_gradient	activations.h	/^static inline float relie_gradient(float x){return (x>0) ? 1 : .01;}$/;"	f
+relu_activate	activations.h	/^static inline float relu_activate(float x){return x*(x>0);}$/;"	f
+relu_gradient	activations.h	/^static inline float relu_gradient(float x){return (x>0);}$/;"	f
+remove_connected	go.c	/^void remove_connected(float *b, int *lib, int p, int r, int c)$/;"	f
+reorg	layer.h	/^    int reorg;$/;"	m	struct:layer
+reorg_cpu	blas.c	/^void reorg_cpu(float *x, int w, int h, int c, int batch, int stride, int forward, float *out)$/;"	f
+resample	stb_image.h	/^   resample_row_func resample;$/;"	m	struct:__anon10
+resample_row_1	stb_image.h	/^static stbi_uc *resample_row_1(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+resample_row_func	stb_image.h	/^typedef stbi_uc *(*resample_row_func)(stbi_uc *out, stbi_uc *in0, stbi_uc *in1,$/;"	t
+resample_row_hv_2_kernel	stb_image.h	/^   stbi_uc *(*resample_row_hv_2_kernel)(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs);$/;"	m	struct:__anon8
+rescale_net	darknet.c	/^void rescale_net(char *cfgfile, char *weightfile, char *outfile)$/;"	f
+rescale_weights	convolutional_layer.c	/^void rescale_weights(convolutional_layer l, float scale, float trans)$/;"	f
+rescore	layer.h	/^    int rescore;$/;"	m	struct:layer
+reset_momentum	network.c	/^void reset_momentum(network net)$/;"	f
+reset_normalize_net	darknet.c	/^void reset_normalize_net(char *cfgfile, char *weightfile, char *outfile)$/;"	f
+reset_rnn_state	rnn.c	/^void reset_rnn_state(network net, int b)$/;"	f
+resize_avgpool_layer	avgpool_layer.c	/^void resize_avgpool_layer(avgpool_layer *l, int w, int h)$/;"	f
+resize_batchnorm_layer	batchnorm_layer.c	/^void resize_batchnorm_layer(layer *layer, int w, int h)$/;"	f
+resize_convolutional_layer	convolutional_layer.c	/^void resize_convolutional_layer(convolutional_layer *l, int w, int h)$/;"	f
+resize_cost_layer	cost_layer.c	/^void resize_cost_layer(cost_layer *l, int inputs)$/;"	f
+resize_crop_layer	crop_layer.c	/^void resize_crop_layer(layer *l, int w, int h)$/;"	f
+resize_deconvolutional_layer	deconvolutional_layer.c	/^void resize_deconvolutional_layer(deconvolutional_layer *l, int h, int w)$/;"	f
+resize_dropout_layer	dropout_layer.c	/^void resize_dropout_layer(dropout_layer *l, int inputs)$/;"	f
+resize_image	image.c	/^image resize_image(image im, int w, int h)$/;"	f
+resize_matrix	matrix.c	/^matrix resize_matrix(matrix m, int size)$/;"	f
+resize_max	image.c	/^image resize_max(image im, int max)$/;"	f
+resize_maxpool_layer	maxpool_layer.c	/^void resize_maxpool_layer(maxpool_layer *l, int w, int h)$/;"	f
+resize_min	image.c	/^image resize_min(image im, int min)$/;"	f
+resize_network	network.c	/^int resize_network(network *net, int w, int h)$/;"	f
+resize_normalization_layer	normalization_layer.c	/^void resize_normalization_layer(layer *layer, int w, int h)$/;"	f
+resize_region_layer	region_layer.c	/^void resize_region_layer(layer *l, int w, int h)$/;"	f
+resize_reorg_layer	reorg_layer.c	/^void resize_reorg_layer(layer *l, int w, int h)$/;"	f
+resize_route_layer	route_layer.c	/^void resize_route_layer(route_layer *l, network *net)$/;"	f
+resized	data.h	/^    image *resized;$/;"	m	struct:load_args
+restart_interval	stb_image.h	/^   int restart_interval, todo;$/;"	m	struct:__anon8
+reverse	layer.h	/^    int reverse;$/;"	m	struct:layer
+rgb_to_hsv	image.c	/^void rgb_to_hsv(image im)$/;"	f
+rgbgr_image	image.c	/^void rgbgr_image(image im)$/;"	f
+rgbgr_net	darknet.c	/^void rgbgr_net(char *cfgfile, char *weightfile, char *outfile)$/;"	f
+rgbgr_weights	convolutional_layer.c	/^void rgbgr_weights(convolutional_layer l)$/;"	f
+right	data.h	/^    float left, right, top, bottom;$/;"	m	struct:__anon28
+rolling_mean	layer.h	/^    float * rolling_mean;$/;"	m	struct:layer
+rolling_mean_gpu	layer.h	/^    float * rolling_mean_gpu;$/;"	m	struct:layer
+rolling_variance	layer.h	/^    float * rolling_variance;$/;"	m	struct:layer
+rolling_variance_gpu	layer.h	/^    float * rolling_variance_gpu;$/;"	m	struct:layer
+rotate_crop_image	image.c	/^image rotate_crop_image(image im, float rad, float s, int w, int h, float dx, float dy, float aspect)$/;"	f
+rotate_image	image.c	/^image rotate_image(image im, float rad)$/;"	f
+rotate_image_cw	image.c	/^void rotate_image_cw(image im, int times)$/;"	f
+route_layer	route_layer.h	/^typedef layer route_layer;$/;"	t
+rows	matrix.h	/^    int rows, cols;$/;"	m	struct:matrix
+run_art	art.c	/^void run_art(int argc, char **argv)$/;"	f
+run_captcha	captcha.c	/^void run_captcha(int argc, char **argv)$/;"	f
+run_char_rnn	rnn.c	/^void run_char_rnn(int argc, char **argv)$/;"	f
+run_cifar	cifar.c	/^void run_cifar(int argc, char **argv)$/;"	f
+run_classifier	classifier.c	/^void run_classifier(int argc, char **argv)$/;"	f
+run_coco	coco.c	/^void run_coco(int argc, char **argv)$/;"	f
+run_compare	compare.c	/^void run_compare(int argc, char **argv)$/;"	f
+run_detector	detector.c	/^void run_detector(int argc, char **argv)$/;"	f
+run_dice	dice.c	/^void run_dice(int argc, char **argv)$/;"	f
+run_go	go.c	/^void run_go(int argc, char **argv)$/;"	f
+run_nightmare	nightmare.c	/^void run_nightmare(int argc, char **argv)$/;"	f
+run_super	super.c	/^void run_super(int argc, char **argv)$/;"	f
+run_swag	swag.c	/^void run_swag(int argc, char **argv)$/;"	f
+run_tag	tag.c	/^void run_tag(int argc, char **argv)$/;"	f
+run_vid_rnn	rnn_vid.c	/^void run_vid_rnn(int argc, char **argv)$/;"	f
+run_vid_rnn	rnn_vid.c	/^void run_vid_rnn(int argc, char **argv){}$/;"	f
+run_voxel	voxel.c	/^void run_voxel(int argc, char **argv)$/;"	f
+run_writing	writing.c	/^void run_writing(int argc, char **argv)$/;"	f
+run_yolo	yolo.c	/^void run_yolo(int argc, char **argv)$/;"	f
+s	stb_image.h	/^   stbi__context *s;$/;"	m	struct:__anon14
+s	stb_image.h	/^   stbi__context *s;$/;"	m	struct:__anon8
+sample_array	utils.c	/^int sample_array(float *a, int n)$/;"	f
+saturate_exposure_image	image.c	/^void saturate_exposure_image(image im, float sat, float exposure)$/;"	f
+saturate_image	image.c	/^void saturate_image(image im, float sat)$/;"	f
+saturation	data.h	/^    float saturation;$/;"	m	struct:load_args
+saturation	layer.h	/^    float saturation;$/;"	m	struct:layer
+saturation	network.h	/^    float saturation;$/;"	m	struct:network
+save_batchnorm_weights	parser.c	/^void save_batchnorm_weights(layer l, FILE *fp)$/;"	f
+save_connected_weights	parser.c	/^void save_connected_weights(layer l, FILE *fp)$/;"	f
+save_convolutional_weights	parser.c	/^void save_convolutional_weights(layer l, FILE *fp)$/;"	f
+save_convolutional_weights_binary	parser.c	/^void save_convolutional_weights_binary(layer l, FILE *fp)$/;"	f
+save_delta_gpu	layer.h	/^    float * save_delta_gpu;$/;"	m	struct:layer
+save_gpu	layer.h	/^    float * save_gpu;$/;"	m	struct:layer
+save_image	image.c	/^void save_image(image im, const char *name)$/;"	f
+save_image_jpg	image.c	/^void save_image_jpg(image p, const char *name)$/;"	f
+save_image_png	image.c	/^void save_image_png(image im, const char *name)$/;"	f
+save_reconstruction	rnn_vid.c	/^image save_reconstruction(network net, image *init, float *feat, char *name, int i)$/;"	f
+save_weights	parser.c	/^void save_weights(network net, char *filename)$/;"	f
+save_weights_upto	parser.c	/^void save_weights_upto(network net, char *filename, int cutoff)$/;"	f
+scal_cpu	blas.c	/^void scal_cpu(int N, float ALPHA, float *X, int INCX)$/;"	f
+scale	data.h	/^    int scale;$/;"	m	struct:load_args
+scale	layer.h	/^    float scale;$/;"	m	struct:layer
+scale	network.h	/^    float scale;$/;"	m	struct:network
+scale_array	utils.c	/^void scale_array(float *a, int n, float s)$/;"	f
+scale_bias	convolutional_layer.c	/^void scale_bias(float *output, float *scales, int batch, int n, int size)$/;"	f
+scale_data_rows	data.c	/^void scale_data_rows(data d, float s)$/;"	f
+scale_image	image.c	/^void scale_image(image m, float s)$/;"	f
+scale_image_channel	image.c	/^void scale_image_channel(image im, int c, float v)$/;"	f
+scale_matrix	matrix.c	/^void scale_matrix(matrix m, float scale)$/;"	f
+scale_updates	layer.h	/^    float * scale_updates;$/;"	m	struct:layer
+scale_updates_gpu	layer.h	/^    float * scale_updates_gpu;$/;"	m	struct:layer
+scales	layer.h	/^    float * scales;$/;"	m	struct:layer
+scales	network.h	/^    float *scales;$/;"	m	struct:network
+scales_gpu	layer.h	/^    float * scales_gpu;$/;"	m	struct:layer
+scan_n	stb_image.h	/^   int scan_n, order[4];$/;"	m	struct:__anon8
+score_game	go.c	/^float score_game(float *board)$/;"	f
+sec	utils.c	/^float sec(clock_t clocks)$/;"	f
+section	parser.c	/^}section;$/;"	t	typeref:struct:__anon21	file:
+seen	network.h	/^    int *seen;$/;"	m	struct:network
+self_go	go.c	/^void self_go(char *filename, char *weightfile, char *f2, char *w2, int multi)$/;"	f
+self_layer	layer.h	/^    struct layer *self_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+set_batch_network	network.c	/^void set_batch_network(network *net, int b)$/;"	f
+set_pixel	image.c	/^void set_pixel(image m, int x, int y, int c, float val)$/;"	f
+shallow	data.h	/^    int shallow;$/;"	m	struct:__anon26
+shift	layer.h	/^    float shift;$/;"	m	struct:layer
+shortcut	layer.h	/^    int shortcut;$/;"	m	struct:layer
+shortcut_cpu	blas.c	/^void shortcut_cpu(int batch, int w1, int h1, int c1, float *add, int w2, int h2, int c2, float *out)$/;"	f
+show_image	image.c	/^void show_image(image p, const char *name)$/;"	f
+show_image_collapsed	image.c	/^void show_image_collapsed(image p, char *name)$/;"	f
+show_image_cv	image.c	/^void show_image_cv(image p, const char *name)$/;"	f
+show_image_layers	image.c	/^void show_image_layers(image p, char *name)$/;"	f
+show_image_normalized	image.c	/^void show_image_normalized(image im, const char *name)$/;"	f
+show_images	image.c	/^void show_images(image *ims, int n, char *window)$/;"	f
+shuffle	utils.c	/^void shuffle(void *arr, size_t n, size_t size)$/;"	f
+side	layer.h	/^    int side;$/;"	m	struct:layer
+size	data.h	/^    int min, max, size;$/;"	m	struct:load_args
+size	layer.h	/^    int size;$/;"	m	struct:layer
+size	list.h	/^    int size;$/;"	m	struct:list
+size	stb_image.h	/^   stbi_uc  size[257];$/;"	m	struct:__anon7
+size	stb_image.h	/^   stbi_uc  size[288];$/;"	m	struct:__anon11
+size	stb_image.h	/^   stbi_uc size,type,channel;$/;"	m	struct:__anon16
+size_params	parser.c	/^typedef struct size_params{$/;"	s	file:
+size_params	parser.c	/^} size_params;$/;"	t	typeref:struct:size_params	file:
+skip	stb_image.h	/^   void     (*skip)  (void *user,int n);                 \/\/ skip the next 'n' bytes, or 'unget' the last -n bytes if negative$/;"	m	struct:__anon4
+smooth	nightmare.c	/^void smooth(image recon, image update, float lambda, int num)$/;"	f
+smooth_data	data.c	/^void smooth_data(data d)$/;"	f
+smooth_l1_cpu	blas.c	/^void smooth_l1_cpu(int n, float *pred, float *truth, float *delta, float *error)$/;"	f
+softmax	blas.c	/^void softmax(float *input, int n, float temp, float *output)$/;"	f
+softmax	layer.h	/^    int softmax;$/;"	m	struct:layer
+softmax_layer	softmax_layer.h	/^typedef layer softmax_layer;$/;"	t
+softmax_tree	layer.h	/^    tree *softmax_tree;$/;"	m	struct:layer
+softmax_tree	softmax_layer.c	/^void softmax_tree(float *input, int batch, int inputs, float temp, tree *hierarchy, float *output)$/;"	f
+sorta_shuffle	utils.c	/^void sorta_shuffle(void *arr, size_t n, size_t size, size_t sections)$/;"	f
+sortable_bbox	box.c	/^} sortable_bbox;$/;"	t	typeref:struct:__anon29	file:
+sortable_bbox	compare.c	/^} sortable_bbox;$/;"	t	typeref:struct:__anon33	file:
+spatial_mean	layer.h	/^    float * spatial_mean;$/;"	m	struct:layer
+spec_end	stb_image.h	/^   int            spec_end;$/;"	m	struct:__anon8
+spec_start	stb_image.h	/^   int            spec_start;$/;"	m	struct:__anon8
+speed	darknet.c	/^void speed(char *cfgfile, int tics)$/;"	f
+split_data	data.c	/^data *split_data(data d, int part, int total)$/;"	f
+split_str	utils.c	/^list *split_str(char *s, char delim)$/;"	f
+sqrt	layer.h	/^    int sqrt;$/;"	m	struct:layer
+squared	layer.h	/^    float * squared;$/;"	m	struct:layer
+squared_gpu	layer.h	/^    float * squared_gpu;$/;"	m	struct:layer
+src	image.c	/^static IplImage *src;$/;"	v	file:
+srcTensorDesc	layer.h	/^    cudnnTensorDescriptor_t srcTensorDesc, dstTensorDesc;$/;"	m	struct:layer
+stair_activate	activations.h	/^static inline float stair_activate(float x)$/;"	f
+stair_gradient	activations.h	/^static inline float stair_gradient(float x)$/;"	f
+start_x	stb_image.h	/^   int start_x, start_y;$/;"	m	struct:__anon18
+start_y	stb_image.h	/^   int start_x, start_y;$/;"	m	struct:__anon18
+state	layer.h	/^    float * state;$/;"	m	struct:layer
+state_delta	layer.h	/^    float * state_delta;$/;"	m	struct:layer
+state_delta_gpu	layer.h	/^    float * state_delta_gpu;$/;"	m	struct:layer
+state_gate_layer	layer.h	/^    struct layer *state_gate_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+state_gpu	layer.h	/^    float * state_gpu;$/;"	m	struct:layer
+state_h_layer	layer.h	/^    struct layer *state_h_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+state_r_layer	layer.h	/^    struct layer *state_r_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+state_save_layer	layer.h	/^    struct layer *state_save_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+state_state_layer	layer.h	/^    struct layer *state_state_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+state_z_layer	layer.h	/^    struct layer *state_z_layer;$/;"	m	struct:layer	typeref:struct:layer::layer
+statistics_connected_layer	connected_layer.c	/^void statistics_connected_layer(layer l)$/;"	f
+statistics_net	darknet.c	/^void statistics_net(char *cfgfile, char *weightfile)$/;"	f
+stb_image_write_test	stb_image_write.h	/^typedef int stb_image_write_test[sizeof(stbiw_uint32)==4 ? 1 : -1];$/;"	t
+stbi__DNL	stb_image.h	2764;"	d
+stbi__EOI	stb_image.h	2766;"	d
+stbi__SOF	stb_image.h	2767;"	d
+stbi__SOF_progressive	stb_image.h	2770;"	d
+stbi__SOI	stb_image.h	2765;"	d
+stbi__SOS	stb_image.h	2768;"	d
+stbi__YCbCr_to_RGB_row	stb_image.h	/^static void stbi__YCbCr_to_RGB_row(stbi_uc *out, const stbi_uc *y, const stbi_uc *pcb, const stbi_uc *pcr, int count, int step)$/;"	f
+stbi__YCbCr_to_RGB_simd	stb_image.h	/^static void stbi__YCbCr_to_RGB_simd(stbi_uc *out, stbi_uc const *y, stbi_uc const *pcb, stbi_uc const *pcr, int count, int step)$/;"	f
+stbi__at_eof	stb_image.h	/^stbi_inline static int stbi__at_eof(stbi__context *s)$/;"	f
+stbi__bit_reverse	stb_image.h	/^stbi_inline static int stbi__bit_reverse(int v, int bits)$/;"	f
+stbi__bitcount	stb_image.h	/^static int stbi__bitcount(unsigned int a)$/;"	f
+stbi__bitreverse16	stb_image.h	/^stbi_inline static int stbi__bitreverse16(int n)$/;"	f
+stbi__bmask	stb_image.h	/^static stbi__uint32 stbi__bmask[17]={0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535};$/;"	v
+stbi__bmp_info	stb_image.h	/^static int stbi__bmp_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__bmp_load	stb_image.h	/^static stbi_uc *stbi__bmp_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__bmp_test	stb_image.h	/^static int stbi__bmp_test(stbi__context *s)$/;"	f
+stbi__bmp_test_raw	stb_image.h	/^static int stbi__bmp_test_raw(stbi__context *s)$/;"	f
+stbi__build_fast_ac	stb_image.h	/^static void stbi__build_fast_ac(stbi__int16 *fast_ac, stbi__huffman *h)$/;"	f
+stbi__build_huffman	stb_image.h	/^static int stbi__build_huffman(stbi__huffman *h, int *count)$/;"	f
+stbi__check_png_header	stb_image.h	/^static int stbi__check_png_header(stbi__context *s)$/;"	f
+stbi__clamp	stb_image.h	/^stbi_inline static stbi_uc stbi__clamp(int x)$/;"	f
+stbi__cleanup_jpeg	stb_image.h	/^static void stbi__cleanup_jpeg(stbi__jpeg *j)$/;"	f
+stbi__compute_huffman_codes	stb_image.h	/^static int stbi__compute_huffman_codes(stbi__zbuf *a)$/;"	f
+stbi__compute_transparency	stb_image.h	/^static int stbi__compute_transparency(stbi__png *z, stbi_uc tc[3], int out_n)$/;"	f
+stbi__compute_y	stb_image.h	/^static stbi_uc stbi__compute_y(int r, int g, int b)$/;"	f
+stbi__context	stb_image.h	/^} stbi__context;$/;"	t	typeref:struct:__anon5
+stbi__convert_format	stb_image.h	/^static unsigned char *stbi__convert_format(unsigned char *data, int img_n, int req_comp, unsigned int x, unsigned int y)$/;"	f
+stbi__copyval	stb_image.h	/^static void stbi__copyval(int channel,stbi_uc *dest,const stbi_uc *src)$/;"	f
+stbi__cpuid3	stb_image.h	/^static int stbi__cpuid3(void)$/;"	f
+stbi__create_png_image	stb_image.h	/^static int stbi__create_png_image(stbi__png *a, stbi_uc *image_data, stbi__uint32 image_data_len, int out_n, int depth, int color, int interlaced)$/;"	f
+stbi__create_png_image_raw	stb_image.h	/^static int stbi__create_png_image_raw(stbi__png *a, stbi_uc *raw, stbi__uint32 raw_len, int out_n, stbi__uint32 x, stbi__uint32 y, int depth, int color)$/;"	f
+stbi__de_iphone	stb_image.h	/^static void stbi__de_iphone(stbi__png *z)$/;"	f
+stbi__de_iphone_flag	stb_image.h	/^static int stbi__de_iphone_flag = 0;$/;"	v
+stbi__decode_jpeg_header	stb_image.h	/^static int stbi__decode_jpeg_header(stbi__jpeg *z, int scan)$/;"	f
+stbi__decode_jpeg_image	stb_image.h	/^static int stbi__decode_jpeg_image(stbi__jpeg *j)$/;"	f
+stbi__depth_scale_table	stb_image.h	/^static stbi_uc stbi__depth_scale_table[9] = { 0, 0xff, 0x55, 0, 0x11, 0,0,0, 0x01 };$/;"	v
+stbi__div16	stb_image.h	2886;"	d
+stbi__div4	stb_image.h	2837;"	d
+stbi__do_png	stb_image.h	/^static unsigned char *stbi__do_png(stbi__png *p, int *x, int *y, int *n, int req_comp)$/;"	f
+stbi__do_zlib	stb_image.h	/^static int stbi__do_zlib(stbi__zbuf *a, char *obuf, int olen, int exp, int parse_header)$/;"	f
+stbi__err	stb_image.h	/^static int stbi__err(const char *str)$/;"	f
+stbi__err	stb_image.h	897;"	d
+stbi__err	stb_image.h	899;"	d
+stbi__err	stb_image.h	901;"	d
+stbi__errpf	stb_image.h	904;"	d
+stbi__errpuc	stb_image.h	905;"	d
+stbi__expand_png_palette	stb_image.h	/^static int stbi__expand_png_palette(stbi__png *a, stbi_uc *palette, int len, int pal_img_n)$/;"	f
+stbi__extend_receive	stb_image.h	/^stbi_inline static int stbi__extend_receive(stbi__jpeg *j, int n)$/;"	f
+stbi__f2f	stb_image.h	1905;"	d
+stbi__fill_bits	stb_image.h	/^static void stbi__fill_bits(stbi__zbuf *z)$/;"	f
+stbi__fill_gif_background	stb_image.h	/^static void stbi__fill_gif_background(stbi__gif *g)$/;"	f
+stbi__float2int	stb_image.h	1383;"	d
+stbi__float_postprocess	stb_image.h	/^static void stbi__float_postprocess(float *result, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__fopen	stb_image.h	/^static FILE *stbi__fopen(char const *filename, char const *mode)$/;"	f
+stbi__fsh	stb_image.h	1906;"	d
+stbi__g_failure_reason	stb_image.h	/^static const char *stbi__g_failure_reason;$/;"	v
+stbi__get16be	stb_image.h	/^static int stbi__get16be(stbi__context *s)$/;"	f
+stbi__get16le	stb_image.h	/^static int stbi__get16le(stbi__context *s)$/;"	f
+stbi__get32be	stb_image.h	/^static stbi__uint32 stbi__get32be(stbi__context *s)$/;"	f
+stbi__get32le	stb_image.h	/^static stbi__uint32 stbi__get32le(stbi__context *s)$/;"	f
+stbi__get8	stb_image.h	/^stbi_inline static stbi_uc stbi__get8(stbi__context *s)$/;"	f
+stbi__get_chunk_header	stb_image.h	/^static stbi__pngchunk stbi__get_chunk_header(stbi__context *s)$/;"	f
+stbi__get_marker	stb_image.h	/^static stbi_uc stbi__get_marker(stbi__jpeg *j)$/;"	f
+stbi__getn	stb_image.h	/^static int stbi__getn(stbi__context *s, stbi_uc *buffer, int n)$/;"	f
+stbi__gif	stb_image.h	/^} stbi__gif;$/;"	t	typeref:struct:__anon18
+stbi__gif_header	stb_image.h	/^static int stbi__gif_header(stbi__context *s, stbi__gif *g, int *comp, int is_info)$/;"	f
+stbi__gif_info	stb_image.h	/^static int stbi__gif_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__gif_info_raw	stb_image.h	/^static int stbi__gif_info_raw(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__gif_load	stb_image.h	/^static stbi_uc *stbi__gif_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__gif_load_next	stb_image.h	/^static stbi_uc *stbi__gif_load_next(stbi__context *s, stbi__gif *g, int *comp, int req_comp)$/;"	f
+stbi__gif_lzw	stb_image.h	/^} stbi__gif_lzw;$/;"	t	typeref:struct:__anon17
+stbi__gif_parse_colortable	stb_image.h	/^static void stbi__gif_parse_colortable(stbi__context *s, stbi_uc pal[256][4], int num_entries, int transp)$/;"	f
+stbi__gif_test	stb_image.h	/^static int stbi__gif_test(stbi__context *s)$/;"	f
+stbi__gif_test_raw	stb_image.h	/^static int stbi__gif_test_raw(stbi__context *s)$/;"	f
+stbi__grow_buffer_unsafe	stb_image.h	/^static void stbi__grow_buffer_unsafe(stbi__jpeg *j)$/;"	f
+stbi__h2l_gamma_i	stb_image.h	/^static float stbi__h2l_gamma_i=1.0f\/2.2f, stbi__h2l_scale_i=1.0f;$/;"	v
+stbi__h2l_scale_i	stb_image.h	/^static float stbi__h2l_gamma_i=1.0f\/2.2f, stbi__h2l_scale_i=1.0f;$/;"	v
+stbi__hdr_convert	stb_image.h	/^static void stbi__hdr_convert(float *output, stbi_uc *input, int req_comp)$/;"	f
+stbi__hdr_gettoken	stb_image.h	/^static char *stbi__hdr_gettoken(stbi__context *z, char *buffer)$/;"	f
+stbi__hdr_info	stb_image.h	/^static int stbi__hdr_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__hdr_load	stb_image.h	/^static float *stbi__hdr_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__hdr_test	stb_image.h	/^static int stbi__hdr_test(stbi__context* s)$/;"	f
+stbi__hdr_test_core	stb_image.h	/^static int stbi__hdr_test_core(stbi__context *s)$/;"	f
+stbi__hdr_to_ldr	stb_image.h	/^static stbi_uc *stbi__hdr_to_ldr(float   *data, int x, int y, int comp)$/;"	f
+stbi__high_bit	stb_image.h	/^static int stbi__high_bit(unsigned int z)$/;"	f
+stbi__huffman	stb_image.h	/^} stbi__huffman;$/;"	t	typeref:struct:__anon7
+stbi__idct_block	stb_image.h	/^static void stbi__idct_block(stbi_uc *out, int out_stride, short data[64])$/;"	f
+stbi__idct_simd	stb_image.h	/^static void stbi__idct_simd(stbi_uc *out, int out_stride, short data[64])$/;"	f
+stbi__info_main	stb_image.h	/^static int stbi__info_main(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__init_zdefaults	stb_image.h	/^static void stbi__init_zdefaults(void)$/;"	f
+stbi__int16	stb_image.h	/^typedef   signed short stbi__int16;$/;"	t
+stbi__int16	stb_image.h	/^typedef int16_t  stbi__int16;$/;"	t
+stbi__int32	stb_image.h	/^typedef   signed int   stbi__int32;$/;"	t
+stbi__int32	stb_image.h	/^typedef int32_t  stbi__int32;$/;"	t
+stbi__jbias	stb_image.h	/^static int const stbi__jbias[16] = {0,-1,-3,-7,-15,-31,-63,-127,-255,-511,-1023,-2047,-4095,-8191,-16383,-32767};$/;"	v
+stbi__jpeg	stb_image.h	/^} stbi__jpeg;$/;"	t	typeref:struct:__anon8
+stbi__jpeg_decode_block	stb_image.h	/^static int stbi__jpeg_decode_block(stbi__jpeg *j, short data[64], stbi__huffman *hdc, stbi__huffman *hac, stbi__int16 *fac, int b, stbi_uc *dequant)$/;"	f
+stbi__jpeg_decode_block_prog_ac	stb_image.h	/^static int stbi__jpeg_decode_block_prog_ac(stbi__jpeg *j, short data[64], stbi__huffman *hac, stbi__int16 *fac)$/;"	f
+stbi__jpeg_decode_block_prog_dc	stb_image.h	/^static int stbi__jpeg_decode_block_prog_dc(stbi__jpeg *j, short data[64], stbi__huffman *hdc, int b)$/;"	f
+stbi__jpeg_dequantize	stb_image.h	/^static void stbi__jpeg_dequantize(short *data, stbi_uc *dequant)$/;"	f
+stbi__jpeg_dezigzag	stb_image.h	/^static stbi_uc stbi__jpeg_dezigzag[64+15] =$/;"	v
+stbi__jpeg_finish	stb_image.h	/^static void stbi__jpeg_finish(stbi__jpeg *z)$/;"	f
+stbi__jpeg_get_bit	stb_image.h	/^stbi_inline static int stbi__jpeg_get_bit(stbi__jpeg *j)$/;"	f
+stbi__jpeg_get_bits	stb_image.h	/^stbi_inline static int stbi__jpeg_get_bits(stbi__jpeg *j, int n)$/;"	f
+stbi__jpeg_huff_decode	stb_image.h	/^stbi_inline static int stbi__jpeg_huff_decode(stbi__jpeg *j, stbi__huffman *h)$/;"	f
+stbi__jpeg_info	stb_image.h	/^static int stbi__jpeg_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__jpeg_info_raw	stb_image.h	/^static int stbi__jpeg_info_raw(stbi__jpeg *j, int *x, int *y, int *comp)$/;"	f
+stbi__jpeg_load	stb_image.h	/^static unsigned char *stbi__jpeg_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__jpeg_reset	stb_image.h	/^static void stbi__jpeg_reset(stbi__jpeg *j)$/;"	f
+stbi__jpeg_test	stb_image.h	/^static int stbi__jpeg_test(stbi__context *s)$/;"	f
+stbi__l2h_gamma	stb_image.h	/^static float stbi__l2h_gamma=2.2f, stbi__l2h_scale=1.0f;$/;"	v
+stbi__l2h_scale	stb_image.h	/^static float stbi__l2h_gamma=2.2f, stbi__l2h_scale=1.0f;$/;"	v
+stbi__ldr_to_hdr	stb_image.h	/^static float   *stbi__ldr_to_hdr(stbi_uc *data, int x, int y, int comp)$/;"	f
+stbi__load_flip	stb_image.h	/^static unsigned char *stbi__load_flip(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__load_main	stb_image.h	/^static unsigned char *stbi__load_main(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__loadf_main	stb_image.h	/^static float *stbi__loadf_main(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__malloc	stb_image.h	/^static void *stbi__malloc(size_t size)$/;"	f
+stbi__out_gif_code	stb_image.h	/^static void stbi__out_gif_code(stbi__gif *g, stbi__uint16 code)$/;"	f
+stbi__paeth	stb_image.h	/^static int stbi__paeth(int a, int b, int c)$/;"	f
+stbi__parse_entropy_coded_data	stb_image.h	/^static int stbi__parse_entropy_coded_data(stbi__jpeg *z)$/;"	f
+stbi__parse_huffman_block	stb_image.h	/^static int stbi__parse_huffman_block(stbi__zbuf *a)$/;"	f
+stbi__parse_png_file	stb_image.h	/^static int stbi__parse_png_file(stbi__png *z, int scan, int req_comp)$/;"	f
+stbi__parse_uncomperssed_block	stb_image.h	/^static int stbi__parse_uncomperssed_block(stbi__zbuf *a)$/;"	f
+stbi__parse_zlib	stb_image.h	/^static int stbi__parse_zlib(stbi__zbuf *a, int parse_header)$/;"	f
+stbi__parse_zlib_header	stb_image.h	/^static int stbi__parse_zlib_header(stbi__zbuf *a)$/;"	f
+stbi__pic_info	stb_image.h	/^static int stbi__pic_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__pic_is4	stb_image.h	/^static int stbi__pic_is4(stbi__context *s,const char *str)$/;"	f
+stbi__pic_load	stb_image.h	/^static stbi_uc *stbi__pic_load(stbi__context *s,int *px,int *py,int *comp,int req_comp)$/;"	f
+stbi__pic_load_core	stb_image.h	/^static stbi_uc *stbi__pic_load_core(stbi__context *s,int width,int height,int *comp, stbi_uc *result)$/;"	f
+stbi__pic_packet	stb_image.h	/^} stbi__pic_packet;$/;"	t	typeref:struct:__anon16
+stbi__pic_test	stb_image.h	/^static int stbi__pic_test(stbi__context *s)$/;"	f
+stbi__pic_test_core	stb_image.h	/^static int stbi__pic_test_core(stbi__context *s)$/;"	f
+stbi__png	stb_image.h	/^} stbi__png;$/;"	t	typeref:struct:__anon14
+stbi__png_info	stb_image.h	/^static int stbi__png_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__png_info_raw	stb_image.h	/^static int stbi__png_info_raw(stbi__png *p, int *x, int *y, int *comp)$/;"	f
+stbi__png_load	stb_image.h	/^static unsigned char *stbi__png_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__png_test	stb_image.h	/^static int stbi__png_test(stbi__context *s)$/;"	f
+stbi__pngchunk	stb_image.h	/^} stbi__pngchunk;$/;"	t	typeref:struct:__anon13
+stbi__pnm_getinteger	stb_image.h	/^static int      stbi__pnm_getinteger(stbi__context *s, char *c)$/;"	f
+stbi__pnm_info	stb_image.h	/^static int      stbi__pnm_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__pnm_isdigit	stb_image.h	/^static int      stbi__pnm_isdigit(char c)$/;"	f
+stbi__pnm_isspace	stb_image.h	/^static int      stbi__pnm_isspace(char c)$/;"	f
+stbi__pnm_load	stb_image.h	/^static stbi_uc *stbi__pnm_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__pnm_skip_whitespace	stb_image.h	/^static void     stbi__pnm_skip_whitespace(stbi__context *s, char *c)$/;"	f
+stbi__pnm_test	stb_image.h	/^static int      stbi__pnm_test(stbi__context *s)$/;"	f
+stbi__process_frame_header	stb_image.h	/^static int stbi__process_frame_header(stbi__jpeg *z, int scan)$/;"	f
+stbi__process_gif_raster	stb_image.h	/^static stbi_uc *stbi__process_gif_raster(stbi__context *s, stbi__gif *g)$/;"	f
+stbi__process_marker	stb_image.h	/^static int stbi__process_marker(stbi__jpeg *z, int m)$/;"	f
+stbi__process_scan_header	stb_image.h	/^static int stbi__process_scan_header(stbi__jpeg *z)$/;"	f
+stbi__psd_info	stb_image.h	/^static int stbi__psd_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__psd_load	stb_image.h	/^static stbi_uc *stbi__psd_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__psd_test	stb_image.h	/^static int stbi__psd_test(stbi__context *s)$/;"	f
+stbi__readval	stb_image.h	/^static stbi_uc *stbi__readval(stbi__context *s, int channel, stbi_uc *dest)$/;"	f
+stbi__refill_buffer	stb_image.h	/^static void stbi__refill_buffer(stbi__context *s)$/;"	f
+stbi__resample	stb_image.h	/^} stbi__resample;$/;"	t	typeref:struct:__anon10
+stbi__resample_row_generic	stb_image.h	/^static stbi_uc *stbi__resample_row_generic(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_h_2	stb_image.h	/^static stbi_uc*  stbi__resample_row_h_2(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_hv_2	stb_image.h	/^static stbi_uc *stbi__resample_row_hv_2(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_hv_2_simd	stb_image.h	/^static stbi_uc *stbi__resample_row_hv_2_simd(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_v_2	stb_image.h	/^static stbi_uc* stbi__resample_row_v_2(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__rewind	stb_image.h	/^static void stbi__rewind(stbi__context *s)$/;"	f
+stbi__setup_jpeg	stb_image.h	/^static void stbi__setup_jpeg(stbi__jpeg *j)$/;"	f
+stbi__shiftsigned	stb_image.h	/^static int stbi__shiftsigned(int v, int shift, int bits)$/;"	f
+stbi__skip	stb_image.h	/^static void stbi__skip(stbi__context *s, int n)$/;"	f
+stbi__sse2_available	stb_image.h	/^static int stbi__sse2_available()$/;"	f
+stbi__start_callbacks	stb_image.h	/^static void stbi__start_callbacks(stbi__context *s, stbi_io_callbacks *c, void *user)$/;"	f
+stbi__start_file	stb_image.h	/^static void stbi__start_file(stbi__context *s, FILE *f)$/;"	f
+stbi__start_mem	stb_image.h	/^static void stbi__start_mem(stbi__context *s, stbi_uc const *buffer, int len)$/;"	f
+stbi__stdio_callbacks	stb_image.h	/^static stbi_io_callbacks stbi__stdio_callbacks =$/;"	v
+stbi__stdio_eof	stb_image.h	/^static int stbi__stdio_eof(void *user)$/;"	f
+stbi__stdio_read	stb_image.h	/^static int stbi__stdio_read(void *user, char *data, int size)$/;"	f
+stbi__stdio_skip	stb_image.h	/^static void stbi__stdio_skip(void *user, int n)$/;"	f
+stbi__tga_info	stb_image.h	/^static int stbi__tga_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__tga_load	stb_image.h	/^static stbi_uc *stbi__tga_load(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__tga_test	stb_image.h	/^static int stbi__tga_test(stbi__context *s)$/;"	f
+stbi__uint16	stb_image.h	/^typedef uint16_t stbi__uint16;$/;"	t
+stbi__uint16	stb_image.h	/^typedef unsigned short stbi__uint16;$/;"	t
+stbi__uint32	stb_image.h	/^typedef uint32_t stbi__uint32;$/;"	t
+stbi__uint32	stb_image.h	/^typedef unsigned int   stbi__uint32;$/;"	t
+stbi__unpremultiply_on_load	stb_image.h	/^static int stbi__unpremultiply_on_load = 0;$/;"	v
+stbi__vertically_flip_on_load	stb_image.h	/^static int stbi__vertically_flip_on_load = 0;$/;"	v
+stbi__zbuf	stb_image.h	/^} stbi__zbuf;$/;"	t	typeref:struct:__anon12
+stbi__zbuild_huffman	stb_image.h	/^static int stbi__zbuild_huffman(stbi__zhuffman *z, stbi_uc *sizelist, int num)$/;"	f
+stbi__zdefault_distance	stb_image.h	/^static stbi_uc stbi__zdefault_length[288], stbi__zdefault_distance[32];$/;"	v
+stbi__zdefault_length	stb_image.h	/^static stbi_uc stbi__zdefault_length[288], stbi__zdefault_distance[32];$/;"	v
+stbi__zdist_base	stb_image.h	/^static int stbi__zdist_base[32] = { 1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,$/;"	v
+stbi__zdist_extra	stb_image.h	/^static int stbi__zdist_extra[32] =$/;"	v
+stbi__zexpand	stb_image.h	/^static int stbi__zexpand(stbi__zbuf *z, char *zout, int n)  \/\/ need to make room for n bytes$/;"	f
+stbi__zget8	stb_image.h	/^stbi_inline static stbi_uc stbi__zget8(stbi__zbuf *z)$/;"	f
+stbi__zhuffman	stb_image.h	/^} stbi__zhuffman;$/;"	t	typeref:struct:__anon11
+stbi__zhuffman_decode	stb_image.h	/^stbi_inline static int stbi__zhuffman_decode(stbi__zbuf *a, stbi__zhuffman *z)$/;"	f
+stbi__zhuffman_decode_slowpath	stb_image.h	/^static int stbi__zhuffman_decode_slowpath(stbi__zbuf *a, stbi__zhuffman *z)$/;"	f
+stbi__zlength_base	stb_image.h	/^static int stbi__zlength_base[31] = {$/;"	v
+stbi__zlength_extra	stb_image.h	/^static int stbi__zlength_extra[31]=$/;"	v
+stbi__zreceive	stb_image.h	/^stbi_inline static unsigned int stbi__zreceive(stbi__zbuf *z, int n)$/;"	f
+stbi_convert_iphone_png_to_rgb	stb_image.h	/^STBIDEF void stbi_convert_iphone_png_to_rgb(int flag_true_if_should_convert)$/;"	f
+stbi_failure_reason	stb_image.h	/^STBIDEF const char *stbi_failure_reason(void)$/;"	f
+stbi_hdr_to_ldr_gamma	stb_image.h	/^STBIDEF void   stbi_hdr_to_ldr_gamma(float gamma) { stbi__h2l_gamma_i = 1\/gamma; }$/;"	f
+stbi_hdr_to_ldr_scale	stb_image.h	/^STBIDEF void   stbi_hdr_to_ldr_scale(float scale) { stbi__h2l_scale_i = 1\/scale; }$/;"	f
+stbi_image_free	stb_image.h	/^STBIDEF void stbi_image_free(void *retval_from_stbi_load)$/;"	f
+stbi_info	stb_image.h	/^STBIDEF int stbi_info(char const *filename, int *x, int *y, int *comp)$/;"	f
+stbi_info_from_callbacks	stb_image.h	/^STBIDEF int stbi_info_from_callbacks(stbi_io_callbacks const *c, void *user, int *x, int *y, int *comp)$/;"	f
+stbi_info_from_file	stb_image.h	/^STBIDEF int stbi_info_from_file(FILE *f, int *x, int *y, int *comp)$/;"	f
+stbi_info_from_memory	stb_image.h	/^STBIDEF int stbi_info_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *comp)$/;"	f
+stbi_inline	stb_image.h	581;"	d
+stbi_inline	stb_image.h	583;"	d
+stbi_inline	stb_image.h	586;"	d
+stbi_io_callbacks	stb_image.h	/^} stbi_io_callbacks;$/;"	t	typeref:struct:__anon4
+stbi_is_hdr	stb_image.h	/^STBIDEF int      stbi_is_hdr          (char const *filename)$/;"	f
+stbi_is_hdr_from_callbacks	stb_image.h	/^STBIDEF int      stbi_is_hdr_from_callbacks(stbi_io_callbacks const *clbk, void *user)$/;"	f
+stbi_is_hdr_from_file	stb_image.h	/^STBIDEF int      stbi_is_hdr_from_file(FILE *f)$/;"	f
+stbi_is_hdr_from_memory	stb_image.h	/^STBIDEF int stbi_is_hdr_from_memory(stbi_uc const *buffer, int len)$/;"	f
+stbi_ldr_to_hdr_gamma	stb_image.h	/^STBIDEF void   stbi_ldr_to_hdr_gamma(float gamma) { stbi__l2h_gamma = gamma; }$/;"	f
+stbi_ldr_to_hdr_scale	stb_image.h	/^STBIDEF void   stbi_ldr_to_hdr_scale(float scale) { stbi__l2h_scale = scale; }$/;"	f
+stbi_load	stb_image.h	/^STBIDEF stbi_uc *stbi_load(char const *filename, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_from_callbacks	stb_image.h	/^STBIDEF stbi_uc *stbi_load_from_callbacks(stbi_io_callbacks const *clbk, void *user, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_from_file	stb_image.h	/^STBIDEF stbi_uc *stbi_load_from_file(FILE *f, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_from_memory	stb_image.h	/^STBIDEF stbi_uc *stbi_load_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf	stb_image.h	/^STBIDEF float *stbi_loadf(char const *filename, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf_from_callbacks	stb_image.h	/^STBIDEF float *stbi_loadf_from_callbacks(stbi_io_callbacks const *clbk, void *user, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf_from_file	stb_image.h	/^STBIDEF float *stbi_loadf_from_file(FILE *f, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf_from_memory	stb_image.h	/^STBIDEF float *stbi_loadf_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_lrot	stb_image.h	617;"	d
+stbi_lrot	stb_image.h	619;"	d
+stbi_set_flip_vertically_on_load	stb_image.h	/^STBIDEF void stbi_set_flip_vertically_on_load(int flag_true_if_should_flip)$/;"	f
+stbi_set_unpremultiply_on_load	stb_image.h	/^STBIDEF void stbi_set_unpremultiply_on_load(int flag_true_if_should_unpremultiply)$/;"	f
+stbi_uc	stb_image.h	/^typedef unsigned char stbi_uc;$/;"	t
+stbi_write_bmp	stb_image_write.h	/^int stbi_write_bmp(char const *filename, int x, int y, int comp, const void *data)$/;"	f
+stbi_write_hdr	stb_image_write.h	/^int stbi_write_hdr(char const *filename, int x, int y, int comp, const float *data)$/;"	f
+stbi_write_png	stb_image_write.h	/^int stbi_write_png(char const *filename, int x, int y, int comp, const void *data, int stride_bytes)$/;"	f
+stbi_write_png_to_mem	stb_image_write.h	/^unsigned char *stbi_write_png_to_mem(unsigned char *pixels, int stride_bytes, int x, int y, int n, int *out_len)$/;"	f
+stbi_write_tga	stb_image_write.h	/^int stbi_write_tga(char const *filename, int x, int y, int comp, const void *data)$/;"	f
+stbi_zlib_compress	stb_image_write.h	/^unsigned char * stbi_zlib_compress(unsigned char *data, int data_len, int *out_len, int quality)$/;"	f
+stbi_zlib_decode_buffer	stb_image.h	/^STBIDEF int stbi_zlib_decode_buffer(char *obuffer, int olen, char const *ibuffer, int ilen)$/;"	f
+stbi_zlib_decode_malloc	stb_image.h	/^STBIDEF char *stbi_zlib_decode_malloc(char const *buffer, int len, int *outlen)$/;"	f
+stbi_zlib_decode_malloc_guesssize	stb_image.h	/^STBIDEF char *stbi_zlib_decode_malloc_guesssize(const char *buffer, int len, int initial_size, int *outlen)$/;"	f
+stbi_zlib_decode_malloc_guesssize_headerflag	stb_image.h	/^STBIDEF char *stbi_zlib_decode_malloc_guesssize_headerflag(const char *buffer, int len, int initial_size, int *outlen, int parse_header)$/;"	f
+stbi_zlib_decode_noheader_buffer	stb_image.h	/^STBIDEF int stbi_zlib_decode_noheader_buffer(char *obuffer, int olen, const char *ibuffer, int ilen)$/;"	f
+stbi_zlib_decode_noheader_malloc	stb_image.h	/^STBIDEF char *stbi_zlib_decode_noheader_malloc(char const *buffer, int len, int *outlen)$/;"	f
+stbiw__ZHASH	stb_image_write.h	467;"	d
+stbiw__crc32	stb_image_write.h	/^unsigned int stbiw__crc32(unsigned char *buffer, int len)$/;"	f
+stbiw__linear_to_rgbe	stb_image_write.h	/^void stbiw__linear_to_rgbe(unsigned char *rgbe, float *linear)$/;"	f
+stbiw__max	stb_image_write.h	243;"	d
+stbiw__paeth	stb_image_write.h	/^static unsigned char stbiw__paeth(int a, int b, int c)$/;"	f
+stbiw__sbcount	stb_image_write.h	399;"	d
+stbiw__sbfree	stb_image_write.h	400;"	d
+stbiw__sbgrow	stb_image_write.h	396;"	d
+stbiw__sbgrowf	stb_image_write.h	/^static void *stbiw__sbgrowf(void **arr, int increment, int itemsize)$/;"	f
+stbiw__sbm	stb_image_write.h	391;"	d
+stbiw__sbmaybegrow	stb_image_write.h	395;"	d
+stbiw__sbn	stb_image_write.h	392;"	d
+stbiw__sbneedgrow	stb_image_write.h	394;"	d
+stbiw__sbpush	stb_image_write.h	398;"	d
+stbiw__sbraw	stb_image_write.h	390;"	d
+stbiw__wp32	stb_image_write.h	587;"	d
+stbiw__wpcrc	stb_image_write.h	/^static void stbiw__wpcrc(unsigned char **data, int len)$/;"	f
+stbiw__wpng4	stb_image_write.h	586;"	d
+stbiw__wptag	stb_image_write.h	588;"	d
+stbiw__write_dump_data	stb_image_write.h	/^void stbiw__write_dump_data(FILE *f, int length, unsigned char *data)$/;"	f
+stbiw__write_hdr_scanline	stb_image_write.h	/^void stbiw__write_hdr_scanline(FILE *f, int width, int comp, unsigned char *scratch, const float *scanline)$/;"	f
+stbiw__write_run_data	stb_image_write.h	/^void stbiw__write_run_data(FILE *f, int length, unsigned char databyte)$/;"	f
+stbiw__zhash	stb_image_write.h	/^static unsigned int stbiw__zhash(unsigned char *data)$/;"	f
+stbiw__zlib_add	stb_image_write.h	456;"	d
+stbiw__zlib_bitrev	stb_image_write.h	/^static int stbiw__zlib_bitrev(int code, int codebits)$/;"	f
+stbiw__zlib_countm	stb_image_write.h	/^static unsigned int stbiw__zlib_countm(unsigned char *a, unsigned char *b, int limit)$/;"	f
+stbiw__zlib_flush	stb_image_write.h	455;"	d
+stbiw__zlib_flushf	stb_image_write.h	/^static unsigned char *stbiw__zlib_flushf(unsigned char *data, unsigned int *bitbuffer, int *bitcount)$/;"	f
+stbiw__zlib_huff	stb_image_write.h	464;"	d
+stbiw__zlib_huff1	stb_image_write.h	460;"	d
+stbiw__zlib_huff2	stb_image_write.h	461;"	d
+stbiw__zlib_huff3	stb_image_write.h	462;"	d
+stbiw__zlib_huff4	stb_image_write.h	463;"	d
+stbiw__zlib_huffa	stb_image_write.h	458;"	d
+stbiw__zlib_huffb	stb_image_write.h	465;"	d
+stbiw_uint32	stb_image_write.h	/^typedef unsigned int stbiw_uint32;$/;"	t
+step	network.h	/^    int step;$/;"	m	struct:network
+step	stb_image.h	/^   int parse, step;$/;"	m	struct:__anon18
+steps	layer.h	/^    int steps;$/;"	m	struct:layer
+steps	network.h	/^    int   *steps;$/;"	m	struct:network
+stride	layer.h	/^    int stride;$/;"	m	struct:layer
+string_to_board	go.c	/^void string_to_board(char *s, float *board)$/;"	f
+string_to_layer_type	parser.c	/^LAYER_TYPE string_to_layer_type(char * type)$/;"	f
+strip	utils.c	/^void strip(char *s)$/;"	f
+strip_char	utils.c	/^void strip_char(char *s, char bad)$/;"	f
+subdivisions	network.h	/^    int subdivisions;$/;"	m	struct:network
+succ_high	stb_image.h	/^   int            succ_high;$/;"	m	struct:__anon8
+succ_low	stb_image.h	/^   int            succ_low;$/;"	m	struct:__anon8
+suffix	stb_image.h	/^   stbi_uc suffix;$/;"	m	struct:__anon17
+suicide_go	go.c	/^int suicide_go(float *b, int p, int r, int c)$/;"	f
+sum_array	utils.c	/^float sum_array(float *a, int n)$/;"	f
+swap_binary	convolutional_layer.c	/^void swap_binary(convolutional_layer *l)$/;"	f
+t	layer.h	/^    int t;$/;"	m	struct:layer
+tanh_activate	activations.h	/^static inline float tanh_activate(float x){return (exp(2*x)-1)\/(exp(2*x)+1);}$/;"	f
+tanh_gradient	activations.h	/^static inline float tanh_gradient(float x){return 1-x*x;}$/;"	f
+temperature	layer.h	/^    float temperature;$/;"	m	struct:layer
+test_box	box.c	/^void test_box()$/;"	f
+test_captcha	captcha.c	/^void test_captcha(char *cfgfile, char *weightfile, char *filename)$/;"	f
+test_char_rnn	rnn.c	/^void test_char_rnn(char *cfgfile, char *weightfile, int num, char *seed, float temp, int rseed, char *token_file)$/;"	f
+test_cifar	cifar.c	/^void test_cifar(char *filename, char *weightfile)$/;"	f
+test_cifar_csv	cifar.c	/^void test_cifar_csv(char *filename, char *weightfile)$/;"	f
+test_cifar_csvtrain	cifar.c	/^void test_cifar_csvtrain(char *filename, char *weightfile)$/;"	f
+test_cifar_multi	cifar.c	/^void test_cifar_multi(char *filename, char *weightfile)$/;"	f
+test_classifier	classifier.c	/^void test_classifier(char *datacfg, char *cfgfile, char *weightfile, int target_layer)$/;"	f
+test_coco	coco.c	/^void test_coco(char *cfgfile, char *weightfile, char *filename, float thresh)$/;"	f
+test_convolutional_layer	convolutional_layer.c	/^void test_convolutional_layer()$/;"	f
+test_detector	detector.c	/^void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filename, float thresh, float hier_thresh)$/;"	f
+test_dice	dice.c	/^void test_dice(char *cfgfile, char *weightfile, char *filename)$/;"	f
+test_dintersect	box.c	/^void test_dintersect()$/;"	f
+test_dunion	box.c	/^void test_dunion()$/;"	f
+test_go	go.c	/^void test_go(char *cfg, char *weights, int multi)$/;"	f
+test_gpu_accuracy	gemm.c	/^void test_gpu_accuracy(int TA, int TB, int m, int k, int n)$/;"	f
+test_gpu_blas	gemm.c	/^int test_gpu_blas()$/;"	f
+test_resize	image.c	/^void test_resize(char *filename)$/;"	f
+test_super	super.c	/^void test_super(char *cfgfile, char *weightfile, char *filename)$/;"	f
+test_tactic_rnn	rnn.c	/^void test_tactic_rnn(char *cfgfile, char *weightfile, int num, float temp, int rseed, char *token_file)$/;"	f
+test_tag	tag.c	/^void test_tag(char *cfgfile, char *weightfile, char *filename)$/;"	f
+test_voxel	voxel.c	/^void test_voxel(char *cfgfile, char *weightfile, char *filename)$/;"	f
+test_writing	writing.c	/^void test_writing(char *cfgfile, char *weightfile, char *filename)$/;"	f
+test_yolo	yolo.c	/^void test_yolo(char *cfgfile, char *weightfile, char *filename, float thresh)$/;"	f
+threads	data.h	/^    int threads;$/;"	m	struct:load_args
+threat_classifier	classifier.c	/^void threat_classifier(char *datacfg, char *cfgfile, char *weightfile, int cam_index, const char *filename)$/;"	f
+three_way_max	image.c	/^float three_way_max(float a, float b, float c)$/;"	f
+three_way_min	image.c	/^float three_way_min(float a, float b, float c)$/;"	f
+thresh	layer.h	/^    float thresh;$/;"	m	struct:layer
+threshold_image	image.c	/^image threshold_image(image im, float thresh)$/;"	f
+tile_images	image.c	/^image tile_images(image a, image b, int dx)$/;"	f
+time_gpu_random_matrix	gemm.c	/^void time_gpu_random_matrix(int TA, int TB, int m, int k, int n)$/;"	f
+time_ongpu	gemm.c	/^void time_ongpu(int TA, int TB, int m, int k, int n)$/;"	f
+time_random_matrix	gemm.c	/^void time_random_matrix(int TA, int TB, int m, int k, int n)$/;"	f
+time_steps	network.h	/^    int time_steps;$/;"	m	struct:network
+time_steps	parser.c	/^    int time_steps;$/;"	m	struct:size_params	file:
+tisnan	region_layer.c	/^float tisnan(float x)$/;"	f
+todo	stb_image.h	/^   int restart_interval, todo;$/;"	m	struct:__anon8
+top	data.h	/^    float left, right, top, bottom;$/;"	m	struct:__anon28
+top_k	utils.c	/^void top_k(float *a, int n, int k, int *index)$/;"	f
+top_predictions	network.c	/^void top_predictions(network net, int k, int *index)$/;"	f
+total	gemm.c	/^long long int total = 0;$/;"	v
+total_compares	compare.c	/^int total_compares = 0;$/;"	v
+tq	stb_image.h	/^      int tq;$/;"	m	struct:__anon8::__anon9
+train	network.h	/^    int train;$/;"	m	struct:network_state
+train_captcha	captcha.c	/^void train_captcha(char *cfgfile, char *weightfile)$/;"	f
+train_char_rnn	rnn.c	/^void train_char_rnn(char *cfgfile, char *weightfile, char *filename, int clear, int tokenized)$/;"	f
+train_cifar	cifar.c	/^void train_cifar(char *cfgfile, char *weightfile)$/;"	f
+train_cifar_distill	cifar.c	/^void train_cifar_distill(char *cfgfile, char *weightfile)$/;"	f
+train_classifier	classifier.c	/^void train_classifier(char *datacfg, char *cfgfile, char *weightfile, int *gpus, int ngpus, int clear)$/;"	f
+train_coco	coco.c	/^void train_coco(char *cfgfile, char *weightfile)$/;"	f
+train_compare	compare.c	/^void train_compare(char *cfgfile, char *weightfile)$/;"	f
+train_detector	detector.c	/^void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, int ngpus, int clear)$/;"	f
+train_dice	dice.c	/^void train_dice(char *cfgfile, char *weightfile)$/;"	f
+train_go	go.c	/^void train_go(char *cfgfile, char *weightfile)$/;"	f
+train_network	network.c	/^float train_network(network net, data d)$/;"	f
+train_network_batch	network.c	/^float train_network_batch(network net, data d, int n)$/;"	f
+train_network_datum	network.c	/^float train_network_datum(network net, float *x, float *y)$/;"	f
+train_network_sgd	network.c	/^float train_network_sgd(network net, data d, int n)$/;"	f
+train_super	super.c	/^void train_super(char *cfgfile, char *weightfile)$/;"	f
+train_swag	swag.c	/^void train_swag(char *cfgfile, char *weightfile)$/;"	f
+train_tag	tag.c	/^void train_tag(char *cfgfile, char *weightfile, int clear)$/;"	f
+train_vid_rnn	rnn_vid.c	/^void train_vid_rnn(char *cfgfile, char *weightfile)$/;"	f
+train_voxel	voxel.c	/^void train_voxel(char *cfgfile, char *weightfile)$/;"	f
+train_writing	writing.c	/^void train_writing(char *cfgfile, char *weightfile)$/;"	f
+train_yolo	yolo.c	/^void train_yolo(char *cfgfile, char *weightfile)$/;"	f
+translate_array	utils.c	/^void translate_array(float *a, int n, float s)$/;"	f
+translate_data_rows	data.c	/^void translate_data_rows(data d, float s)$/;"	f
+translate_image	image.c	/^void translate_image(image m, float s)$/;"	f
+translate_image_channel	image.c	/^void translate_image_channel(image im, int c, float v)$/;"	f
+transparent	stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon18
+transpose_image	image.c	/^void transpose_image(image im)$/;"	f
+transpose_matrix	parser.c	/^void transpose_matrix(float *a, int rows, int cols)$/;"	f
+tree	tree.h	/^} tree;$/;"	t	typeref:struct:__anon25
+truth	network.h	/^    float *truth;$/;"	m	struct:network_state
+truth_gpu	network.h	/^    float **truth_gpu;$/;"	m	struct:network
+truths	layer.h	/^    int truths;$/;"	m	struct:layer
+try_classifier	classifier.c	/^void try_classifier(char *datacfg, char *cfgfile, char *weightfile, char *filename, int layer_num)$/;"	f
+type	data.h	/^    data_type type;$/;"	m	struct:load_args
+type	layer.h	/^    LAYER_TYPE type;$/;"	m	struct:layer
+type	parser.c	/^    char *type;$/;"	m	struct:__anon21	file:
+type	stb_image.h	/^   stbi__uint32 type;$/;"	m	struct:__anon13
+type	stb_image.h	/^   stbi_uc size,type,channel;$/;"	m	struct:__anon16
+update	layer.h	/^    void (*update)    (struct layer, int, float, float, float);$/;"	m	struct:layer
+update_connected_layer	connected_layer.c	/^void update_connected_layer(connected_layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_connected_layer_gpu	connected_layer.c	/^void update_connected_layer_gpu(connected_layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_convolutional_layer	convolutional_layer.c	/^void update_convolutional_layer(convolutional_layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_crnn_layer	crnn_layer.c	/^void update_crnn_layer(layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_crnn_layer_gpu	crnn_layer.c	/^void update_crnn_layer_gpu(layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_deconvolutional_layer	deconvolutional_layer.c	/^void update_deconvolutional_layer(deconvolutional_layer l, float learning_rate, float momentum, float decay)$/;"	f
+update_gpu	layer.h	/^    void (*update_gpu)    (struct layer, int, float, float, float);$/;"	m	struct:layer
+update_gru_layer	gru_layer.c	/^void update_gru_layer(layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_gru_layer_gpu	gru_layer.c	/^void update_gru_layer_gpu(layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_local_layer	local_layer.c	/^void update_local_layer(local_layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_local_layer_gpu	local_layer.c	/^void update_local_layer_gpu(local_layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_network	network.c	/^void update_network(network net)$/;"	f
+update_rnn_layer	rnn_layer.c	/^void update_rnn_layer(layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+update_rnn_layer_gpu	rnn_layer.c	/^void update_rnn_layer_gpu(layer l, int batch, float learning_rate, float momentum, float decay)$/;"	f
+used	option_list.h	/^    int used;$/;"	m	struct:__anon31
+v	layer.h	/^    float * v;$/;"	m	struct:layer
+v	stb_image.h	/^      int h,v;$/;"	m	struct:__anon8::__anon9
+v_gpu	layer.h	/^    float *v_gpu;$/;"	m	struct:layer
+val	list.h	/^    void *val;$/;"	m	struct:node
+val	option_list.h	/^    char *val;$/;"	m	struct:__anon31
+valid_captcha	captcha.c	/^void valid_captcha(char *cfgfile, char *weightfile, char *filename)$/;"	f
+valid_char_rnn	rnn.c	/^void valid_char_rnn(char *cfgfile, char *weightfile, char *seed)$/;"	f
+valid_go	go.c	/^void valid_go(char *cfgfile, char *weightfile, int multi)$/;"	f
+valid_tactic_rnn	rnn.c	/^void valid_tactic_rnn(char *cfgfile, char *weightfile, char *seed)$/;"	f
+validate_classifier_10	classifier.c	/^void validate_classifier_10(char *datacfg, char *filename, char *weightfile)$/;"	f
+validate_classifier_crop	classifier.c	/^void validate_classifier_crop(char *datacfg, char *filename, char *weightfile)$/;"	f
+validate_classifier_full	classifier.c	/^void validate_classifier_full(char *datacfg, char *filename, char *weightfile)$/;"	f
+validate_classifier_multi	classifier.c	/^void validate_classifier_multi(char *datacfg, char *filename, char *weightfile)$/;"	f
+validate_classifier_single	classifier.c	/^void validate_classifier_single(char *datacfg, char *filename, char *weightfile)$/;"	f
+validate_coco	coco.c	/^void validate_coco(char *cfgfile, char *weightfile)$/;"	f
+validate_coco_recall	coco.c	/^void validate_coco_recall(char *cfgfile, char *weightfile)$/;"	f
+validate_compare	compare.c	/^void validate_compare(char *filename, char *weightfile)$/;"	f
+validate_detector	detector.c	/^void validate_detector(char *datacfg, char *cfgfile, char *weightfile, char *outfile)$/;"	f
+validate_detector_recall	detector.c	/^void validate_detector_recall(char *cfgfile, char *weightfile)$/;"	f
+validate_dice	dice.c	/^void validate_dice(char *filename, char *weightfile)$/;"	f
+validate_uint32	stb_image.h	/^typedef unsigned char validate_uint32[sizeof(stbi__uint32)==4 ? 1 : -1];$/;"	t
+validate_yolo	yolo.c	/^void validate_yolo(char *cfgfile, char *weightfile)$/;"	f
+validate_yolo_recall	yolo.c	/^void validate_yolo_recall(char *cfgfile, char *weightfile)$/;"	f
+vals	matrix.h	/^    float **vals;$/;"	m	struct:matrix
+value	stb_image.h	/^   stbi__uint16 value[288];$/;"	m	struct:__anon11
+values	stb_image.h	/^   stbi_uc  values[256];$/;"	m	struct:__anon7
+variance	layer.h	/^    float * variance;$/;"	m	struct:layer
+variance_array	utils.c	/^float variance_array(float *a, int n)$/;"	f
+variance_cpu	blas.c	/^void variance_cpu(float *x, float *mean, int batch, int filters, int spatial, float *variance)$/;"	f
+variance_delta	layer.h	/^    float * variance_delta;$/;"	m	struct:layer
+variance_delta_cpu	batchnorm_layer.c	/^void  variance_delta_cpu(float *x, float *delta, float *mean, float *variance, int batch, int filters, int spatial, float *variance_delta)$/;"	f
+variance_delta_gpu	layer.h	/^    float * variance_delta_gpu;$/;"	m	struct:layer
+variance_gpu	layer.h	/^    float * variance_gpu;$/;"	m	struct:layer
+vec_char_rnn	rnn.c	/^void vec_char_rnn(char *cfgfile, char *weightfile, char *seed)$/;"	f
+visualize	darknet.c	/^void visualize(char *cfgfile, char *weightfile)$/;"	f
+visualize_convolutional_layer	convolutional_layer.c	/^image *visualize_convolutional_layer(convolutional_layer l, char *window, image *prev_weights)$/;"	f
+visualize_network	network.c	/^void visualize_network(network net)$/;"	f
+voc_names	yolo.c	/^char *voc_names[] = {"aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"};$/;"	v
+vs	stb_image.h	/^   int hs,vs;   \/\/ expansion factor in each axis$/;"	m	struct:__anon10
+w	box.h	/^    float x, y, w, h;$/;"	m	struct:__anon23
+w	data.h	/^    float x,y,w,h;$/;"	m	struct:__anon28
+w	data.h	/^    int w, h;$/;"	m	struct:__anon26
+w	data.h	/^    int w;$/;"	m	struct:load_args
+w	image.h	/^    int w;$/;"	m	struct:__anon19
+w	layer.h	/^    int h,w,c;$/;"	m	struct:layer
+w	network.h	/^    int h, w, c;$/;"	m	struct:network
+w	parser.c	/^    int w;$/;"	m	struct:size_params	file:
+w	stb_image.h	/^   int w,h;$/;"	m	struct:__anon18
+w2	stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon8::__anon9
+w_lores	stb_image.h	/^   int w_lores; \/\/ horizontal pixels pre-expansion$/;"	m	struct:__anon10
+weightDesc	layer.h	/^    cudnnFilterDescriptor_t weightDesc;$/;"	m	struct:layer
+weight_updates	layer.h	/^    float * weight_updates;$/;"	m	struct:layer
+weight_updates_gpu	layer.h	/^    float * weight_updates_gpu;$/;"	m	struct:layer
+weighted_sum_cpu	blas.c	/^void weighted_sum_cpu(float *a, float *b, float *s, int n, float *c)$/;"	f
+weights	layer.h	/^    float * weights;$/;"	m	struct:layer
+weights_gpu	layer.h	/^    float * weights_gpu;$/;"	m	struct:layer
+windows	image.c	/^int windows = 0;$/;"	v
+workspace	network.h	/^    float *workspace;$/;"	m	struct:network
+workspace	network.h	/^    float *workspace;$/;"	m	struct:network_state
+workspace_size	layer.h	/^    size_t workspace_size;$/;"	m	struct:layer
+write3	stb_image_write.h	/^static void write3(FILE *f, unsigned char a, unsigned char b, unsigned char c)$/;"	f
+write_all	utils.c	/^void write_all(int fd, char *buffer, size_t bytes)$/;"	f
+write_all_fail	utils.c	/^int write_all_fail(int fd, char *buffer, size_t bytes)$/;"	f
+write_int	utils.c	/^void write_int(int fd, int n)$/;"	f
+write_pixels	stb_image_write.h	/^static void write_pixels(FILE *f, int rgb_dir, int vdir, int x, int y, int comp, void *data, int write_alpha, int scanline_pad, int expand_mono)$/;"	f
+writefv	stb_image_write.h	/^static void writefv(FILE *f, const char *fmt, va_list v)$/;"	f
+x	box.h	/^    float x, y, w, h;$/;"	m	struct:__anon23
+x	data.h	/^    float x,y,w,h;$/;"	m	struct:__anon28
+x	layer.h	/^    float * x;$/;"	m	struct:layer
+x	rnn.c	/^    float *x;$/;"	m	struct:__anon34	file:
+x	rnn_vid.c	/^    float *x;$/;"	m	struct:__anon30	file:
+x	stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon8::__anon9
+x_gpu	layer.h	/^    float * x_gpu;$/;"	m	struct:layer
+x_norm	layer.h	/^    float * x_norm;$/;"	m	struct:layer
+x_norm_gpu	layer.h	/^    float * x_norm_gpu;$/;"	m	struct:layer
+xnor	layer.h	/^    int xnor;$/;"	m	struct:layer
+y	box.h	/^    float x, y, w, h;$/;"	m	struct:__anon23
+y	data.h	/^    float x,y,w,h;$/;"	m	struct:__anon28
+y	data.h	/^    matrix y;$/;"	m	struct:__anon26
+y	rnn.c	/^    float *y;$/;"	m	struct:__anon34	file:
+y	rnn_vid.c	/^    float *y;$/;"	m	struct:__anon30	file:
+y	stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon8::__anon9
+ypos	stb_image.h	/^   int ypos;    \/\/ which pre-expansion row we're on$/;"	m	struct:__anon10
+ystep	stb_image.h	/^   int ystep;   \/\/ how far through vertical expansion we are$/;"	m	struct:__anon10
+z_cpu	layer.h	/^    float * z_cpu;$/;"	m	struct:layer
+z_distance	stb_image.h	/^   stbi__zhuffman z_length, z_distance;$/;"	m	struct:__anon12
+z_expandable	stb_image.h	/^   int   z_expandable;$/;"	m	struct:__anon12
+z_gpu	layer.h	/^    float *z_gpu;$/;"	m	struct:layer
+z_length	stb_image.h	/^   stbi__zhuffman z_length, z_distance;$/;"	m	struct:__anon12
+zbuffer	stb_image.h	/^   stbi_uc *zbuffer, *zbuffer_end;$/;"	m	struct:__anon12
+zbuffer_end	stb_image.h	/^   stbi_uc *zbuffer, *zbuffer_end;$/;"	m	struct:__anon12
+zout	stb_image.h	/^   char *zout;$/;"	m	struct:__anon12
+zout_end	stb_image.h	/^   char *zout_end;$/;"	m	struct:__anon12
+zout_start	stb_image.h	/^   char *zout_start;$/;"	m	struct:__anon12
