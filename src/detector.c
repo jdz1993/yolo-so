@@ -440,10 +440,19 @@ void validate_detector_recall(char *cfgfile, char *weightfile)
     }
 }
 
+void open_network()
+{
+	
+}
 
 struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char *weightfile, IplImage *imageptr, float thresh, float hier_thresh)
 {
-//#define TIME_TEST
+#define TIME_TEST
+
+#ifdef TIME_TEST
+	struct timeval time2_start1, time2_end1;
+	gettimeofday(&time2_start1, NULL);
+#endif
 	struct object_info *ret= malloc(sizeof(ret)); 
 	
     list *options = read_data_cfg(datacfg);
@@ -462,6 +471,13 @@ struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char
     char *input = buff;
     int j;
     float nms=.4;
+
+#ifdef TIME_TEST
+	gettimeofday(&time2_end1, NULL);
+	long time2_diff1 = (time2_end1.tv_sec * 1000) + (time2_end1.tv_usec / 1000)
+                        -((time2_start1.tv_sec * 1000) + (time2_start1.tv_usec / 1000));
+	printf("%s: Predicted in %f seconds(get_time_of_day()).\n", input, time2_diff1/1000.0);
+#endif
 
     while(1){
         if(imageptr==NULL){
