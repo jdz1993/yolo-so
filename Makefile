@@ -18,7 +18,7 @@ EXEC=darknet
 OBJDIR=./obj/
 
 #CC=gcc -fopenmp
-CC=/home/euclid/Tool/icc16.0/bin/intel64/icc -fopenmp
+CC=/home/euclid/Tool/icc16.0/bin/intel64/icc -fopenmp 
 NVCC=nvcc 
 OPTS=-Ofast
 #OPTS=-O3
@@ -26,7 +26,7 @@ LDFLAGS= -lm -pthread
 COMMON= 
 CFLAGS=-Wall -Wfatal-errors 
 
-SHARE= -fPIC
+SHARE= -fPIC -nostartfiles
 
 ifeq ($(DEBUG), 1) 
 OPTS=-O0 -g

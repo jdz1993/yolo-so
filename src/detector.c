@@ -440,30 +440,31 @@ void validate_detector_recall(char *cfgfile, char *weightfile)
     }
 }
 
-void open_network()
-{
-	
-}
+network net;
+char **names;
+image **alphabet;
 
-struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char *weightfile, IplImage *imageptr, float thresh, float hier_thresh)
+void open_network(char *datacfg, char *cfgfile, char *weightfile)
 {
 #define TIME_TEST
-
 #ifdef TIME_TEST
 	struct timeval time2_start1, time2_end1;
 	gettimeofday(&time2_start1, NULL);
-#endif
-	struct object_info *ret= malloc(sizeof(ret)); 
-	
+#endif		
+	float thresh=.24;
+	float hier_thresh=.5;
     list *options = read_data_cfg(datacfg);
     char *name_list = option_find_str(options, "names", "data/names.list");
-    char **names = get_labels(name_list);
-
-    image **alphabet = load_alphabet();
-    network net = parse_network_cfg(cfgfile);
+    names = get_labels(name_list);
+printf("1\n");
+    alphabet = load_alphabet();
+printf("1.5\n");
+    net = parse_network_cfg(cfgfile);
+printf("2\n");
     if(weightfile){
         load_weights(&net, weightfile);
     }
+printf("3\n");
     set_batch_network(&net, 1);
     srand(2222222);
     clock_t time;
@@ -476,8 +477,32 @@ struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char
 	gettimeofday(&time2_end1, NULL);
 	long time2_diff1 = (time2_end1.tv_sec * 1000) + (time2_end1.tv_usec / 1000)
                         -((time2_start1.tv_sec * 1000) + (time2_start1.tv_usec / 1000));
-	printf("%s: Predicted in %f seconds(get_time_of_day()).\n", input, time2_diff1/1000.0);
+	printf("%s: Load cfg and weights in %f seconds(get_time_of_day()).\n", input, time2_diff1/1000.0);
 #endif
+}
+
+//指定__attribute__((constructor))保证init函数在链接库被加载内存后自动调用
+__attribute__((constructor)) void my_init(void)
+{
+	printf("auto enter init function\n");
+	open_network("cfg/coco.data","cfg/yolo.cfg","yolo.weights");
+}
+
+/*void _init()
+{
+	printf("auto enter init function\n");
+	open_network("cfg/coco.data","cfg/coco.data","cfg/coco.data");
+}
+*/
+
+struct object_info * test_detector_by_cvImage( IplImage *imageptr)
+{
+//#define TIME_TEST
+	struct object_info *ret= malloc(sizeof(ret)); 
+	int j;
+    float nms=.4;
+	float thresh=.24;
+	float hier_thresh=.5;
 
     while(1){
         if(imageptr==NULL){
@@ -508,7 +533,7 @@ struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char
         gettimeofday(&time2_end, NULL);
         long time2_diff = (time2_end.tv_sec * 1000) + (time2_end.tv_usec / 1000)
                         -((time2_start.tv_sec * 1000) + (time2_start.tv_usec / 1000));
-        printf("%s: Predicted in %f seconds(get_time_of_day()).\n", input, time2_diff/iter/1000.0);
+        printf("%s: Predicted in %f seconds(get_time_of_day()).\n", "", time2_diff/iter/1000.0);
 #endif
         get_region_boxes(l, 1, 1, thresh, probs, boxes, 0, 0, hier_thresh);
         if (l.softmax_tree && nms) do_nms_obj(boxes, probs, len, l.classes, nms);
@@ -529,8 +554,6 @@ struct object_info * test_detector_by_cvImage(char *datacfg, char *cfgfile, char
 #else 
 		extract_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes,ret);
 #endif
-
-		printf("%d\n",ret->ob_num);
 
         save_image(im, "predictions");
 #ifdef DRAW_TEST

@@ -31,7 +31,8 @@ struct object_info
 
 typedef int (* MAIN_PTR) (int argc, char **argv);
 
-typedef int (* OD_FUNC)(char *datacfg, char *cfgfile, char *weightfile, const IplImage *imageptr, float thresh, float hier_thresh);
+typedef int (* OD_FUNC)(const IplImage *imageptr);
+//typedef int (* OD_FUNC)(char *datacfg, char *cfgfile, char *weightfile, const IplImage *imageptr, float thresh, float hier_thresh);
 //void frame_OD(int camera_index,)
 
 
@@ -72,7 +73,8 @@ void frame_OD_test(IplImage* src)
 	float hier_thresh=.5;
 
 	OD_FUNC od_func=(OD_FUNC)DLSYM(pdlHandle,"test_detector_by_cvImage");
-	struct object_info * oi=od_func(datacfg,cfgfile,weightfile,src,thresh,hier_thresh);
+	//struct object_info * oi=od_func(datacfg,cfgfile,weightfile,src,thresh,hier_thresh);
+	struct object_info * oi=od_func(src);
 	printf("ob_num: %d\n",oi->ob_num);
 
 	for(int i=0;i<oi->ob_num;i++)
