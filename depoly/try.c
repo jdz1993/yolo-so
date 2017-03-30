@@ -32,8 +32,10 @@ struct object_info
 typedef int (* MAIN_PTR) (int argc, char **argv);
 
 typedef int (* OD_FUNC)(const IplImage *imageptr);
-//typedef int (* OD_FUNC)(char *datacfg, char *cfgfile, char *weightfile, const IplImage *imageptr, float thresh, float hier_thresh);
-//void frame_OD(int camera_index,)
+
+
+typedef int (* OD_FUNC_BY_FNAME)(const char *fname);
+
 
 
 void * DL_open(char * sofile)
@@ -86,14 +88,42 @@ void frame_OD_test(IplImage* src)
 	dlclose(pdlHandle); // 系统动态链接库引用数减1
 }
 
+void frame_OD_test_by_fname(const char * fname)
+{
+	void *pdlHandle = DL_open("libdarknet.so");
+
+	char * datacfg="cfg/coco.data";
+	char * cfgfile="cfg/yolo.cfg";
+	char * weightfile="yolo.weights";
+
+	float thresh=.24;
+	float hier_thresh=.5;
+
+	OD_FUNC_BY_FNAME od_func=(OD_FUNC_BY_FNAME)DLSYM(pdlHandle,"test_detector_by_filename");
+	//struct object_info * oi=od_func(datacfg,cfgfile,weightfile,src,thresh,hier_thresh);
+	struct object_info * oi=od_func(fname);
+	printf("ob_num: %d\n",oi->ob_num);
+
+	for(int i=0;i<oi->ob_num;i++)
+	{
+		if(oi->ob_prob[i]>0.02)
+			printf("%d\t%f\n",oi->ob_class[i],oi->ob_prob[i]);
+	}
+
+	dlclose(pdlHandle); // 系统动态链接库引用数减1
+}
+
 
 
 int main(int argc,char ** argv)
 {
 	//testSO();
+#if 0
 	IplImage* src=cvLoadImage("dog.jpg",1);
-
 	frame_OD_test(src);
+#else
+	frame_OD_test_by_fname("dog.jpg");
+#endif
 	return 0;
 }
 

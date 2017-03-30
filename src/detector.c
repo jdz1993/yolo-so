@@ -495,6 +495,12 @@ __attribute__((constructor)) void my_init(void)
 }
 */
 
+struct object_info * test_detector_by_filename(const char * fname)
+{
+	IplImage* src=cvLoadImage("dog.jpg",1);
+	return test_detector_by_cvImage(src);
+}
+
 struct object_info * test_detector_by_cvImage( IplImage *imageptr)
 {
 //#define TIME_TEST
@@ -543,11 +549,7 @@ struct object_info * test_detector_by_cvImage( IplImage *imageptr)
 		ret->ob_num=len;
 		ret->ob_box=boxes;
 		ret->ob_class=(int*)malloc(sizeof(int*)*len);
-		ret->ob_prob=(float*)malloc(sizeof(float*)*len);probs;
-		for(int i=0;i<len;i++)
-		{
-			int class = max_index(probs[i],l.classes);
-		}
+		ret->ob_prob=(float*)malloc(sizeof(float*)*len);
 
 #ifdef DRAW_TEST
         draw_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes);
