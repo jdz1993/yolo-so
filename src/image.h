@@ -21,12 +21,22 @@ typedef struct {
     float *data;
 } image;
 
+struct int_node{
+	int value;
+	struct int_node * next;
+};
+struct float_node{
+	int value;
+	struct float_node * next;
+};
 struct object_info
 {
 	int ob_num;
 	box *ob_box;
-	int *ob_class;
-	float *ob_prob;
+	struct int_node * ob_class;
+	struct float_node * ob_prob;
+//	int *ob_class;
+//	float *ob_prob;
 };
 
 float get_color(int c, int x, int max);

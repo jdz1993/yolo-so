@@ -178,25 +178,82 @@ image **load_alphabet()
     return alphabets;
 }
 
+void delete_float_info(struct float_node * oi)
+{
+	struct float_node * cur=oi;
+	struct float_node * next;
+
+	while(cur!=NULL)
+	{
+		next=cur->next;
+		free(cur);
+		cur=next;
+	}
+	oi=NULL;
+}
+void delete_int_info(struct int_node * oi)
+{
+	struct int_node * cur=oi;
+	struct int_node * next;
+
+	while(cur!=NULL)
+	{
+		next=cur->next;
+		free(cur);
+		cur=next;
+	}
+	oi=NULL;
+}
 
 void extract_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes,struct object_info * ob_info)
 {
     int i;
 	
+	struct int_node * pi=ob_info->ob_class;
+	struct float_node * pl=ob_info->ob_prob;
+
+	if(pi!=NULL)
+	{
+		delete_int_info(pi);
+	}
+	if(pl!=NULL)
+	{
+		delete_float_info(pl);	
+	}
+	pi=ob_info->ob_class;
+	pl=ob_info->ob_prob;
+
     for(i = 0; i < num; ++i){
         int class = max_index(probs[i], classes);
         float prob = probs[i][class];
         if(prob > thresh){
 
+            printf("class: %d;\t%s: %.0f%%\n",class, names[class], prob*100);
             int width = im.h * .012;
 
             if(0){
                 width = pow(prob, 1./2.)*10+1;
                 alphabet = 0;
             }
-			((struct object_info*)ob_info)->ob_class[i]=class;
-			ob_info->ob_prob[i]=prob;
-            printf("%s: %.0f%%\n", names[class], prob*100);
+			ob_info->ob_num++;
+			if(pi==NULL){
+				pi=(struct int_node *)malloc(sizeof(struct int_node *));
+			}
+			struct int_node * itmp=(struct int_node *)malloc(sizeof(struct int_node *));
+			itmp->value=class;
+			pi->next=itmp;
+			pi=pi->next;
+			printf("pi malloc success\n");
+			if(pl==NULL){
+				pl=(struct float_node *)malloc(sizeof(struct float_node *));
+			}
+			struct float_node * ftmp=(struct float_node *)malloc(sizeof(struct float_node *));
+			ftmp->value=prob;
+			pl->next=ftmp;
+			pl=pl->next;
+			printf("pl malloc success\n");
+			//((struct object_info*)ob_info)->ob_class[i]=class;
+			//ob_info->ob_prob[i]=prob;
             int offset = class*123457 % classes;
             float red = get_color(2,offset,classes);
             float green = get_color(1,offset,classes);
@@ -227,6 +284,8 @@ void extract_detections(image im, int num, float thresh, box *boxes, float **pro
             }*/
         }
     }
+
+	
 }
 
 void draw_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes)

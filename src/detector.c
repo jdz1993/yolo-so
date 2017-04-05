@@ -501,10 +501,13 @@ struct object_info * test_detector_by_filename(const char * fname)
 	return test_detector_by_cvImage(src);
 }
 
-struct object_info * test_detector_by_cvImage( IplImage *imageptr)
+void test_detector_by_cvImage( IplImage *imageptr,struct object_info *ret)
 {
 //#define TIME_TEST
-	struct object_info *ret= malloc(sizeof(ret)); 
+	if(ret==NULL)
+	{
+		printf("pass in struct object_info is NULL !!!\n");
+	}
 	int j;
     float nms=.4;
 	float thresh=.24;
@@ -546,10 +549,12 @@ struct object_info * test_detector_by_cvImage( IplImage *imageptr)
         else if (nms) do_nms_sort(boxes, probs, len, l.classes, nms);
 
 		// save OD information
-		ret->ob_num=len;
+		ret->ob_num=0;
 		ret->ob_box=boxes;
-		ret->ob_class=(int*)malloc(sizeof(int*)*len);
-		ret->ob_prob=(float*)malloc(sizeof(float*)*len);
+		ret->ob_class=NULL;
+		ret->ob_prob=NULL;
+		//ret->ob_class=(int*)malloc(sizeof(int*)*len);
+		//ret->ob_prob=(float*)malloc(sizeof(float*)*len);
 
 #ifdef DRAW_TEST
         draw_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes);
@@ -571,7 +576,7 @@ struct object_info * test_detector_by_cvImage( IplImage *imageptr)
 #endif
        break;
     }
-	return ret;
+	//return ret;
 }
 
 void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filename, float thresh, float hier_thresh)
