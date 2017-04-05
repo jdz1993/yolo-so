@@ -71,7 +71,8 @@ void * DLSYM(void * pdlHandle,const char * funcname)
 
 void frame_OD_test(IplImage* src)
 {
-	void *pdlHandle = DL_open("/home/intel/Desktop/darknet_lib/depoly/libdarknet.so");
+	void *pdlHandle = DL_open("libdarknet.so");
+
 
 	char * datacfg="cfg/coco.data";
 	char * cfgfile="cfg/yolo.cfg";
@@ -105,7 +106,7 @@ void frame_OD_test(IplImage* src)
 
 void frame_OD_test_by_fname(const char * fname)
 {
-	void *pdlHandle = DL_open("/home/intel/Desktop/new_dev_darknet_lib/darknet_lib/depoly/libdarknet.so");
+	void *pdlHandle = DL_open("libdarknet.so");
 
 	char * datacfg="cfg/coco.data";
 	char * cfgfile="cfg/yolo.cfg";
