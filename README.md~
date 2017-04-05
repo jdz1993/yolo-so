@@ -23,8 +23,13 @@ this will build Darknet to libdarknet.so, and copy it to ./depoly
 change Makefile library path
 
 if libmkl.so not found
+
  - export LD_LIBRARY_PATH=/path/to/library/mklml_2017.0.1/lib/:$LD_LIBRARY_PATH
- - for example: export LD_LIBRARY_PATH=/opt/intel/mklml_2017.0.1/lib/:$LD_LIBRARY_PATH
+ - For example: export LD_LIBRARY_PATH=/opt/intel/mklml_2017.0.1/lib/:$LD_LIBRARY_PATH
+
+if libdarknet.so libimf.so libintlc.so.5 libirng.so libsvml.so not found
+
+ - 
 
 #Darknet#
 Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
