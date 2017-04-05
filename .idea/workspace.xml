@@ -12,52 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37cedd61-040e-46c6-ab03-a44b7d4a8486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depoly/libdarknet.so" afterPath="$PROJECT_DIR$/depoly/libdarknet.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depoly/try" afterPath="$PROJECT_DIR$/depoly/try" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/libdarknet.so" afterPath="$PROJECT_DIR$/lib/libdarknet.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/activation_layer.o" afterPath="$PROJECT_DIR$/obj/activation_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/avgpool_layer.o" afterPath="$PROJECT_DIR$/obj/avgpool_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/batchnorm_layer.o" afterPath="$PROJECT_DIR$/obj/batchnorm_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/box.o" afterPath="$PROJECT_DIR$/obj/box.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/captcha.o" afterPath="$PROJECT_DIR$/obj/captcha.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/classifier.o" afterPath="$PROJECT_DIR$/obj/classifier.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/coco.o" afterPath="$PROJECT_DIR$/obj/coco.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/compare.o" afterPath="$PROJECT_DIR$/obj/compare.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/connected_layer.o" afterPath="$PROJECT_DIR$/obj/connected_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/convolutional_layer.o" afterPath="$PROJECT_DIR$/obj/convolutional_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/cost_layer.o" afterPath="$PROJECT_DIR$/obj/cost_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/crnn_layer.o" afterPath="$PROJECT_DIR$/obj/crnn_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/crop_layer.o" afterPath="$PROJECT_DIR$/obj/crop_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/data.o" afterPath="$PROJECT_DIR$/obj/data.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/detection_layer.o" afterPath="$PROJECT_DIR$/obj/detection_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/dropout_layer.o" afterPath="$PROJECT_DIR$/obj/dropout_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/gru_layer.o" afterPath="$PROJECT_DIR$/obj/gru_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/image.o" afterPath="$PROJECT_DIR$/obj/image.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/local_layer.o" afterPath="$PROJECT_DIR$/obj/local_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/maxpool_layer.o" afterPath="$PROJECT_DIR$/obj/maxpool_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/network.o" afterPath="$PROJECT_DIR$/obj/network.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/nightmare.o" afterPath="$PROJECT_DIR$/obj/nightmare.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/normalization_layer.o" afterPath="$PROJECT_DIR$/obj/normalization_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/parser.o" afterPath="$PROJECT_DIR$/obj/parser.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/region_layer.o" afterPath="$PROJECT_DIR$/obj/region_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/reorg_layer.o" afterPath="$PROJECT_DIR$/obj/reorg_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/rnn_layer.o" afterPath="$PROJECT_DIR$/obj/rnn_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/route_layer.o" afterPath="$PROJECT_DIR$/obj/route_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/shortcut_layer.o" afterPath="$PROJECT_DIR$/obj/shortcut_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/softmax_layer.o" afterPath="$PROJECT_DIR$/obj/softmax_layer.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/super.o" afterPath="$PROJECT_DIR$/obj/super.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/swag.o" afterPath="$PROJECT_DIR$/obj/swag.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/tag.o" afterPath="$PROJECT_DIR$/obj/tag.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/tree.o" afterPath="$PROJECT_DIR$/obj/tree.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/utils.o" afterPath="$PROJECT_DIR$/obj/utils.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/voxel.o" afterPath="$PROJECT_DIR$/obj/voxel.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/writing.o" afterPath="$PROJECT_DIR$/obj/writing.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/yolo.o" afterPath="$PROJECT_DIR$/obj/yolo.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depoly/try.c" afterPath="$PROJECT_DIR$/depoly/try.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/detector.c" afterPath="$PROJECT_DIR$/src/detector.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image.c" afterPath="$PROJECT_DIR$/src/image.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image.h" afterPath="$PROJECT_DIR$/src/image.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,18 +30,18 @@
       <file leaf-file-name="image.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/image.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
+            <state relative-caret-position="-162">
+              <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detector.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="detector.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/detector.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="523" column="32" lean-forward="true" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
+            <state relative-caret-position="398">
+              <caret line="565" column="22" lean-forward="true" selection-start-line="565" selection-start-column="22" selection-end-line="565" selection-end-column="22" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#17507#17582#0" expanded="true" />
@@ -96,14 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="try.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="try.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/depoly/try.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#3039#3099#0" expanded="true" />
+                <element signature="e#3040#3100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +69,8 @@
       <file leaf-file-name="image.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/image.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="258" column="27" lean-forward="false" selection-start-line="258" selection-start-column="27" selection-end-line="258" selection-end-column="27" />
+            <state relative-caret-position="48">
+              <caret line="207" column="21" lean-forward="false" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -421,22 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/image.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="258" column="27" lean-forward="false" selection-start-line="258" selection-start-column="27" selection-end-line="258" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/image.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tags">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -445,27 +386,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/image.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="207" column="21" lean-forward="false" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/depoly/try.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#3040#3100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/detector.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="523" column="32" lean-forward="true" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
+        <state relative-caret-position="398">
+          <caret line="565" column="22" lean-forward="true" selection-start-line="565" selection-start-column="22" selection-end-line="565" selection-end-column="22" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#17507#17582#0" expanded="true" />
             <element signature="e#17911#17951#0" expanded="true" />
             <element signature="e#17981#17993#0" expanded="true" />
             <element signature="e#20536#20580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/depoly/try.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3039#3099#0" expanded="true" />
           </folding>
         </state>
       </provider>

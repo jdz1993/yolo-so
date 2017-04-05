@@ -119,6 +119,7 @@ void frame_OD_test_by_fname(const char * fname)
 
     for(i = 0; i < 10; i++) {
         printf("%d----\n", i);
+
 		struct object_info * oi=(struct object_info * )od_func(fname);
 
 		print_object_info(oi);
