@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37cedd61-040e-46c6-ab03-a44b7d4a8486" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libdarknet.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/try" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/try.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo.diff" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-    </list>
+    <list default="true" id="37cedd61-040e-46c6-ab03-a44b7d4a8486" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +36,8 @@
       <file leaf-file-name="detector.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/detector.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="695" column="10" lean-forward="false" selection-start-line="695" selection-start-column="10" selection-end-line="695" selection-end-column="10" />
+            <state relative-caret-position="317">
+              <caret line="698" column="18" lean-forward="true" selection-start-line="698" selection-start-column="18" selection-end-line="698" selection-end-column="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#17507#17582#0" expanded="true" />
@@ -464,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/detector.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="695" column="10" lean-forward="false" selection-start-line="695" selection-start-column="10" selection-end-line="695" selection-end-column="10" />
+        <state relative-caret-position="317">
+          <caret line="698" column="18" lean-forward="true" selection-start-line="698" selection-start-column="18" selection-end-line="698" selection-end-column="18" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#17507#17582#0" expanded="true" />
