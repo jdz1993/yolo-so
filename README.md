@@ -9,17 +9,16 @@ this will build Darknet to libdarknet.so, and copy it to ./depoly
  - if "dlopen is undefined", gcc with -ldl
 
 # Port darknet to new machine
-### Deploy Environment settings
- - mkl
- - opencv ( if needed )
 
-### Run from source Environment settings
+### Build from Source Environment settings
 
  - mkl
- - icc
+ - icc ( or default gcc )
  - opencv ( if needed )
+If you need mkl and icc, you can contact 1072425571@qq.com and I can send you a copy.
+The path/to/library should be configed in Makefile or using export LD_LIBRARY_PATH, more specific information is below.
 
-### config path
+### Config path
 change Makefile library path
 
 if libmkl.so not found
@@ -30,13 +29,4 @@ if libmkl.so not found
 if libdarknet.so libimf.so libintlc.so.5 libirng.so libsvml.so not found
 
  - export LD_LIBRARY_PATH=$PWD/:$LD_LIBRARY_PATH
-
-#Darknet#
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
-
-For more information see the [Darknet project website](http://pjreddie.com/darknet).
-
-For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
-
-
 
