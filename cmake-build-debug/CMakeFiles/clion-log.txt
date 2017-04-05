@@ -1,0 +1,4 @@
+/opt/clion-2017.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/intel/Desktop/new_dev_darknet_lib/darknet_lib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/intel/Desktop/new_dev_darknet_lib/darknet_lib/cmake-build-debug

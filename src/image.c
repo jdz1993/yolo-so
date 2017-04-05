@@ -177,51 +177,40 @@ image **load_alphabet()
     }
     return alphabets;
 }
+//
+//void delete_float_info(struct float_node * oi)
+//{
+//	struct float_node * cur=oi;
+//	struct float_node * next;
+//
+//	while(cur!=NULL)
+//	{
+//		next=(struct float_node *)(cur->next);
+//		free(cur);
+//		cur=next;
+//	}
+//	oi=NULL;
+//}
+//void delete_int_info(struct int_node * oi)
+//{
+//	struct int_node * cur=oi;
+//	struct int_node * next;
+//
+//	while(cur!=NULL)
+//	{
+//		next=cur->next;
+//		free(cur);
+//		cur=next;
+//	}
+//	oi=NULL;
+//}
 
-void delete_float_info(struct float_node * oi)
-{
-	struct float_node * cur=oi;
-	struct float_node * next;
-
-	while(cur!=NULL)
-	{
-		next=cur->next;
-		free(cur);
-		cur=next;
-	}
-	oi=NULL;
-}
-void delete_int_info(struct int_node * oi)
-{
-	struct int_node * cur=oi;
-	struct int_node * next;
-
-	while(cur!=NULL)
-	{
-		next=cur->next;
-		free(cur);
-		cur=next;
-	}
-	oi=NULL;
-}
-
-void extract_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes,struct object_info * ob_info)
+struct object_info * extract_detections(image im, int num, float thresh, box *boxes, float **probs, char **names,
+                        image **alphabet, int classes)
 {
     int i;
-	
-	struct int_node * pi=ob_info->ob_class;
-	struct float_node * pl=ob_info->ob_prob;
-
-	if(pi!=NULL)
-	{
-		delete_int_info(pi);
-	}
-	if(pl!=NULL)
-	{
-		delete_float_info(pl);	
-	}
-	pi=ob_info->ob_class;
-	pl=ob_info->ob_prob;
+    struct object_info * ret=NULL;
+    struct object_info * cur=ret;
 
     for(i = 0; i < num; ++i){
         int class = max_index(probs[i], classes);
@@ -235,47 +224,56 @@ void extract_detections(image im, int num, float thresh, box *boxes, float **pro
                 width = pow(prob, 1./2.)*10+1;
                 alphabet = 0;
             }
-			ob_info->ob_num++;
-			if(pi==NULL){
-				pi=(struct int_node *)malloc(sizeof(struct int_node *));
-			}
-			struct int_node * itmp=(struct int_node *)malloc(sizeof(struct int_node *));
-			itmp->value=class;
-			pi->next=itmp;
-			pi=pi->next;
-			printf("pi malloc success\n");
-			if(pl==NULL){
-				pl=(struct float_node *)malloc(sizeof(struct float_node *));
-			}
-			struct float_node * ftmp=(struct float_node *)malloc(sizeof(struct float_node *));
-			ftmp->value=prob;
-			pl->next=ftmp;
-			pl=pl->next;
-			printf("pl malloc success\n");
-			//((struct object_info*)ob_info)->ob_class[i]=class;
-			//ob_info->ob_prob[i]=prob;
-            int offset = class*123457 % classes;
-            float red = get_color(2,offset,classes);
-            float green = get_color(1,offset,classes);
-            float blue = get_color(0,offset,classes);
-            float rgb[3];
 
-            //width = prob*20+2;
-
-            rgb[0] = red;
-            rgb[1] = green;
-            rgb[2] = blue;
-            box b = boxes[i];
-
-            int left  = (b.x-b.w/2.)*im.w;
-            int right = (b.x+b.w/2.)*im.w;
-            int top   = (b.y-b.h/2.)*im.h;
-            int bot   = (b.y+b.h/2.)*im.h;
-
-            if(left < 0) left = 0;
-            if(right > im.w-1) right = im.w-1;
-            if(top < 0) top = 0;
-            if(bot > im.h-1) bot = im.h-1;
+            if(ret==NULL)
+            {
+                // first found node
+                ret=(struct object_info *)malloc(sizeof(struct object_info));
+                ret->ob_box=boxes[i];
+                ret->ob_class=class;
+                ret->ob_prob=prob;
+                ret->next=NULL;
+                cur=ret->next;
+            }
+            else
+            {
+                // not first found node
+                if(cur==NULL) {
+                    cur = (struct object_info *) malloc(sizeof(struct object_info));
+                    cur->ob_box = boxes[i];
+                    cur->ob_class = class;
+                    cur->ob_prob = prob;
+                    cur->next = NULL;
+                    cur=cur->next;
+                }
+                else
+                {
+                    printf("linked list error: this is not supposed to happen.\n");
+                }
+            }
+//
+//            int offset = class*123457 % classes;
+//            float red = get_color(2,offset,classes);
+//            float green = get_color(1,offset,classes);
+//            float blue = get_color(0,offset,classes);
+//            float rgb[3];
+//
+//            //width = prob*20+2;
+//
+//            rgb[0] = red;
+//            rgb[1] = green;
+//            rgb[2] = blue;
+//            box b = boxes[i];
+//
+//            int left  = (b.x-b.w/2.)*im.w;
+//            int right = (b.x+b.w/2.)*im.w;
+//            int top   = (b.y-b.h/2.)*im.h;
+//            int bot   = (b.y+b.h/2.)*im.h;
+//
+//            if(left < 0) left = 0;
+//            if(right > im.w-1) right = im.w-1;
+//            if(top < 0) top = 0;
+//            if(bot > im.h-1) bot = im.h-1;
 
             /*draw_box_width(im, left, top, right, bot, width, red, green, blue);
             if (alphabet) {

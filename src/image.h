@@ -20,23 +20,21 @@ typedef struct {
     int c;
     float *data;
 } image;
-
-struct int_node{
-	int value;
-	struct int_node * next;
-};
-struct float_node{
-	int value;
-	struct float_node * next;
-};
+//
+//struct int_node{
+//	int value;
+//	struct int_node * next;
+//};
+//struct float_node{
+//	int value;
+//	struct float_node * next;
+//};
 struct object_info
 {
-	int ob_num;
-	box *ob_box;
-	struct int_node * ob_class;
-	struct float_node * ob_prob;
-//	int *ob_class;
-//	float *ob_prob;
+    int ob_class;
+    float ob_prob;
+	box ob_box;
+    struct object_info * next;
 };
 
 float get_color(int c, int x, int max);
@@ -48,8 +46,8 @@ void draw_label(image a, int r, int c, image label, const float *rgb);
 void write_label(image a, int r, int c, image *characters, char *string, float *rgb);
 void draw_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **labels, int classes);
 
-void extract_detections(image im, int num, float thresh, box *boxes, float **probs, char **names, image **alphabet, int classes,struct object_info * ob_info);
-
+struct object_info * extract_detections(image im, int num, float thresh, box *boxes, float **probs, char **names,
+                                        image **alphabet, int classes);
 image image_distance(image a, image b);
 void scale_image(image m, float s);
 image crop_image(image im, int dx, int dy, int w, int h);

@@ -503,78 +503,79 @@ struct object_info * test_detector_by_filename(const char * fname)
 
 // every time pass in 3 NULL pointers, this function will allocate space in heap
 // you should delete or delete[] them
-void test_detector_by_cvImage( IplImage *imageptr,int *ret_len,int *ret_classes,box* ret_boxes)
-{
+struct object_info * test_detector_by_cvImage( IplImage *imageptr) {
 //#define TIME_TEST
-	int j;
-    float nms=.4;
-	float thresh=.24;
-	float hier_thresh=.5;
+    int j;
+    float nms = .4;
+    float thresh = .24;
+    float hier_thresh = .5;
 
-    while(1){
-        if(imageptr==NULL){
-            printf("Entered NULL Image");
-        }
-        image im = ipl_to_image(imageptr);
-        image sized = resize_image(im, net.w, net.h);
-        layer l = net.layers[net.n-1];
 
-		// this is number of objects
-		int len=l.w*l.h*l.n;
-
-        box *boxes = calloc(len, sizeof(box));
-        float **probs = calloc(len, sizeof(float *));
-        for(j = 0; j < len; ++j) probs[j] = calloc(l.classes + 1, sizeof(float *));
-
-        float *X = sized.data;
-#ifdef TIME_TEST
-        struct timeval time2_start, time2_end;
-        gettimeofday(&time2_start, NULL);
-#endif
-        int i;
-        int iter=1;
-        for (i=0; i<iter;i++) {
-            network_predict(net, X);
-        }
-#ifdef TIME_TEST
-        gettimeofday(&time2_end, NULL);
-        long time2_diff = (time2_end.tv_sec * 1000) + (time2_end.tv_usec / 1000)
-                        -((time2_start.tv_sec * 1000) + (time2_start.tv_usec / 1000));
-        printf("%s: Predicted in %f seconds(get_time_of_day()).\n", "", time2_diff/iter/1000.0);
-#endif
-        get_region_boxes(l, 1, 1, thresh, probs, boxes, 0, 0, hier_thresh);
-        if (l.softmax_tree && nms) do_nms_obj(boxes, probs, len, l.classes, nms);
-        else if (nms) do_nms_sort(boxes, probs, len, l.classes, nms);
-
-		// save OD information
-		ret->ob_num=0;
-		ret->ob_box=boxes;
-		ret->ob_class=NULL;
-		ret->ob_prob=NULL;
-		//ret->ob_class=(int*)malloc(sizeof(int*)*len);
-		//ret->ob_prob=(float*)malloc(sizeof(float*)*len);
-
-#ifdef DRAW_TEST
-        draw_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes);
-#else 
-		extract_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes,ret);
-#endif
-
-        save_image(im, "predictions");
-#ifdef DRAW_TEST
-        show_image(im, "predictions");
-#endif
-        free_image(im);
-        free_image(sized);
-        free(boxes);
-        free_ptrs((void **)probs, l.w*l.h*l.n);
-#ifdef OPENCV
-        cvWaitKey(0);
-        cvDestroyAllWindows();
-#endif
-       break;
+    if (imageptr == NULL) {
+        printf("Entered NULL Image");
+    }else
+    {
+        printf("load image succeed");
     }
-	//return ret;
+    image im = ipl_to_image(imageptr);
+    image sized = resize_image(im, net.w, net.h);
+    layer l = net.layers[net.n - 1];
+
+    // this is number of objects
+    int len = l.w * l.h * l.n;
+
+    box *boxes = calloc(len, sizeof(box));
+    float **probs = calloc(len, sizeof(float *));
+    for (j = 0; j < len; ++j) probs[j] = calloc(l.classes + 1, sizeof(float *));
+
+    float *X = sized.data;
+#ifdef TIME_TEST
+    struct timeval time2_start, time2_end;
+    gettimeofday(&time2_start, NULL);
+#endif
+    int i;
+    int iter = 1;
+    for (i = 0; i < iter; i++) {
+        network_predict(net, X);
+    }
+#ifdef TIME_TEST
+    gettimeofday(&time2_end, NULL);
+    long time2_diff = (time2_end.tv_sec * 1000) + (time2_end.tv_usec / 1000)
+                      - ((time2_start.tv_sec * 1000) + (time2_start.tv_usec / 1000));
+    printf("%s: Predicted in %f seconds(get_time_of_day()).\n", "", time2_diff / iter / 1000.0);
+#endif
+    get_region_boxes(l, 1, 1, thresh, probs, boxes, 0, 0, hier_thresh);
+    if (l.softmax_tree && nms) do_nms_obj(boxes, probs, len, l.classes, nms);
+    else if (nms) do_nms_sort(boxes, probs, len, l.classes, nms);
+
+    // save OD information
+    //ret->ob_class=(int*)malloc(sizeof(int)*len);
+    //ret->ob_prob=(float*)malloc(sizeof(float)*len);
+    struct object_info *ret;
+#ifdef DRAW_TEST
+    draw_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes);
+#else
+    ret = extract_detections(im, len, thresh, boxes, probs, names, alphabet, l.classes);
+#endif
+
+    save_image(im, "predictions");
+#ifdef DRAW_TEST
+    show_image(im, "predictions");
+#endif
+    free_image(im);
+    free_image(sized);
+    free(boxes);
+    free_ptrs((void **) probs, l.w * l.h * l.n);
+#ifdef  DRAW_TEST
+    cvWaitKey(0);
+    cvDestroyAllWindows();
+#endif
+
+#ifdef DRAW_TEST
+    return NULL;
+#else
+    return ret;
+#endif
 }
 
 void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filename, float thresh, float hier_thresh)

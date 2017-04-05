@@ -18,7 +18,7 @@ EXEC=darknet
 OBJDIR=./obj/
 
 #CC=gcc -fopenmp
-CC=/home/euclid/Tool/icc16.0/bin/intel64/icc -fopenmp 
+CC=/home/intel/Tool/icc16.0/bin/intel64/icc -fopenmp 
 NVCC=nvcc 
 OPTS=-Ofast
 #OPTS=-O3
