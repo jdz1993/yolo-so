@@ -501,13 +501,11 @@ struct object_info * test_detector_by_filename(const char * fname)
 	return test_detector_by_cvImage(src);
 }
 
-void test_detector_by_cvImage( IplImage *imageptr,struct object_info *ret)
+// every time pass in 3 NULL pointers, this function will allocate space in heap
+// you should delete or delete[] them
+void test_detector_by_cvImage( IplImage *imageptr,int *ret_len,int *ret_classes,box* ret_boxes)
 {
 //#define TIME_TEST
-	if(ret==NULL)
-	{
-		printf("pass in struct object_info is NULL !!!\n");
-	}
 	int j;
     float nms=.4;
 	float thresh=.24;
@@ -568,7 +566,7 @@ void test_detector_by_cvImage( IplImage *imageptr,struct object_info *ret)
 #endif
         free_image(im);
         free_image(sized);
-        //free(boxes);
+        free(boxes);
         free_ptrs((void **)probs, l.w*l.h*l.n);
 #ifdef OPENCV
         cvWaitKey(0);
