@@ -2,3 +2,12 @@ yolo.weights
 
 
 Makefile
+
+depoly/libconfig.conf
+
+*.o
+
+depoly/libdarknet.so
+
+libdarknet.so
+
