@@ -505,6 +505,7 @@ struct object_info * test_detector_by_filename(const char * fname)
 // you should delete or delete[] them
 struct object_info * test_detector_by_cvImage( IplImage *imageptr) {
 //#define TIME_TEST
+//#define DRAW_TEST
     int j;
     float nms = .4;
     float thresh = .24;

@@ -33,7 +33,8 @@ void print_object_info(struct object_info * oi)
 {
 	while(oi!=NULL)
 	{
-		printf("class:%d,prob:%f,center at(%d,%d)",oi->ob_class,oi->ob_prob,oi->ob_box.x,oi->ob_box.y);
+		printf("class:%d,prob:%f,left:%f,right:%f,width:%f,height:%f\n",oi->ob_class,oi->ob_prob,
+			   oi->ob_box.x,oi->ob_box.y,oi->ob_box.w,oi->ob_box.h);
 		oi=oi->next;
 	}
 }

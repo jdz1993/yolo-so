@@ -213,7 +213,6 @@ struct object_info * extract_detections(image im, int num, float thresh, box *bo
     struct object_info * cur=ret;
 
     struct object_info * pre = NULL;
-
     for(i = 0; i < num; ++i){
         int class = max_index(probs[i], classes);
         float prob = probs[i][class];
@@ -227,24 +226,17 @@ struct object_info * extract_detections(image im, int num, float thresh, box *bo
 				printf("Malloc failed in extract_detections!\n");
 				return NULL;
 			}
-            box b = boxes[i];
-            float left  = (b.x-b.w/2.)*im.w;
-            float right = (b.x+b.w/2.)*im.w;
-            float top   = (b.y-b.h/2.)*im.h;
-            float bot   = (b.y+b.h/2.)*im.h;
+                        box b = boxes[i];
 
-            if(left < 0) left = 0;
-            if(right > im.w-1) right = im.w-1;
-            if(top < 0) top = 0;
-            if(bot > im.h-1) bot = im.h-1;
-
+                        int left  = (b.x-b.w/2.)*im.w;
+                        int right = (b.x+b.w/2.)*im.w;
+                        int top   = (b.y-b.h/2.)*im.h;
+                        int bot   = (b.y+b.h/2.)*im.h;
+                        
 			cur->ob_box.x=left;
-            cur->ob_box.y=right;
-            cur->ob_box.w=top;
-            cur->ob_box.h=bot;
-
-            printf("img.w:%d,img.h:%d\n",im.w,im.h);
-            printf("%f,%f,%f,%f\n",left,right,top,bot);
+                        cur->ob_box.y=right;
+                        cur->ob_box.w=top;
+                        cur->ob_box.h=bot;
 
 			cur->ob_class = class;
 			cur->ob_prob = prob;
