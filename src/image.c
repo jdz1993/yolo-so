@@ -13,6 +13,7 @@
 
 #ifdef OPENCV
 #include "opencv2/highgui/highgui_c.h"
+#include "opencv2/videoio/videoio_c.h"
 #include "opencv2/imgproc/imgproc_c.h"
 #endif
 
@@ -237,14 +238,17 @@ struct object_info * extract_detections(image im, int num, float thresh, box *bo
             if(right > im.w-1) right = im.w-1;
             if(top < 0) top = 0;
             if(bot > im.h-1) bot = im.h-1;
+            float center_x=(left+right)/2.0;
+            float center_y=(top+bot)/2.0;
+            float center_w=right-left;
+            float center_h=bot-top;
+	    cur->ob_box.x=center_x;
+            cur->ob_box.y=center_y;
+            cur->ob_box.w=center_w;
+            cur->ob_box.h=center_h;
 
-			cur->ob_box.x=left;
-            cur->ob_box.y=right;
-            cur->ob_box.w=top;
-            cur->ob_box.h=bot;
-
-            printf("img.w:%d,img.h:%d\n",im.w,im.h);
-            printf("%f,%f,%f,%f\n",left,right,top,bot);
+           // printf("img.w:%d,img.h:%d\n",im.w,im.h);
+           // printf("%f,%f,%f,%f\n",left,right,top,bot);
 
 			cur->ob_class = class;
 			cur->ob_prob = prob;

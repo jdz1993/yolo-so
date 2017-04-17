@@ -11,16 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37cedd61-040e-46c6-ab03-a44b7d4a8486" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depoly/libdarknet.so" afterPath="$PROJECT_DIR$/depoly/libdarknet.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depoly/try" afterPath="$PROJECT_DIR$/depoly/try" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/libdarknet.so" afterPath="$PROJECT_DIR$/lib/libdarknet.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/image.o" afterPath="$PROJECT_DIR$/obj/image.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depoly/try.c" afterPath="$PROJECT_DIR$/depoly/try.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/detector.c" afterPath="$PROJECT_DIR$/src/detector.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image.c" afterPath="$PROJECT_DIR$/src/image.c" />
-    </list>
+    <list default="true" id="37cedd61-040e-46c6-ab03-a44b7d4a8486" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +23,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="image.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/image.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="image.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/image.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="226" column="45" lean-forward="false" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
+            <state relative-caret-position="182">
+              <caret line="567" column="37" lean-forward="false" selection-start-line="567" selection-start-column="37" selection-end-line="567" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -45,8 +46,8 @@
       <file leaf-file-name="detector.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/detector.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="505" column="21" lean-forward="true" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+            <state relative-caret-position="311">
+              <caret line="697" column="29" lean-forward="false" selection-start-line="697" selection-start-column="29" selection-end-line="697" selection-end-column="29" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#17527#17602#0" expanded="true" />
@@ -62,8 +63,8 @@
       <file leaf-file-name="try.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/depoly/try.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+            <state relative-caret-position="180">
+              <caret line="103" column="3" lean-forward="false" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -79,6 +80,7 @@
       <find>test_detector_by_filename</find>
       <find>extra</find>
       <find>test_detec</find>
+      <find>ipl_to</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,6 +165,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../twistFace/twistFace" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -501,14 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/image.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/region_layer.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -517,10 +512,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/image.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="567" column="37" lean-forward="false" selection-start-line="567" selection-start-column="37" selection-end-line="567" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/detector.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="505" column="21" lean-forward="true" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+        <state relative-caret-position="311">
+          <caret line="697" column="29" lean-forward="false" selection-start-line="697" selection-start-column="29" selection-end-line="697" selection-end-column="29" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#17527#17602#0" expanded="true" />
@@ -532,18 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/image.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="226" column="45" lean-forward="false" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/depoly/try.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        <state relative-caret-position="180">
+          <caret line="103" column="3" lean-forward="false" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

@@ -1,6 +1,6 @@
 GPU=0
 CUDNN=0
-OPENCV=1
+OPENCV=0
 DEBUG=0
 
 ARCH= -gencode arch=compute_20,code=[sm_20,sm_21] \
@@ -21,7 +21,6 @@ OBJDIR=./obj/
 CC=/home/intel/Tool/icc16.0/bin/intel64/icc -fopenmp 
 NVCC=nvcc 
 OPTS=-Ofast
-#OPTS=-O3
 LDFLAGS= -lm -pthread 
 COMMON= 
 CFLAGS=-Wall -Wfatal-errors 
@@ -37,8 +36,8 @@ CFLAGS+=$(OPTS)
 ifeq ($(OPENCV), 1) 
 COMMON+= -DOPENCV
 CFLAGS+= -DOPENCV
-LDFLAGS+= `pkg-config --libs opencv` 
-COMMON+= `pkg-config --cflags opencv` 
+LDFLAGS+= -L/opt/ros/kinetic/lib -lopencv_calib3d3 -lopencv_core3 -lopencv_features2d3 -lopencv_flann3 -lopencv_highgui3 -lopencv_imgproc3 -lopencv_ml3 -lopencv_objdetect3 -lopencv_photo3 -lopencv_stitching3 -lopencv_superres3 -lopencv_video3 -lopencv_videostab3 -L/usr/local/lib -lrt -lpthread -lm -ldl 
+COMMON+= -I/opt/ros/kinetic/include/opencv-3.2.0/opencv -I/opt/ros/kinetic/include/opencv-3.2.0
 endif
 
 ifeq ($(GPU), 1) 
@@ -64,35 +63,22 @@ endif
 OBJS = $(addprefix $(OBJDIR), $(OBJ))
 DEPS = $(wildcard src/*.h) Makefile
 
-all: obj backup results $(EXEC)
-
-lib: obj backup results lib $(DYNLIB)
-
-$(DYNLIB): $(OBJS)
-	$(CC) $(COMMON) $(CFLAGS) -shared -o $@ $^ $(LDFLAGS) ;cp lib/libdarknet.so depoly/
-
-depoly: obj backup results lib $(DYNLIB)
-
-#$(EXEC): $(OBJS)
-#	$(CC) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+lib: $(OBJS)
+	rm -rf lib
+	mkdir -p lib
+	$(CC) $(COMMON) $(CFLAGS) -shared -o $(DYNLIB) $^ $(LDFLAGS)
+	cp lib/libdarknet.so depoly/
 
 $(OBJDIR)%.o: %.c $(DEPS)
+	mkdir -p obj
 	$(CC) $(COMMON) $(CFLAGS) -fPIC -c $< -o $@
 
-$(OBJDIR)%.o: %.cu $(DEPS)
-	$(NVCC) $(ARCH) $(COMMON) --compiler-options "$(CFLAGS)" -fPIC -c $< -o $@
+#$(OBJDIR)%.o: %.cu $(DEPS)
+#	$(NVCC) $(ARCH) $(COMMON) --compiler-options "$(CFLAGS)" -fPIC -c $< -o $@
 
-obj:
-	mkdir -p obj
-backup:
-	mkdir -p backup
-results:
-	mkdir -p results
-lib:
-	mkdir -p lib
 
 .PHONY: clean
 
 clean:
-	rm -rf $(OBJS) $(EXEC)
+	rm -rf $(OBJS) $(EXEC) lib
 

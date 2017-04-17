@@ -106,7 +106,9 @@ float bilinear_interpolate(image im, float x, float y, int c);
 
 image get_image_layer(image m, int l);
 
+#ifdef OPENCV
 image ipl_to_image(IplImage* src);
+#endif
 
 void free_image(image m);
 void test_resize(char *filename);

@@ -1,5 +1,0 @@
-/opt/clion-2017.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/intel/Desktop/new_dev_darknet_lib/darknet_lib
--- Configuring done
-WARNING: Target "darknet_lib" requests linking to directory "/home/intel/Intel_SSG_BiTS_Projects/Q/extern/ComputerGo/Q4G/libs/caffe.git/libs/OpenCV/lib".  Targets may link only to libraries.  CMake is dropping the item.
--- Generating done
--- Build files have been written to: /home/intel/Desktop/new_dev_darknet_lib/darknet_lib/cmake-build-debug

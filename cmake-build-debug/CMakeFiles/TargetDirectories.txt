@@ -1,3 +1,0 @@
-/home/intel/Desktop/new_dev_darknet_lib/darknet_lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/intel/Desktop/new_dev_darknet_lib/darknet_lib/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/intel/Desktop/new_dev_darknet_lib/darknet_lib/cmake-build-debug/CMakeFiles/darknet_lib.dir

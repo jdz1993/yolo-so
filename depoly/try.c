@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <dlfcn.h>
-
+#include <stdlib.h>
 #include "opencv2/highgui/highgui_c.h"
 #include "opencv2/imgproc/imgproc_c.h"
+#include <pwd.h>
 
 #if 0
 int main()
@@ -33,7 +34,7 @@ void print_object_info(struct object_info * oi)
 {
 	while(oi!=NULL)
 	{
-		printf("class:%d,prob:%f,left:%f,right:%f,width:%f,height:%f\n",oi->ob_class,oi->ob_prob,
+		printf("class:%d,prob:%f,center(%f,%f),width:%f,height:%f\n",oi->ob_class,oi->ob_prob,
 			   oi->ob_box.x,oi->ob_box.y,oi->ob_box.w,oi->ob_box.h);
 		oi=oi->next;
 	}
@@ -41,7 +42,7 @@ void print_object_info(struct object_info * oi)
 
 typedef int (* MAIN_PTR) (int argc, char **argv);
 
-typedef int (* OD_FUNC)(const IplImage *imageptr,struct object_info * oi);
+typedef int (* OD_FUNC)(const IplImage *imageptr);
 
 typedef int (* OD_FUNC_BY_FNAME)(const char *fname);
 
@@ -107,7 +108,32 @@ void frame_OD_test(IplImage* src)
 
 void frame_OD_test_by_fname(const char * fname)
 {
-	void *pdlHandle = DL_open("libdarknet.so");
+//    char cwd[1024];
+//    if (getcwd(cwd, sizeof(cwd)) != NULL)
+//        fprintf(stdout, "Current working dir: %s\n", cwd);
+//    else
+//        perror("getcwd() error");
+//    char path[200]="/opt/intel/mklml_2017.0.1/lib/:";
+//    char ros[100]="/opt/ros/kinetic/lib";
+//    strncat(path,cwd,strlen(cwd));
+//    strncat(path,"/",1);
+//    strncat(path,":",1);
+//    strncat(path,ros,strlen(ros));
+//    printf("path:%s\tsizeofpath:%d\n",path,strlen(path));
+//    setenv("LD_LIBRARY_PATH",path,1);
+//    printf("LD_LIBRARY_PATH: %s\n", getenv("LD_LIBRARY_PATH"));
+
+
+    printf("set env succeed\n");
+
+	char cwd[1024];
+	if (getcwd(cwd, sizeof(cwd)) != NULL)
+		fprintf(stdout, "Current working dir: %s\n", cwd);
+	else
+		perror("getcwd() error");
+	strncat(cwd,"/",1);
+	strncat(cwd,"libdarknet.so",13);
+	void *pdlHandle = DL_open(cwd);
 
 	char * datacfg="cfg/coco.data";
 	char * cfgfile="cfg/yolo.cfg";
@@ -143,7 +169,24 @@ int main(int argc,char ** argv)
 	IplImage* src=cvLoadImage("dog.jpg",1);
 	frame_OD_test(src);
 #else
+//    const char * env=getenv("LD_LIBRARY_PATH");
+//    printf("formal env:LD_LIBRARY_PATH: %s\n", env);
+
+
+//    uid_t uid = geteuid();
+//    struct passwd *pw = getpwuid(uid);
+//    if (pw)
+//    {
+//    printf("%s\n", pw->pw_name);
+//    }
+
+    /* mkl, $PWD */
+
+
+
 	frame_OD_test_by_fname("dog.jpg");
+
+        printf("LD_LIBRARY_PATH: %s\n", getenv("LD_LIBRARY_PATH"));
 #endif
 	return 0;
 }

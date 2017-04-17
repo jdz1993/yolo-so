@@ -9,24 +9,33 @@ this will build Darknet to libdarknet.so, and copy it to ./depoly
  - if "dlopen is undefined", gcc with -ldl
 
 # Port darknet to new machine
+### Deploy Environment settings
+ - mkl
+ - opencv ( if needed )
 
-### Build from Source Environment settings
+### Run from source Environment settings
 
  - mkl
- - icc ( or default gcc )
+ - icc
  - opencv ( if needed )
-If you need mkl and icc, you can contact 1072425571@qq.com and I can send you a copy.
-The path/to/library should be configed in Makefile or using export LD_LIBRARY_PATH, more specific information is below.
 
-### Config path
+### config path
 change Makefile library path
+	CC=/home/intel/Tool/icc16.0/bin/intel64/icc -fopenmp
+change to
+	CC=/home/username/Tool/icc16.0/bin/intel64/icc -fopenmp
 
+mkl library is preferred to put in directory:/opt/intel/mklml_2017.0.1/lib/
 if libmkl.so not found
+ - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/intel/mklml_2017.0.1/lib/
+you can also put this line in ~/.bashrc, then in shell:
+	source ~./bashrc
 
- - export LD_LIBRARY_PATH=/path/to/library/mklml_2017.0.1/lib/:$LD_LIBRARY_PATH
- - For example: export LD_LIBRARY_PATH=/opt/intel/mklml_2017.0.1/lib/:$LD_LIBRARY_PATH
+if libdarknet.so not found, jump in /path/to/libdarknet.so, in shell:
+	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD
 
-if libdarknet.so libimf.so libintlc.so.5 libirng.so libsvml.so not found
+# yolo.weights
+Weights file and other details about origin darknet can be found in [Darknet project website](http://pjreddie.com/darknet).
 
- - export LD_LIBRARY_PATH=$PWD/:$LD_LIBRARY_PATH
+
 

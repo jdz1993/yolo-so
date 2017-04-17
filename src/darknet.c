@@ -16,7 +16,9 @@ extern void predict_classifier(char *datacfg, char *cfgfile, char *weightfile, c
 extern void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filename, float thresh, float hier_thresh);
 
 // .so interface function
+#ifdef OPENCV
 void test_detector_by_cvImage(char *datacfg, char *cfgfile, char *weightfile, const IplImage *imageptr, float thresh, float hier_thresh);
+#endif
 
 extern void run_voxel(int argc, char **argv);
 extern void run_yolo(int argc, char **argv);
