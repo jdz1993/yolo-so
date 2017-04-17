@@ -1,6 +1,6 @@
 # user specific
 yolo.weights
-.idea
+.idea/*
 
 # Prerequisites
 *.d
